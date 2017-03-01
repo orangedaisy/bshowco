@@ -1,0 +1,22 @@
+.c-icon {
+  max-height: 2.25rem;
+  max-width: 2.25rem;
+}
+
+.c-icon__link {
+  fill: var(--c-text-body);
+}
+
+.c-icon__link:hover {
+  fill: var(--c-link-hover);
+}
+
+.c-icon__link:active {
+  fill: var(--c-link-active);
+}
+
+.c-icon-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

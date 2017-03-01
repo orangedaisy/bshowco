@@ -1,0 +1,30 @@
+html {
+  background-color: #fafafa;
+  box-sizing: border-box;
+  color: var(--c-text-body);
+  font-family: var(--f-system);
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: var(--c-link-default);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--c-link-visited);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--c-link-active);
+}

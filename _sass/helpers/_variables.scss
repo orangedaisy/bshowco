@@ -1,0 +1,15 @@
+:root {
+
+  /* ## Colors */
+  --c-brand: #00ffb0;
+  --c-brand-hover: #b0ff00;
+  --c-text-body: #404040;
+  --c-text-headings: #242424;
+  --c-link-default: #00b0ff;
+  --c-link-hover: var(--link-default);
+  --c-link-active: #ff5154;
+  --c-link-visited: rebeccapurple;
+
+  /* ## Fonts */
+  --f-system: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}

@@ -1,0 +1,13 @@
+.c-post > *:first-child {
+  margin-top: 0;
+}
+
+.c-post > *:last-child {
+  margin-bottom: 0;
+}
+
+.c-post + .c-post {
+  border-top: 1px solid #dfdfdf;
+  margin-top: 2.25rem;
+  padding-top: 2.25rem;
+}
