@@ -9,8 +9,11 @@ baseurl: ""
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "http://www.bshow.co"
 
-twitter_username: bobbyshowalter
+# social media profiles
+codepen_username: reverendgeneral
 github_username:  orangedaisy
+instagram_username: bobbyshowalter
+twitter_username: bobbyshowalter
 
 # Build settings
 markdown: kramdown

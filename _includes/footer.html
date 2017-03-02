@@ -6,10 +6,16 @@
   </div>
 
   <div class="c-footer__column c-icon-bar">
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {% if site.codepen_username %}
+      {% include icon-link.html icon='codepen' domain='.io' username=site.codepen_username %}
+    {% endif %}
 
     {% if site.github_username %}
       {% include icon-link.html icon='github' username=site.github_username %}
+    {% endif %}
+
+    {% if site.instagram_username %}
+      {% include icon-link.html icon='instagram' username=site.instagram_username %}
     {% endif %}
 
     {% if site.twitter_username %}
