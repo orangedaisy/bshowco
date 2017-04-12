@@ -28,3 +28,22 @@ a:hover {
 a:active {
   color: var(--c-link-active);
 }
+
+blockquote {
+  border-left: .125em solid #aaa;
+  color: #6a6a6a;
+  margin: 1.5em 0 1.5em 2.25em;
+  padding: .5em 0 .5em 1em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+hr {
+  background-color: #aaa;
+  border: 0;
+  height: 1px;
+  margin: 2.25em auto;
+  width: 80%;
+}
