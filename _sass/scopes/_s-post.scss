@@ -1,0 +1,24 @@
+.s-post {
+  code.highlighter-rouge {
+    background-color: #eef;
+    border: 1px solid rgba(grey, .2);
+    border-radius: 3px;
+    padding: .1em .4em;
+  }
+
+  #markdown-toc {
+    padding-left: 1.5rem;
+
+    @media screen and (min-width: 58rem) {
+      padding-left: 0;
+    }
+  }
+
+  .highlight {
+    border: 1px solid rgba(grey, .2);
+    border-radius: 3px;
+    margin-bottom: 2em;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+}
