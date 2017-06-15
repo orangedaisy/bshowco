@@ -24,7 +24,7 @@ been enjoying the experience so far. The
 [autoprefixer](https://github.com/postcss/autoprefixer) helps fill some of the
 gaps in the outdated IE / Edge version of the spec. There's one little
 quirk I ran into today, however, that might change the way you use Grid
-in your layouts today.
+in your layouts until support improves.
 
 In the [current version of the
 spec](https://www.w3.org/TR/css3-grid-layout/#propdef-grid-column-gap),
