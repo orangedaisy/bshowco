@@ -16,6 +16,7 @@ instagram_username: bobbyshowalter
 twitter_username: bobbyshowalter
 
 # Build settings
+permalink: pretty
 markdown: kramdown
 gems:
   - jekyll-feed
