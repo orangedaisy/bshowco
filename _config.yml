@@ -16,6 +16,7 @@ instagram_username: bobbyshowalter
 twitter_username: bobbyshowalter
 
 # Build settings
+host: 0.0.0.0
 permalink: pretty
 markdown: kramdown
 gems:
