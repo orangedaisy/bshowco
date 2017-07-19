@@ -13,8 +13,8 @@ of his first steps:
 
 Watching him learn to walk these past two months has been incredible. It amazes
 me that no matter how many times he falls over, he never gets discouraged. No
-amount of tripping over our yorkie, or knocking his head on the end tables slows
-him down. He's always ready for more.
+amount of tripping over our yorkie, or knocking his head on the end tables,
+slows him down. He's always ready for more.
 
 * * *
 
@@ -51,7 +51,7 @@ start adding those extra bits of functionality I was missing.
 
 I got to use these newfound skills recently in a side project. In this project
 is a simple form that asks you to identify the "type" of something from two
-choices (there will eventually be more than two "types"). The markup is
+choices (there will eventually be more than two choices). The markup is
 straightforward radio-button stuff, and I'm doing a little CSS trickery to
 switch out the actual radio controls for fancy pictures.
 
@@ -60,7 +60,7 @@ We're using [Devise](https://github.com/plataformatec/devise) to validate form
 data; when it detects errors, it wraps those fields in a `<div
 class="field-with-errors">` for a styling hook. No big deal, except that extra
 `<div>` broke my CSS selector so that when you tried to pick a "type" to fix the
-error, you couldn't actually tell which one was selected.
+form error, you couldn't actually tell which one was selected.
 
 CSS doesn't have the tools to assist with this edge-case, unfortunately, so I
 had to turn to javascript. Here's what I came up with:
