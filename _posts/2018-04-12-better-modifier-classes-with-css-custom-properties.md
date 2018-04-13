@@ -3,11 +3,11 @@ layout: post
 title: "Better Modifier Classes with CSS Custom Properties"
 ---
 
-I've used [Sass](https://sass-lang.com) for years now, on many different sizes
-of projects with many different types of technologies. For the longest time it
-was a basic necessity&mdash;regular CSS just didn't have powerful enough tools
-to manage larger or more complex styling tasks. Now, however, CSS has a trick up
-its sleeve that's been pulling me away from Sass.
+I've used [Sass](https://sass-lang.com) on many different sizes of projects with
+many different types of technologies. For the longest time it was a basic
+necessity&mdash;regular CSS just didn't have powerful enough tools to manage
+larger or more complex styling tasks. Now, however, CSS has a trick up its
+sleeve that's been pulling me away from Sass.
 
 CSS Custom Properties are like [Sass
 variables](https://sass-lang.com/guide#topic-2) on steroids. Whereas Sass
