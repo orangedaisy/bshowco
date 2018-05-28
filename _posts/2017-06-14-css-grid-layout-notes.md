@@ -16,7 +16,7 @@ discover about CSS Grid Layout as I use it in projects.
 
 ### IE / Edge doesn't support `grid-{column|row}-gap`
 
-<small>2017-06-14</small>
+<small>2017-06-14 &middot; <a href="#in-this-post">Back to top</a></small>
 
 We've started using CSS Grid Layout in limited doses at work, and I've
 been enjoying the experience so far. The
@@ -78,34 +78,41 @@ For IE / Edge, however, you have to skip the "dummy" column:
 }
 ```
 
-[Microsoft have started updating their Grid
-support](https://rachelandrew.co.uk/archives/2017/04/04/edge-starts-work-on-their-grid-implementation-update/),
-so hopefully this work-around won't be necessary much longer. In the
-meantime, this approach can be further improved upon by naming your
-columns.
+* * *
 
-```css
-.my-grid-container {
-  display: grid;
-  grid-template-columns:
-    [main-start] 1fr [main-end]
-    1rem
-    [sidebar-start] minmax(min-content, 15rem) [sidebar-end];
-}
+### `display: grid` doesn't collapse margins
 
-#item_one {
-  grid-column: main;
-}
+<small>2018-05-27 &middot; <a href="#in-this-post">Back to top</a></small>
 
-#item_two {
-  grid-column: sidebar;
-}
-```
+It's a toss-up on whether or not this will be a big deal to you, but it's
+important to keep in mind either way. CSS typically collapses the margins
+between consecutive blocks [according to a few
+rules](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing).
+Normally, it works great, and you probably weren't even concerned or aware that
+anything was happening. When you enable `display: grid`, however, this behavior
+goes away.
 
-Explicitly naming columns allows you to reference them by name
-without having to guess which number they actually are. This isn't a big
-deal if you only have two columns like the example, but would be helpful for
-more complex systems with larger numbers of columns and rows.
+CSS Grid is a great way to enhance your long-form content with more interesting
+layouts than were previously possible. The "[breaking
+out](https://cloudfour.com/thinks/breaking-out-with-css-grid-layout/)" technique
+gained a lot of popularity last year, but can suffer from a lack of collapsing
+margins without some extra accommodations. Here's a [CodePen
+demo](https://codepen.io/bobbyshowalter/pen/WOVoyo?editors=1100) that
+illustrates the problem:
+
+{% include embed-codepen.html slug-hash='WOVoyo' default-tabs='css,result'
+pen-title='CSS Grid blog post layout' preview='true' %}
+
+By default, the margins between our content blocks collapse, preventing elements
+from getting too spread out. When we toggle on CSS Grid to enable our fancy
+layout, we no longer benefit from collapsing margins.
+
+Again, this probably isn't a huge deal, but it is worth remembering that your
+CSS Grid layouts may require some extra tweaks to keep in line.
+
+Jen Simmons has an excellent [video on
+YouTube](https://www.youtube.com/watch?v=jfHNzL5h1Aw) that also covers this
+topic.
 
 * * *
 
