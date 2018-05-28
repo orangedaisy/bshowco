@@ -16,7 +16,10 @@ opine on [Twitter](https://www.twitter.com/bobbyshowalter/), post pictures to my
 [CodePen](https://www.codepen.io/reverendgeneral/). My
 [Github](https://github.com/orangedaisy/) is available if you're interested,
 though most of my heavy-hitting work is either in private repos or winds up on
-Intelliquip's Bitbucket.
+Intelliquip's Bitbucket. Due to the nature of my work at Intelliquip, I'm unable
+to post publicly about the specifics of problems and solutions I encounter.
+However, I'd be more than happy to chat with you over email or VoIP if there's
+anything in particular you'd like to know.
 
-I'm happy to chat anytime through the above means, or more directly at
+I'm available to chat anytime through the above means, or more directly at
 [bobby.showalter@gmail.com](mailto:bobby.showalter@gmail.com).
