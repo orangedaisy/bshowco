@@ -14,7 +14,11 @@
     }
   }
 
-  .highlight {
+  /**
+    * nasty seletor to prevent odd double padding issue on multiline code samples
+    * https://github.com/orangedaisy/bshowco/issues/8
+    */
+  [class*="highlighter-"] pre.highlight {
     border: 1px solid rgba(grey, .2);
     border-radius: 3px;
     margin-bottom: 2em;
