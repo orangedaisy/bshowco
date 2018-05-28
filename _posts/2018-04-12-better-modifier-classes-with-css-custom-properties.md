@@ -28,7 +28,7 @@ recently.
 
 While working on a [particular
 concept](https://xd.adobe.com/view/9f408fc6-a0f9-47b0-ad1e-3d6be4ac253a/) for
-the redesign of my [freelancing site](http://www.orangedaisy.co), I wound up in
+the redesign of my [freelancing site](https://www.orangedaisy.co), I wound up in
 the classic situation of having two components that, apart from a specific
 property, were otherwise identical. "A case for modifier classes," I thought to
 myself.  But writing a base class with modifier classes that override certain

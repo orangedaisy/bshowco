@@ -8,7 +8,7 @@ concerned with the "end-user UX"&mdash;that is, what's it like for the guy at
 the end of the chain who actually uses the software as part of his job? We do
 have some administrative tools for general configuration and tweaks, but since
 they're largely for internal use, they rarely get much UX love. When [orange
-daisy](http://www.orangedaisy.co) was tasked with creating the website for [LTB
+daisy](https://www.orangedaisy.co) was tasked with creating the website for [LTB
 Photography](http://www.ltbphotography.com), it gave me a chance to really focus
 on making the site as easy and delightful to administrate as it is to use.
 

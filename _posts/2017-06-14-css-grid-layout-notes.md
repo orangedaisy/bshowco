@@ -20,7 +20,7 @@ discover about CSS Grid Layout as I use it in projects.
 
 We've started using CSS Grid Layout in limited doses at work, and I've
 been enjoying the experience so far. The
-[browser support](http://caniuse.com/#feat=css-grid) is good, and
+[browser support](https://caniuse.com/#feat=css-grid) is good, and
 [autoprefixer](https://github.com/postcss/autoprefixer) helps fill some of the
 gaps in the outdated IE / Edge version of the spec. There's one little
 quirk I ran into today, however, that might change the way you use Grid

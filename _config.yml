@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://www.bshow.co"
+url: "https://www.bshow.co"
 
 # social media profiles
 codepen_username: bobbyshowalter
