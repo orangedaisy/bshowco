@@ -6,6 +6,9 @@ permalink: /about/
 
 ### Hi, I'm Bobby.
 
+{% include figure.html src='/assets/images/profile-picture.jpg' alt='Picture of
+Bobby and his son Owen' caption='Me and my son, Owen' %}
+
 By day, I work for [Intelliquip,
 Inc.](https://www.intelliquip.com) as a User Experience Engineer. By night, I do
 web design for [orange daisy](http://www.orangedaisy.co).
