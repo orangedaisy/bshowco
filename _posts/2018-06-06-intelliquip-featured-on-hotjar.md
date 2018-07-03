@@ -3,9 +3,6 @@ layout: post
 title: "Intelliquip Featured on Hotjar"
 ---
 
-[Read the Intelliquip feature on Hotjar's
-website &rarr;](https://www.hotjar.com/customers/intelliquip)
-
 About a year into my job as User Experience Engineer at [Intelliquip,
 Inc.](https://intelliquip.com), we were confronted with a difficult user flow
 challenge. We had an existing user set that needed to onboard with a new suite
@@ -24,6 +21,8 @@ Thanks to [Hotjar](https://www.hotjar.com), however, we were able to rapidly
 iterate through design changes that ultimately led to the successful onboarding
 of 10,000 users. We used a combination of Hotjar's session recordings and
 collaboration on Google Docs to make the tweaks and changes necessary to help
-our users. [Check out the write-up on
-Hotjar](https://www.hotjar.com/customers/intelliquip) for more details and
+our users.
+
+[Read the Intelliquip feature on Hotjar's
+website](https://www.hotjar.com/customers/intelliquip) for more details and
 quotes from the software's Product Owner, Jon Kern.
