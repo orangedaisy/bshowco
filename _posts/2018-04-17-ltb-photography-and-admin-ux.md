@@ -12,10 +12,7 @@ daisy](https://www.orangedaisy.co) was tasked with creating the website for [LTB
 Photography](http://www.ltbphotography.com), it gave me a chance to really focus
 on making the site as easy and delightful to administrate as it is to use.
 
-* * *
-
-* Contents
-{:toc}
+{% include toc.md %}
 
 ## Content planning
 

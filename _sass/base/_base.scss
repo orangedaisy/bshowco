@@ -1,5 +1,5 @@
 html {
-  background-color: #fafafa;
+  bdckground-color: #fdfdfd;
   box-sizing: border-box;
   color: var(--c-text-body);
   font-family: var(--f-system);
@@ -41,14 +41,24 @@ blockquote p {
 }
 
 hr {
-  background-color: #aaa;
+  background-color: var(--c-text-body);
   border: 0;
   height: 1px;
   margin: 2.25em auto;
+  opacity: .25;
   width: 80%;
 }
 
 // center instagram embeds
 .instagram-media {
   margin: 0 auto !important;
+}
+
+// tighten up margins between TOC header and list
+.no_toc {
+  margin-bottom: .5em;
+}
+
+#markdown-toc {
+  margin-top: 0;
 }

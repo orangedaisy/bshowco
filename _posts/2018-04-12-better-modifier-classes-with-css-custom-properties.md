@@ -19,10 +19,7 @@ CSS-Tricks](https://css-tricks.com/difference-between-types-of-css-variables/),
 so in this post I will just focus on a more targeted use case I encountered
 recently.
 
-* * *
-
-* Contents
-{:toc}
+{% include toc.md %}
 
 ## The modifier class "problem"
 

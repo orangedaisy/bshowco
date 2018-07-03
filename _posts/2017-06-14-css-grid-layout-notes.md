@@ -6,15 +6,9 @@ title: "CSS Grid Layout Notes"
 This post will serve as a place to collect various interesting bits I
 discover about CSS Grid Layout as I use it in projects.
 
-#### In this post
-{:.no_toc}
+{% include toc.md %}
 
-* Contents
-{:toc}
-
-* * *
-
-### IE / Edge doesn't support `grid-{column|row}-gap`
+## IE / Edge doesn't support `grid-{column|row}-gap`
 
 <small>2017-06-14 &middot; <a href="#in-this-post">Back to top</a></small>
 
@@ -80,7 +74,7 @@ For IE / Edge, however, you have to skip the "dummy" column:
 
 * * *
 
-### `display: grid` doesn't collapse margins
+## `display: grid` doesn't collapse margins
 
 <small>2018-05-27 &middot; <a href="#in-this-post">Back to top</a></small>
 

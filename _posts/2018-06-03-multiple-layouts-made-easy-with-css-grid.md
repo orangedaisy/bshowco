@@ -22,6 +22,8 @@ source of markup has been made, dare I say, trivial.
 > - Jen Simmons' [Learn CSS
 >   Grid](http://jensimmons.com/post/feb-27-2017/learn-css-grid) post
 
+{% include toc.md %}
+
 ## The old days
 
 Let's focus on the dashboard for a fictitious application, **Super App

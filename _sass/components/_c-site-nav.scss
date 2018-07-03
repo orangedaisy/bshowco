@@ -1,23 +1,12 @@
 .c-site-nav {
+  border-bottom: 1px solid var(--c-text-body);
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 .c-site-title {
-  backface-visibility: hidden;
   font-size: 1.5rem;
-  font-weight: bold;
-  transition: text-shadow 150ms ease-out, transform 150ms ease-out;
-}
-
-.c-site-title:hover {
-  color: var(--c-text-headings);
-  text-decoration: none;
-  text-shadow:
-    4px 4px 0 var(--c-brand),
-    -4px -4px 0 var(--c-brand-hover);
-  transform: rotate(-2.5deg) scale(1.125);
-  transform-style: preserve-3d;
 }
 
 .c-site-title:visited {
