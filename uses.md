@@ -163,4 +163,113 @@ phone calls
 
 ## Software
 
-*coming soon*
+I'm sure I've missed some hugely important piece of software in this list, but
+here's everything I could think of that I use on a nearly daily basis.
+
+### macOS
+
+I'm currently running [macOS 10.13 High
+Sierra](https://www.apple.com/macos/high-sierra/) on my MacBook Pro. I've used
+various versions of Windows and Ubuntu before this. I'll refrain from saying
+anything too tribal, and stick to the opinion that for the kind of work I do,
+this machine and OS has been the most pleasant experience by far. The end
+&#x1F603;
+
+### iTerm2
+
+I try to hang out in the terminal as much as possible. It's the primary place
+where I traverse the filesystem, edit text, use Git, log in to remote servers,
+etc. To help keep all of this in order, I use the excellent
+[iTerm2](https://www.iterm2.com/). I'm sure the built-in terminal app would be
+fine for most of what I do, but iTerm is always recommended for new Mac users.
+After three years, nothing else has managed to lure me away.
+
+### Vim
+
+Yep, I use [Vim](https://www.vim.org/). There are a lot of fancy GUI editors
+these days, but the punishing intricacy of Vim has me firmly in its grasp.
+Nothing else I've used gives me the ability to "edit at the speed of thought,"
+so to speak.
+
+I try to keep my configuration of Vim fairly vanilla, opting for just a few
+plugins and other added niceties. Beyond Tim Pope's
+[vim-cucumber](https://github.com/tpope/vim-cucumber/),
+[vim-fugitive](https://github.com/tpope/vim-fugitive/), and
+[vim-rails](https://github.com/tpope/vim-rails/), the most exciting things I've
+added are the [vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)
+colorscheme and my own custom statusline.
+
+Complex as Vim may be, it's become so ingrained in my brain and muscle memory
+that using anything else is an utter chore.
+
+
+### Git
+
+I use [Git](https://git-scm.com/) as my VCS of choice. I have limited experience
+with [Mercurial](https://www.mercurial-scm.org/), but I find Git to be superior.
+Using Git from the command line may seem hardcore, but I would much rather take
+the time to understand the mechanics of what Git is doing than rely on some GUI
+abstraction that makes weighty operations just a little too easy.
+
+### Balsamiq, Adobe XD, Figma&hellip;
+
+If the front-end world is suffering from "framework fatigue," the design world
+is doing its best to keep pace by self-inflicting "design software fatigue."
+There are untold number of options in this space, but these are the players I
+keep up with.
+
+[Balsamiq](https://balsamiq.com/) was my first entry to design/prototype
+software. Though I've moved on to higher-fidelity tools, I appreciate their
+mission and wish I could've made more use of it.
+
+I started using [Adobe XD](https://www.adobe.com/products/xd.html) when it was
+in beta. Its sharing features were an absolute god-send: being able to share a
+design, and any of its updates, with a single URL greatly increased our ability
+to collaborate on and validate design ideas. I switched to Figma when they
+introduced the subscription plan, but may someday find my way back now that it's
+free again.
+
+[Figma](https://www.figma.com/) is the tool I currently use. Its sharing
+features are *not* as slick as Adobe XD's, but I do think the web app nature of
+the program gives it advantages in other areas.
+
+I don't use any of these design tools to a very high level, primarily because
+it's easier for me to go straight from pencil and paper to code, but there are
+certainly times where being able to iterate on a static mockup can increase
+participation in collaborating on ideas. It's a skill I have to keep working on,
+as much as I'd like to ditch the thing entirely and stick to writing the HTML
+and CSS from the beginning. Sometimes you just need that shareable picture.
+
+### Google Chrome
+
+I'm more invested in the Google ecosystem than any other, so I use
+[Chrome](https://www.google.com/chrome/) primarily out of convenience than
+anything else. I do find it a little more comfortable to use than Firefox, and
+much prefer its interface to other browsers. I do wish I knew how to get more
+out of the advanced dev tool features for testing and debugging.
+
+I have the rest of the browser gang for testing, including a couple of Windows
+VMs for checking things out in Internet Explorer and Edge. Though Chrome is my
+daily driver, I've taken to using Safari when I'm running on the Mac's battery
+and simply consuming media. Since it's so tightly coupled and optimized to
+macOS, I get waaaaay better battery life than using Chrome.
+
+### Slack and Stride
+
+[Intelliquip](https://intelliquip.com/) uses Atlassian's
+[Stride](https://www.stride.com/) (which was [just bought by
+Slack](https://slackhq.com/atlassian-and-slack-partnership) while I was writing
+this section &#x1F602;) for our daily communications. It's&hellip;a chat
+program. Moving on&hellip;
+
+I'm a member of a few different software groups in Knoxville, all of which use
+[Slack](https://slack.com/) to keep in touch. I prefer it to Stride, and am
+looking forward to what comes of the aforementioned acquisition.
+
+### Miscellaneous
+
+- [Jekyll](https://jekyllrb.com/)
+- [Alfred](https://www.alfredapp.com/)
+- [f.lux](https://justgetflux.com/)
+- [ImageOptim](https://imageoptim.com/mac)
+- [cocount Battery](https://www.coconut-flavour.com/coconutbattery/)
