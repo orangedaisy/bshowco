@@ -1,6 +1,7 @@
 .c-site-nav {
   border-bottom: 1px solid var(--c-text-body);
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
   padding-bottom: 1rem;
 }
