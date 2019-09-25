@@ -1,7 +1,7 @@
 <footer class="o-main-container c-footer">
 
   <div class="c-footer__column">
-    <p>&copy; {{ 'now' | date: '%Y' }} &ndash; Bobby Showalter</p>
+    <p>&copy; 2017-<span id="footerCurrentYear">{{ 'now' | date: '%Y' }}</span> Bobby Showalter</p>
     <p>{{ site.description | escape }}</p>
   </div>
 
@@ -24,5 +24,9 @@
       </svg>
     </a>
   </div>
+
+  <script>
+    document.getElementById('footerCurrentYear').textContent = new Date().getFullYear();
+  </script>
 
 </footer>
