@@ -58,18 +58,38 @@ legs](https://www.hairpinlegs.com/collections/table-legs/products/tube-leg-no-on
 While it isn't the sprawling expanse that the previous desk was, it certainly
 provides plenty of space to spread out.
 
-### MacBook Pro
+### 13&Prime; MacBook Pro (Early 2015)
 
-I'm currently using a 2015 13" MacBook Pro with 8GB of memory and a 512GB SSD.
-Three years feels like a long time to use the same MacBook, but it still does
-everything I need it to just as fast as the day I got it. For cases where I need
-more horsepower, like some development work at Intelliquip, I typically remote
-into some sort of server that can be more specially tuned for the task at hand.
+I'm currently using a 2015 13&Prime; MacBook Pro with 8GB of memory and a 512GB
+SSD.  Four years feels like a long time to use the same MacBook, but it still
+does everything I need it to just as fast as the day I got it. For cases where I
+need more horsepower, like some development work at Intelliquip, I typically
+remote into some sort of server that can be more specially tuned for the task at
+hand.
 
 I keep my Mac in clamshell mode when I'm at home, and recently grabbed [a
 stand](https://www.amazon.com/gp/product/B0792C2XW7/) to reduce its footprint.
 The stand also elevates the laptop off the desk to guard against any accidental
 spills.
+
+### 12.9&Prime; iPad Pro (2019) with Apple Pencil 2
+
+I picked up an iPad Pro in the summer of 2019 to assist with my workflow at
+Intelliquip. So far, it's been a very welcome addition. I use [Goodnotes
+5](https://www.goodnotes.com/) to maintain my planner, personal notes, work
+notes, wireframes and sketches&mdash;just about anything I was previously using
+a traditional notebook for. Keeping everything in the iPad, and specifically
+within Goodnotes, makes it much easier to reference historical artifacts or
+share my latest sketch or mockup.  Goodnotes makes use of OCR so that even my
+mostly illegible handwriting is indexed and searchable.
+
+The iPad fills a nice gap in my workflow, making it dead simple to sketch ideas,
+share them with colleagues, iterate through improvements, and jump straight to
+coding their implementation. Over time, I see sketching on the iPad as a way to
+reduce my dependency on prototyping tools like Figma or Adobe XD.
+
+iPadOS was released just as I was updating this section, so I'm excited to see
+how the new features can help to further enhance my productivity.
 
 ### Keyboard
 
@@ -117,14 +137,20 @@ necessary, but I typically just use its smart features and a [2015
 Chromecast](https://store.google.com/product/chromecast_2015) to put on
 background media.
 
+We nabbed a pair of [Google Nest
+Hubs](https://store.google.com/us/product/google_nest_hub) from Costco during
+Black Friday 2018. I keep one hub on my desk to help me manage my personal
+calendar, set reminders, and control our office Chromecast Audio. Occasionally I
+use it to make a phone call as well.
+
 ### Speakers and sound
 
 For personal music and video playing, I have the [Logitech
 Z623](https://www.amazon.com/gp/product/B003VAHYTG/) system hooked up to my Mac.
-For more general background music, and audio from the Roku TV, I have a pair of
-Bose bookshelf speakers wired up with a [Chromecast
-Audio](https://store.google.com/product/chromecast_audio). This allows anyone in
-the office to control the music without tying up any one person's workstation.
+For more general background music, I use a [Chromecast
+Audio](https://store.google.com/product/chromecast_audio) connected to a pair of
+Bose bookshelf speakers located on a shelf above my desk. This allows anyone in
+the office to control the music without tying up my workstation.
 
 ### Phone
 
@@ -136,7 +162,7 @@ of the "latest and greatest" phones, but they all fall short in one key area:
 the battery. It doesn't matter how great the advertised battery life is, they
 always seem to falter when subjected to normal, continuous use.
 
-Last year (2017), after falling victim to the infamous Nexus 6P battery issue and
+In 2017, after falling victim to the infamous Nexus 6P battery issue and
 increasingly terrible experiences with Google Project Fi, I decided I had
 enough. The E4+ is about as uninspiring a phone as could possibly be, but it has
 a 5000mAH battery and can easily last three days on a single charge.
@@ -152,12 +178,11 @@ explanation:
 phone calls
 - [Toshiba 1TB Portable HDD](https://www.amazon.com/gp/product/B00N2S6ZUQ/)
   for a TimeMachine backup
-- [Field Notes](https://fieldnotesbrand.com/products/pitch-black-memo) and
-  [Moleskine](https://us.moleskine.com/en/cahier-journal-brown/p0408) notebooks
 - [Cross ballpoint pen](https://www.cross.com/en/products/3502)
 - Desk organizer from [Stone-Penland
   Pottery](https://www.facebook.com/stonepenlandpottery/)
 - [Safco Foot Cushion](https://www.amazon.com/gp/product/B001MS6XW8/)
+- Leather desk valet for holding my phone and tv remote
 
 * * *
 
@@ -168,12 +193,11 @@ here's everything I could think of that I use on a nearly daily basis.
 
 ### macOS
 
-I'm currently running [macOS 10.13 High
-Sierra](https://www.apple.com/macos/high-sierra/) on my MacBook Pro. I've used
-various versions of Windows and Ubuntu before this. I'll refrain from saying
-anything too tribal, and stick to the opinion that for the kind of work I do,
-this machine and OS has been the most pleasant experience by far. The end
-&#x1F603;
+I'm currently running [macOS 10.14 Mojave](https://www.apple.com/macos/mojave/)
+on my MacBook Pro. I've used various versions of Windows and Ubuntu before this.
+I'll refrain from saying anything too tribal, and stick to the opinion that for
+the kind of work I do, this machine and OS has been the most pleasant experience
+by far. The end &#x1F603;
 
 ### iTerm2
 
@@ -182,7 +206,7 @@ where I traverse the filesystem, edit text, use Git, log in to remote servers,
 etc. To help keep all of this in order, I use the excellent
 [iTerm2](https://www.iterm2.com/). I'm sure the built-in terminal app would be
 fine for most of what I do, but iTerm is always recommended for new Mac users.
-After three years, nothing else has managed to lure me away.
+After four years, nothing else has managed to lure me away.
 
 ### Vim
 
@@ -240,6 +264,13 @@ participation in collaborating on ideas. It's a skill I have to keep working on,
 as much as I'd like to ditch the thing entirely and stick to writing the HTML
 and CSS from the beginning. Sometimes you just need that shareable picture.
 
+**Fall 2019 Update:** After wrestling with these tools for many months, I picked
+up an iPad to bolster my ideal workflow of pencil & paper &rarr; code. I may
+have to come back around to these tools at some point, but I've grown
+disillusioned with the idea that drawing non-functional rectangles is
+somehow more productive than just coding the darn things. To date, the browser
+is still king when it comes to the sort of work I have to do.
+
 ### Google Chrome
 
 I'm more invested in the Google ecosystem than any other, so I use
@@ -254,21 +285,37 @@ daily driver, I've taken to using Safari when I'm running on the Mac's battery
 and simply consuming media. Since it's so tightly coupled and optimized to
 macOS, I get waaaaay better battery life than using Chrome.
 
-### Slack and Stride
+### Slack
 
-[Intelliquip](https://intelliquip.com/) uses Atlassian's
-[Stride](https://www.stride.com/) (which was [just bought by
-Slack](https://slackhq.com/atlassian-and-slack-partnership) while I was writing
-this section &#x1F602;) for our daily communications. It's&hellip;a chat
-program. Moving on&hellip;
+Just about every industry-related professional or social conglomeration I'm a
+part of uses [Slack](https://slack.com/) these days. I'm not a huge fan of its
+lack of notification management, but it does its job about as well as any of the
+other options. The recently added dark mode is a nice touch for when I need it.
 
-I'm a member of a few different software groups in Knoxville, all of which use
-[Slack](https://slack.com/) to keep in touch. I prefer it to Stride, and am
-looking forward to what comes of the aforementioned acquisition.
+### Goodnotes 5
+
+I touched on this briefly in the [iPad](#129-ipad-pro-2019-with-apple-pencil-2)
+section above, but I use [Goodnotes 5](https://www.goodnotes.com/) quite a lot.
+It has my planner, my work and personal notes, my to do lists, notes from
+church&mdash;just about anything I would care to write down is done so within a
+Goodnotes notebook. Its notebook/paper concept really resonates with me, and
+made it very straightforward to transition from my physical mediums to digital.
+I was even able to create a few custom templates that make my digital planner
+and notebooks look just like their plant-based ancestors.
+
+Goodnotes' share features are also great for collaborating with colleagues. I
+can either export a single page (or entire notebook) as a PDF and send it
+straight to a destination in Slack, or use the lasso tool to capture a specific
+area and share that as an image. When it's time for updates, I can easily create
+new pages so that we can always reference back to previous items. I have already
+used it to much success for a couple of new features at work, and am excited
+about making it an ever-growing part of my workflow.
 
 ### Miscellaneous
 
-- [Jekyll](https://jekyllrb.com/)
+- [Jekyll](https://jekyllrb.com/) &ndash; static site generator for personal
+  projects
+- [11ty](https://www.11ty.io/) &ndash; static site generator for a work project
 - [Alfred](https://www.alfredapp.com/)
 - [f.lux](https://justgetflux.com/)
 - [ImageOptim](https://imageoptim.com/mac)
