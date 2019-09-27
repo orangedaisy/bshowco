@@ -72,7 +72,7 @@ stand](https://www.amazon.com/gp/product/B0792C2XW7/) to reduce its footprint.
 The stand also elevates the laptop off the desk to guard against any accidental
 spills.
 
-### 12.9&Prime; iPad Pro (2019) with Apple Pencil 2
+### 12.9&Prime; iPad Pro (2018) with Apple Pencil 2
 
 I picked up an iPad Pro in the summer of 2019 to assist with my workflow at
 Intelliquip. So far, it's been a very welcome addition. I use [Goodnotes
