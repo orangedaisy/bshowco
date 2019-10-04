@@ -26,8 +26,8 @@ all of the above in a timeline and budget that satisfies everyone's needs.
 
 ### What does a typical day or week look like?
 
-Most days, I'm doing some form of prototyping or asset development. These days,
-most of my prototypes come in the form of sketches/rough wireframes on my
+Most days, I'm doing some form of prototyping or asset development. For
+lower fidelity prototyping, I usually sketch or draw rough wireframes on my
 [iPad](/uses/#129-ipad-pro-2018-with-apple-pencil-2). If we're far enough along
 that we need higher fidelity, I'll jump into
 [CodePen](https://codepen.io/bobbyshowalter/) so I can work with code. CodePen's
