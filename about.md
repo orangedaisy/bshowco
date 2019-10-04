@@ -10,10 +10,11 @@ permalink: /about/
 Bobby and his son Owen' caption='Me and my son, Owen' %}
 
 By day, I work for [Intelliquip,
-Inc.](https://www.intelliquip.com) as a User Experience Engineer. By night, I do
-web design for [orange daisy](https://www.orangedaisy.co). I'm a member of the
-[Knox Devs](https://www.knoxdevs.com) organizing committee, and a co-founding
-member of the group's [Knox UX meetup](https://www.meetup.com/Knox-UX/).
+Inc.](https://www.intelliquip.com) as a [User Experience Engineer](/what-i-do/).
+By night, I do web design for [orange daisy](https://www.orangedaisy.co). I'm a
+member of the [Knox Devs](https://www.knoxdevs.com) organizing committee, and a
+co-founding member of the group's [Knox UX
+meetup](https://knoxdevs.com/groups/#knox_ux).
 
 I live in Knoxville, TN with my wife, our son, and our yorkie. I occasionally
 post pictures to my [Instagram](https://www.instagram.com/bobbyshowalter/) and
