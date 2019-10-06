@@ -1,6 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+navbar: false
 ---
+
+## 👋 Hi, I'm Bobby.
+
+I'm a [user experience engineer](/what-i-do/) from the scruffy little city of
+Knoxville, TN. At [Intelliquip](https://www.intelliquip.com/), I work with OEMs
+in the fluid dynamics industry to design and build powerful CPQ software for
+users all around the world.
