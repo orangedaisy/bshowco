@@ -9,9 +9,6 @@ office](https://photos.app.goo.gl/ACREAarZbYRAi4632) for years now, but I
 haven't really kept a record of what kit I'm currently using. Here's my attempt
 to rectify that.
 
-Have any extra questions that aren't answered here? [Ask me on
-Twitter](https://twitter.com/intent/tweet?screen_name=bobbyshowalter).
-
 * Contents
 {:toc}
 
