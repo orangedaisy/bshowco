@@ -41,7 +41,9 @@ hand, without worrying about the overhead of an entire application environment.
 When it comes time to commit these artifacts to real code in a real application,
 I use what I explored in the CodePen phase (or the mockup sketches, in the case
 of leveraging existing components) to write any necessary HTML, CSS, or JS to
-deliver a solution.
+deliver a solution. I engage with developers all along the way to make sure my
+work is documented, understood, and aware of any potential pitfalls or
+limitations on the technical side of things.
 
 Outside of putting code on the screen, I also work closely with our customer
 representatives and executive management to ensure my work is aligned with
