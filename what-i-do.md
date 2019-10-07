@@ -17,8 +17,13 @@ At [Intelliquip](https://intelliquip.com/), this means I'm responsible for:
 - User research and testing (most often through interviews)
 - Collecting, shaping, and prioritizing requirements
 - Reconciling those requirements with business and customer goals
+- Collaborating with developers to discover potential pitfalls before design
+  begins
 - Designing the UI
+- Documenting the UI through pattern libraries and design specs
 - Developing the UI
+- Collaborating with developers so they're empowered to implement UI features
+  without me
 
 I work cross-functionally with customers and their internal representatives,
 executive management, middle management, and developers to create and deliver
