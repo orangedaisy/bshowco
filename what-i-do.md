@@ -12,7 +12,7 @@ I'm currently employed as a *User Experience Engineer.*
 Great question! I sit at the crossroads of UI, UX, and Front-end Development. I
 also dabble in business strategy and project management.
 
-At [Intelliquip](https://intelliquip.com/), this means I'm responsible for:
+At [FPX](https://www.fpx.com/), this means I'm responsible for:
 
 - User research and testing (most often through interviews)
 - Collecting, shaping, and prioritizing requirements

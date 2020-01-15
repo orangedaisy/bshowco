@@ -3,7 +3,7 @@ layout: post
 title: "Multiple Layouts Made Easy with CSS Grid"
 ---
 
-The software we develop at [Intelliquip](https://intelliquip.com) serves a wide
+The software we develop at [FPX](https://www.fpx.com) serves a wide
 range of customers from a wide range of industries. Designing for so many
 different types of users can be daunting&mdash;what works for a group of users
 from one company won't necessarily work for another. The most challenging
@@ -144,8 +144,8 @@ used to tell CSS Grid how to visually order the elements without affecting their
 source order. This is all fine and dandy, but how do we handle the case where
 multiple users or organizations want their own layout flavor?
 
-At Intelliquip, we tackled this problem with a `data-layout` attribute on the
-parent grid element, and a simple user account setting to change it. Here's an
+At FPX, we tackled this problem with a `data-layout` attribute on the parent
+grid element, and a simple user account setting to change it. Here's an
 interactive example (best viewed [directly on
 CodePen](https://codepen.io/bobbyshowalter/pen/e645405042d329ebbf904ed286c661e8?editors=0100)):
 
