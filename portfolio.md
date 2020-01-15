@@ -80,7 +80,7 @@ emphasis on the content and storytelling. This simplicity played an important
 role in ensuring the site was accessible by users (family and friends) of all
 ages, as well as a wide range of devices.
 
-## Shiloh Lot real estate ad
+## Brochure site for land for sale
 
 [Visit site](https://www.orangedaisy.co/shiloh-lot/)
 
