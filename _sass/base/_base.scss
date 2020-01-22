@@ -2,7 +2,7 @@ html {
   background-color: #fdfdfd;
   box-sizing: border-box;
   color: var(--c-text-body);
-  font-family: var(--f-system);
+  font-family: var(--f-body),var(--f-system);
   line-height: 1.5;
 }
 
@@ -10,6 +10,16 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--f-header),var(--f-system);
+  font-weight: normal;
 }
 
 a {
