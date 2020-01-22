@@ -4,9 +4,35 @@ layout: default
 <article class="c-post s-post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
+    {% comment %}
+      This feels kinda gross, but I can't think of another way to accomplish it.
+    {% endcomment %}
+
+    {% capture image %}
+      {{ page.image }}
+    {% endcapture %}
+
+    {% unless page.image %}
+      {% assign image = "https://source.unsplash.com/collection/9248817/1440x900" %}
+    {% endunless %}
+
+    <img class="post-featured-image" src="{{ image }}" alt="">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} &middot; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</small>
   </header>
+
+  <aside>
+    <p>
+      Published:
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} &middot; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+    </p>
+    {% if page.tags %}
+      <ul itemprop="keywords">
+        {% for tag in page.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </aside>
 
   <div itemprop="articleBody">
     {{ content }}
