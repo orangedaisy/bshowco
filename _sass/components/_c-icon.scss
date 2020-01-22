@@ -4,6 +4,7 @@
 }
 
 .c-icon__link {
+  display: inline-block;
   fill: var(--c-text-body);
 }
 
@@ -13,6 +14,10 @@
 
 .c-icon__link:active {
   fill: var(--c-link-active);
+}
+
+.c-icon__link + .c-icon__link {
+  margin-left: 2rem;
 }
 
 .c-icon-bar {
