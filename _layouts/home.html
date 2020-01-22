@@ -2,15 +2,41 @@
 layout: default
 ---
 
-{{ content }}
+<div class="c-homepage-intro">
+  <div class="c-homepage-intro__greeting">
+    {{ content }}
+  </div>
+  <div class="c-homepage-intro__picture">
+    <img src="/assets/images/intro-pic.jpg" alt="">
+  </div>
+</div>
 
-<h3 style="margin-top:1.5em;margin-bottom:.5em;">Latest post:</h3>
+<div class="c-homepage-links">
+  {% for post in site.posts limit:1 %}
+    <a class="c-homepage-links__blog" href="{{ post.url | relative_url }}">
+      <div>
+        <h3>Latest Blog Post</h3>
+        <p>{{ post.title | escape }}</p>
+        {% comment %}
+          This feels kinda gross, but I can't think of another way to accomplish it.
+        {% endcomment %}
 
-{% for post in site.posts limit:1 %}
-  <article class="c-post s-post">
+        {% capture image %}
+          {{ post.image }}
+        {% endcapture %}
 
-    <h2 style="margin-bottom:0;"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-
-  </article>
-{% endfor %}
+        {% unless post.image %}
+          {% assign image = "https://source.unsplash.com/collection/9248817/800x400" %}
+        {% endunless %}
+        <img src="{{ image }}" alt="">
+      </div>
+    </a>
+  {% endfor %}
+  <a class="c-homepage-links__portfolio" href="/portfolio/">
+    <div>
+      <h3>Featured Portfolio Project</h3>
+      <p>LTB Photography</p>
+      <img src="https://www.orangedaisy.co/assets/images/work/ltbp_1x.png" alt="">
+    </div>
+  </a>
+</div>

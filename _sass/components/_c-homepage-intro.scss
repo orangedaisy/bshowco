@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) {
+  .c-homepage-intro {
+    display: grid;
+    grid-template-columns:
+      [left-start]
+        3fr
+          [center-start right-start]
+            1fr
+          [center-end left-end]
+        3fr
+      [right-end];
+    grid-template-rows:
+      [upper-start]
+      1.5em
+      [center-start lower-start]
+      1fr
+      [center-end upper-end]
+      1.5em
+      [lower-end];
+  }
+}
+
+.c-homepage-intro__picture {
+  grid-column: left;
+  grid-row: upper;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .c-homepage-intro__picture {
+    transform: rotate(-2deg);
+  }
+}
+
+.c-homepage-intro__picture img {
+  border-radius: .25em;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 25rem;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .c-homepage-intro__picture img {
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+.c-homepage-intro__greeting {
+  align-self: center;
+  background-color: #5f6caff6;
+  border-radius: .25em;
+  color: #edf7fa;
+  font-size: 1.25em;
+  grid-column: right;
+  grid-row: lower;
+  margin-bottom: 2.5rem;
+  padding: 1.5em;
+  z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .c-homepage-intro__greeting {
+    margin-bottom: 0;
+  }
+}
+
+.c-homepage-intro__greeting > *:first-child {
+  margin-top: 0;
+}
+
+.c-homepage-intro__greeting > *:last-child {
+  margin-bottom: 0;
+}
+
+.c-homepage-intro__greeting h2 {
+  color: #edf7fa;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: normal;
+}
+
+.c-homepage-intro__greeting ul {
+  padding-left: 0;
+}
+
+.c-homepage-intro__greeting a {
+  color: #edf7fa;
+}
