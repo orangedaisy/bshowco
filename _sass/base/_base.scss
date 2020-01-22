@@ -1,5 +1,5 @@
 html {
-  background-color: #fdfdfd;
+  background-color: #edf7fa;
   box-sizing: border-box;
   color: var(--c-text-body);
   font-family: var(--f-body),var(--f-system);
@@ -19,13 +19,14 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--c-text-headings);
   font-family: var(--f-header),var(--f-system);
   font-weight: normal;
 }
 
 a {
   color: var(--c-link-default);
-  text-decoration: none;
+  transition: opacity 200ms ease-out;
 }
 
 a:visited {
@@ -33,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: .8;
 }
 
 a:active {

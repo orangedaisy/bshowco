@@ -3,12 +3,12 @@
   /* ## Colors */
   --c-brand: #00ffb0;
   --c-brand-hover: #b0ff00;
-  --c-text-body: #404040;
-  --c-text-headings: #242424;
-  --c-link-default: #00b0ff;
+  --c-text-body: #404a80;
+  --c-text-headings: #5f6caf;
+  --c-link-default: #5f6caf;
   --c-link-hover: var(--c-link-default);
-  --c-link-active: #ff5154;
-  --c-link-visited: rebeccapurple;
+  --c-link-active: var(--c-text-body);
+  --c-link-visited: var(--c-link-default);
 
   /* ## Fonts */
   --f-system: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
