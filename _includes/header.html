@@ -2,9 +2,12 @@
 
   <nav class="c-site-nav">
 
-    <a class="c-site-title c-site-nav__link" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <span class="c-site-title">{{ site.title | escape }}</span>
 
     <ul class="c-site-nav__list">
+      <li class="c-site-nav__item">
+        <a class="c-site-nav__link" href="{{ "/" | relative_url }}">Home</a>
+      </li>
       {% for my_page in site.pages %}
         {% unless my_page.navbar == false %}
           {% if my_page.title %}
