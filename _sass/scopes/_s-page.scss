@@ -1,0 +1,14 @@
+.s-page .page-content {
+  display: grid;
+  grid-template-columns: [full-start content-start] minmax(auto, 70ch) [content-end] auto [full-end];
+  grid-auto-rows: min-content;
+}
+
+.s-page .page-content > * {
+  grid-column: content;
+}
+
+.s-page .page-content > figure {
+  grid-column: full;
+}
+
