@@ -34,3 +34,8 @@
   margin-top: 1.5em;
 }
 
+.s-page .page-content ul {
+  @media screen and (min-width: 83em) {
+    padding-left: 0;
+  }
+}
