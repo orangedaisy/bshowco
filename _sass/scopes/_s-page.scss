@@ -1,3 +1,11 @@
+.s-page .page-header > *:first-child {
+  margin-top: 0;
+}
+
+.s-page .page-header > *:last-child {
+  margin-bottom: 0;
+}
+
 .s-page .page-content {
   display: grid;
   grid-template-columns: [full-start content-start] minmax(auto, 70ch) [content-end] auto [full-end];
@@ -6,9 +14,23 @@
 
 .s-page .page-content > * {
   grid-column: content;
+  margin-bottom: 0;
 }
 
 .s-page .page-content > figure {
   grid-column: full;
+}
+
+.s-page .page-content > * + * {
+  margin-top: 1em;
+}
+
+.s-page .page-content > * + h1,
+.s-page .page-content > * + h2,
+.s-page .page-content > * + h3,
+.s-page .page-content > * + h4,
+.s-page .page-content > * + h5,
+.s-page .page-content > * + h6 {
+  margin-top: 1.5em;
 }
 
