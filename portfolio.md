@@ -8,34 +8,29 @@ I've had the pleasure of working with a few small businesses and family friends
 to build their websites. Below is a selection of the work I've shipped for these
 clients.
 
-## LTB Photography
+## The Manor at Stowers Hill
 
-[Visit site](http://www.ltbphotography.com/)
+{% include figure.html src='/assets/images/tmash_1x.jpg' alt='' caption='' %}
 
-{% include figure.html
-src='https://www.orangedaisy.co/assets/images/work/ltbp_1x.png' alt=''
-caption='' %}
+The Manor at Stowers Hill is a beautiful event venue in Harriman, TN, run by
+Lori and Chad Brown.
 
-Lori has been a family friend for nearly a decade, so I was thrilled when
-she asked me to design her photography studio's website. Her beautiful
-photography is featured heavily throughout the site, of course, but I
-focused most of our attention on the admin panel.
+Their event space sees quite a lot of action, so ensuring
+they have the ability to update their site was a big point of emphasis during
+our initial discussions. We eventually settled on a Jekyll-powered static site
+hosted on Netlify. Though still in its infancy, the Netlify CMS allows us to
+leverage the speed of static sites, while still providing an easy-to-use
+interface for managing the site content.
 
-Making sure Lori had the tools and interface necessary to keep the site
-current was a very important goal during our process. I worked closely with
-Lori to understand her ideal workflow, and used a combination of built-in
-WordPress functionality and extra plugins to craft an editing experience that
-would be as delightful as her pictures.
+For the design of the website, we worked with Lori and Chad to deliver a
+refined, tasteful experience that echoes the timeless beauty of their estate.
+Their clients seem to agree&mdash;their new website has been fielding a
+consistent stream of event appointments ever since we went live at the beginning
+of February, 2020.
 
-Empowering clients to feel confident in their website is an important
-objective of ours. I have a [case
-study of the admin panel
-work](https://www.bshow.co/2018/04/17/ltb-photography-and-admin-ux/) available
-on this blog.
+[Visit site 👉](http://www.themanoratstowershill.com/)
 
 ## Cordelia Smythe Murder Mysteries
-
-[Visit site](http://cordeliasmythemysteries.com/)
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/csmm_1x.png' alt=''
@@ -65,9 +60,9 @@ into the world of Cordelia Smythe before they received their murder mystery. I
 think we captured Cordelia's spirit well, and the client was thrilled with the
 result.
 
-## Haleigh and Sean wedding website
+[Visit site 👉](http://cordeliasmythemysteries.com/)
 
-[Visit site](https://www.orangedaisy.co/haleighandsean/)
+## Haleigh and Sean wedding website
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/haleighandsean_1x.png' alt=''
@@ -80,9 +75,9 @@ emphasis on the content and storytelling. This simplicity played an important
 role in ensuring the site was accessible by users (family and friends) of all
 ages, as well as a wide range of devices.
 
-## Brochure site for land for sale
+[Visit site 👉](https://www.orangedaisy.co/haleighandsean/)
 
-[Visit site](https://www.orangedaisy.co/shiloh-lot/)
+## Brochure site for land for sale
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/shiloh_1x.png' alt=''
@@ -93,3 +88,5 @@ provide a description, and link some documents. I took those simple
 requirements and ran with an idea to create something that looked like an ad
 you might see in a newspaper, relying on a clearly defined layout to section
 the information.
+
+[Visit site 👉](https://www.orangedaisy.co/shiloh-lot/)
