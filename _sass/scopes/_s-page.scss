@@ -8,7 +8,7 @@
 
 .s-page .page-content {
   display: grid;
-  grid-template-columns: [full-start content-start] minmax(auto, 70ch) [content-end] auto [full-end];
+  grid-template-columns: [full-start content-start] minmax(auto, 70ch) [content-end] 1fr [full-end];
   grid-auto-rows: min-content;
 }
 
