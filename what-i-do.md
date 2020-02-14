@@ -51,3 +51,11 @@ everyone's goals. The customer reps help provide any background and feedback I
 need from real users of our applications. Where necessary, I work with our
 executives to present research findings, discuss mockup proposals, and gather
 any necessary input about our internal goals for a particular set of work.
+
+### Where can I view examples of your work at FPX?
+
+Due to the nature of my work with FPX, I am usually unable to discuss the
+details of those projects. If there's anything you'd like to know about my work
+as a User Experience Engineer for FPX, [reach out over
+email](mailto:bobby.showalter@gmail.com) and I'll do my best to help answer your
+questions.

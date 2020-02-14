@@ -8,6 +8,9 @@ I've had the pleasure of working with a few small businesses and family friends
 to build their websites. Below is a selection of the work I've shipped for these
 clients.
 
+Interested in learning more about my work as a User Experience Engineer for FPX?
+[I have a page for that](/what-i-do/).
+
 ## The Manor at Stowers Hill
 
 {% include figure.html src='/assets/images/tmash_1x.jpg' alt='' caption='' %}
