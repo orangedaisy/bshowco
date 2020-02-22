@@ -9,11 +9,14 @@ permalink: /portfolio/
 I'm a [User Experience Engineer](/what-i-do/ "What I Do") at
 [FPX](https://www.fpx.com/). Our primary business is enterprise B2B software, so
 I'm unable to share details about the exact deliverables I produce (you wouldn't
-want me sharing your or your customers' proprietary IP, would you?). I do have a
-few blog posts that cover some interesting challenges I've faced
-([here](/2017/06/14/css-grid-layout-notes/ "CSS Grid Layout Notes"),
-[here](/2018/06/03/multiple-layouts-made-easy-with-css-grid/ "Multiple Layouts Made Easy with CSS Grid"),
-and [here](/2018/06/06/intelliquip-featured-on-hotjar/ "Intelliquip Featured on Hotjar")).
+want me sharing your or your customers' proprietary IP, would you?).
+
+I do have a few blog posts that cover some interesting challenges I've faced:
+
+- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
+- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
+- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
+
 If you want to know more, I'm happy to [chat over
 email](mailto:bobby.showalter@gmail.com) any time.
 

@@ -63,8 +63,17 @@ come to fruition with our customers and their users.
 
 ### Where can I view examples of your work at FPX?
 
-Due to the nature of my work with FPX, I am usually unable to discuss the
-details of those projects. If there's anything you'd like to know about my work
-as a User Experience Engineer for FPX, [reach out over
+Our primary business at FPX is enterprise B2B software, so I'm unable to share
+details about the exact deliverables I produce (you wouldn't want me sharing
+your or your customers' proprietary IP, would you?).
+
+I do have a few blog posts that cover some interesting challenges I've faced:
+
+- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
+- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
+- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
+
+If there's anything you'd like to know about my
+work as a User Experience Engineer for FPX, [reach out over
 email](mailto:bobby.showalter@gmail.com) and I'll do my best to help answer your
 questions.
