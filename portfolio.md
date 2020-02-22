@@ -4,14 +4,26 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+## FPX
+
+I'm a [User Experience Engineer](/what-i-do/ "What I Do") at
+[FPX](https://www.fpx.com/). Our primary business is enterprise B2B software, so
+I'm unable to share details about the exact deliverables I produce (you wouldn't
+want me sharing your or your customers' proprietary IP, would you?). I do have a
+few blog posts that cover some interesting challenges I've faced
+([here](/2017/06/14/css-grid-layout-notes/ "CSS Grid Layout Notes"),
+[here](/2018/06/03/multiple-layouts-made-easy-with-css-grid/ "Multiple Layouts Made Easy with CSS Grid"),
+and [here](/2018/06/06/intelliquip-featured-on-hotjar/ "Intelliquip Featured on Hotjar")).
+If you want to know more, I'm happy to [chat over
+email](mailto:bobby.showalter@gmail.com) any time.
+
+## Freelance clients
+
 I've had the pleasure of working with a few small businesses and family friends
 to build their websites. Below is a selection of the work I've shipped for these
 clients.
 
-Interested in learning more about my work as a User Experience Engineer for FPX?
-[I have a page for that](/what-i-do/).
-
-## The Manor at Stowers Hill
+### The Manor at Stowers Hill
 
 {% include figure.html src='/assets/images/tmash_1x.jpg' alt='' caption='' %}
 
@@ -33,7 +45,7 @@ of February, 2020.
 
 [Visit site 👉](http://www.themanoratstowershill.com/)
 
-## Cordelia Smythe Murder Mysteries
+### Cordelia Smythe Murder Mysteries
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/csmm_1x.png' alt=''
@@ -65,7 +77,7 @@ result.
 
 [Visit site 👉](http://cordeliasmythemysteries.com/)
 
-## Haleigh and Sean wedding website
+### Haleigh and Sean wedding website
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/haleighandsean_1x.png' alt=''
@@ -80,7 +92,7 @@ ages, as well as a wide range of devices.
 
 [Visit site 👉](https://www.orangedaisy.co/haleighandsean/)
 
-## Brochure site for land for sale
+### Brochure site for land for sale
 
 {% include figure.html
 src='https://www.orangedaisy.co/assets/images/work/shiloh_1x.png' alt=''
