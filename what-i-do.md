@@ -52,6 +52,15 @@ need from real users of our applications. Where necessary, I work with our
 executives to present research findings, discuss mockup proposals, and gather
 any necessary input about our internal goals for a particular set of work.
 
+### What have you done lately?
+
+We're wrapping up the initial phases of a new product offering for our
+customers. This project was an exciting one to work on because it represents a
+significant overhaul to our legacy applications. I took the lead on research,
+design, and front-end development of this project, working closely with our
+c-suite, services department, and software engineers. I'm excited to watch it
+come to fruition with our customers and their users.
+
 ### Where can I view examples of your work at FPX?
 
 Due to the nature of my work with FPX, I am usually unable to discuss the
