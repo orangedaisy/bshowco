@@ -72,6 +72,8 @@ I do have a few blog posts that cover some interesting challenges I've faced:
 - [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
 - [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
 - [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
+- [Making the Most of a Bad
+  CSSituation](/2020/03/11/making-the-most-of-a-bad-cssituation/)
 
 If there's anything you'd like to know about my
 work as a User Experience Engineer for FPX, [reach out over
