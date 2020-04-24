@@ -12,6 +12,6 @@ distributors all around the world.
 
 I have work available at the following sources:
 
-- [Freelance Portfolio](/portfolio/)
+- [Portfolio](/portfolio/)
 - [Github](https://github.com/orangedaisy/)
 - [CodePen](https://codepen.io/bobbyshowalter/)
