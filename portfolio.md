@@ -117,3 +117,47 @@ the information.
 
 {% include portfolio-link.html url='https://www.orangedaisy.co/shiloh-lot/'
 title='Lot for sale brochure site' %}
+
+## Projects
+
+Whenever I find free time in between all of the above, I like to tinker with a
+few side projects.
+
+### Showalter Family Site
+
+This is a little site we're building out as a family. At the time of writing
+this description, we're keeping a
+[COVID-19](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic)
+journal of our experiences in quarantine. Future features of the site will
+include a recipes index and blog content that isn't centered around a global
+pandemic.
+
+The tech stack is [11ty](https://www.11ty.dev/) with
+[NetlifyCMS](https://www.netlifycms.org/) for user-friendly content editing.
+11ty took some getting used to coming from a [Jekyll](https://jekyllrb.com/)
+background, but has been pretty nice so far. And check out that sweet `.family`
+domain!
+
+{% include portfolio-link.html url='https://www.showalter.family/'
+title='Showalter Family website' %}
+
+### POKéDEX App
+
+Our son Owen has been in love with the world of Pokémon since he got [Let's Go,
+Pikachu!](https://www.nintendo.com/games/detail/pokemon-lets-go-pikachu-switch/)
+for Christmas, 2019. I started taking a VueJS course early in 2020, and decided
+to use his 4th birthday as an opportunity to build a real project with my new
+skills.
+
+The POKéDEX app uses QR codes to "catch" Pokémon and add them to your list. We
+scattered these QR codes and pictures of their related Pokémon around our home
+for him to find. He picked up on the idea right away and had a blast!
+
+I've got [some more work](https://github.com/orangedaisy/pokedex/issues) I need
+to do to polish some of the rougher edges now that we're past his birthday, but
+it was a fun challenge to build something like this on a tight deadline and
+bolster my skill set. I designed the visuals to work best with my dinky little
+phone, so it might look a little odd on other devices.
+
+{% include portfolio-link.html url='https://owen-pokedex.netlify.app/'
+title='POKéDEX app' %}
