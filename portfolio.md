@@ -4,6 +4,9 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+* Contents
+{:toc}
+
 ## FPX
 
 I'm a [User Experience Engineer](/what-i-do/ "What I Do") at
@@ -48,7 +51,8 @@ Their clients seem to agree&mdash;their new website has been fielding a
 consistent stream of event appointments ever since we went live at the beginning
 of February, 2020.
 
-[Visit site 👉](http://www.themanoratstowershill.com/)
+{% include portfolio-link.html url='https://www.themanoratstowershill.com/'
+title='The Manor at Stowers Hill' %}
 
 ### Cordelia Smythe Murder Mysteries
 
@@ -80,7 +84,8 @@ into the world of Cordelia Smythe before they received their murder mystery. I
 think we captured Cordelia's spirit well, and the client was thrilled with the
 result.
 
-[Visit site 👉](http://cordeliasmythemysteries.com/)
+{% include portfolio-link.html url='http://cordeliasmythemysteries.com/'
+title='Cordelia Smythe Murder Mysteries' %}
 
 ### Haleigh and Sean wedding website
 
@@ -95,7 +100,8 @@ emphasis on the content and storytelling. This simplicity played an important
 role in ensuring the site was accessible by users (family and friends) of all
 ages, as well as a wide range of devices.
 
-[Visit site 👉](https://www.orangedaisy.co/haleighandsean/)
+{% include portfolio-link.html url='https://www.orangedaisy.co/haleighandsean/'
+title='Haleigh and Sean wedding website' %}
 
 ### Brochure site for land for sale
 
@@ -109,4 +115,5 @@ requirements and ran with an idea to create something that looked like an ad
 you might see in a newspaper, relying on a clearly defined layout to section
 the information.
 
-[Visit site 👉](https://www.orangedaisy.co/shiloh-lot/)
+{% include portfolio-link.html url='https://www.orangedaisy.co/shiloh-lot/'
+title='Lot for sale brochure site' %}
