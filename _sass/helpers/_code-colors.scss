@@ -1,0 +1,5 @@
+@import 'code-colors/base16-ocean-light';
+
+@media (prefers-color-scheme: dark) {
+  @import 'code-colors/base16-ocean-dark';
+}

@@ -1,17 +1,48 @@
 :root {
 
   /* ## Colors */
-  --c-brand: #00ffb0;
-  --c-brand-hover: #b0ff00;
-  --c-text-body: #404a80;
-  --c-text-headings: #5f6caf;
-  --c-link-default: #5f6caf;
+  --c-1--hex: #edf7fa;
+  --c-1--rgb: 237, 247, 250;
+  --c-2--hex: #5f6caf;
+  --c-2--rgb: 95, 108, 175;
+  --c-3--hex: #ffb677;
+  --c-3--rgb: 255, 182, 119;
+  --c-4--hex: #ff8364;
+  --c-4--rgb: 255, 131, 100;
+  --c-5--hex: #404a80;
+  --c-5--rgb: 64, 74, 128;
+
+  /* ## Default theme */
+  --c-theme-primary--hex: var(--c-2--hex);
+  --c-theme-primary--rgb: var(--c-2--rgb);
+  --c-theme-accent-1--hex: var(--c-3--hex);
+  --c-theme-accent-1--rgb: var(--c-3--rgb);
+  --c-theme-accent-2--hex: var(--c-4--hex);
+  --c-theme-accent-2--rgb: var(--c-4--rgb);
+  --c-theme-light--hex: var(--c-1--hex);
+  --c-theme-light--rgb: var(--c-1--rgb);
+  --c-theme-dark--hex: var(--c-5--hex);
+  --c-theme-dark--rgb: var(--c-5--rgb);
+  --c-body-background: var(--c-theme-light--hex);
+  --c-text-body: var(--c-theme-dark--hex);
+  --c-text-headings: var(--c-theme-primary--hex);
+  --c-link-default: var(--c-theme-primary--hex);
   --c-link-hover: var(--c-link-default);
   --c-link-active: var(--c-text-body);
   --c-link-visited: var(--c-link-default);
 
   /* ## Fonts */
   --f-system: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  --f-body: 'Archivo';
-  --f-header: 'Archivo Black';
+  --f-body: 'Archivo', var(--f-system);
+  --f-header: 'Archivo Black', var(--f-system);
+}
+
+/* ## Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-body-background: var(--c-theme-dark--hex);
+    --c-text-body: var(--c-theme-light--hex);
+    --c-text-headings: rgba(var(--c-theme-light--rgb), .75);
+    --c-link-default: var(--c-theme-light--hex);
+  }
 }

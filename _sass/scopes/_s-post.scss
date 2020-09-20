@@ -19,7 +19,7 @@
     background-image:
       linear-gradient(
         to top,
-        #5f6caf,
+        var(--c-theme-primary--hex),
         transparent
       );
     content: '';
@@ -49,9 +49,9 @@
 
   > header .post-title {
     align-self: flex-end;
-    color: #edf7fa;
+    color: var(--c-theme-light--hex);
     margin: 0;
-    text-shadow: 0 0 .25em #404a80;
+    text-shadow: 0 0 .25em var(--c-theme-dark--hex);
     z-index: 2;
   }
 
@@ -113,8 +113,7 @@
   }
 
   code.highlighter-rouge {
-    background-color: #def0f6;
-    border: 1px solid #a0d5e5;
+    border: 1px solid currentColor;
     border-radius: 3px;
     padding: .1em .4em;
   }
@@ -124,7 +123,7 @@
     * https://github.com/orangedaisy/bshowco/issues/8
     */
   [class*="highlighter-"] pre.highlight {
-    border: 1px solid #a0d5e5;
+    border: 1px solid currentColor;
     border-radius: 3px;
     margin-bottom: 2em;
     overflow-x: auto;

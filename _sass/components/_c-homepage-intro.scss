@@ -52,9 +52,9 @@
 
 .c-homepage-intro__greeting {
   align-self: center;
-  background-color: #5f6caff6;
+  background-color: rgba(var(--c-theme-primary--rgb), .9);
   border-radius: .25em;
-  color: #edf7fa;
+  color: var(--c-theme-light--hex);
   font-size: 1.25em;
   grid-column: right;
   grid-row: lower;
@@ -78,11 +78,11 @@
 }
 
 .c-homepage-intro__greeting h2 {
-  color: #edf7fa;
+  color: var(--c-theme-light--hex);
   font-family: 'Archivo Black', sans-serif;
   font-weight: normal;
 }
 
 .c-homepage-intro__greeting a {
-  color: #edf7fa;
+  color: var(--c-theme-light--hex);
 }

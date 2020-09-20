@@ -1,8 +1,8 @@
 html {
-  background-color: #edf7fa;
+  background-color: var(--c-body-background);
   box-sizing: border-box;
   color: var(--c-text-body);
-  font-family: var(--f-body),var(--f-system);
+  font-family: var(--f-body);
   font-size: 18px;
   line-height: 1.5;
 }
@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
   color: var(--c-text-headings);
-  font-family: var(--f-header),var(--f-system);
+  font-family: var(--f-header);
   font-weight: normal;
 }
 

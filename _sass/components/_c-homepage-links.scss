@@ -9,7 +9,7 @@
 }
 
 .c-homepage-links > a {
-  color: #edf7fa;
+  color: var(--c-theme-light--hex);
   display: block;
   flex-basis: 50%;
   text-decoration: none;
@@ -33,7 +33,7 @@
     [bottom-end];
   height: 100%;
   overflow: hidden;
-  text-shadow: 0 0 .375em #404a80;
+  text-shadow: 0 0 .375em var(--c-theme-dark--hex);
 }
 
 .c-homepage-links > a > div::before {
@@ -61,7 +61,7 @@
 
 .c-homepage-links > a > div > h3 {
   color: currentColor;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: var(--f-header);
   font-size: 1.25rem;
   font-weight: normal;
   grid-column: 1;
@@ -120,8 +120,8 @@
   background-image:
     radial-gradient(
       ellipse at top right,
-      #ffb677 25%,
-      #5f6caf56
+      var(--c-theme-accent-1--hex) 25%,
+      rgba(var(--c-theme-primary--rgb), .25)
     );
 }
 
@@ -129,7 +129,7 @@
   background-image:
     radial-gradient(
       ellipse at top left,
-      #ff8364 25%,
-      #5f6caf56
+      var(--c-theme-accent-2--hex) 25%,
+      rgba(var(--c-theme-primary--rgb), .25)
     );
 }
