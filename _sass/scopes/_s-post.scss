@@ -49,9 +49,9 @@
 
   > header .post-title {
     align-self: flex-end;
-    color: var(--c-theme-light--hex);
+    color: var(--c-theme-secondary--hex);
     margin: 0;
-    text-shadow: 0 0 .25em var(--c-theme-dark--hex);
+    text-shadow: 0 0 .25em var(--c-theme-accent-3--hex);
     z-index: 2;
   }
 

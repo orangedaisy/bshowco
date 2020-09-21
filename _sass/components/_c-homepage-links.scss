@@ -9,7 +9,7 @@
 }
 
 .c-homepage-links > a {
-  color: var(--c-theme-light--hex);
+  color: var(--c-theme-secondary--hex);
   display: block;
   flex-basis: 50%;
   text-decoration: none;
@@ -33,7 +33,7 @@
     [bottom-end];
   height: 100%;
   overflow: hidden;
-  text-shadow: 0 0 .375em var(--c-theme-dark--hex);
+  text-shadow: 0 0 .375em var(--c-theme-accent-3--hex);
 }
 
 .c-homepage-links > a > div::before {

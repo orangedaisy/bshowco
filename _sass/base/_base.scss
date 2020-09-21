@@ -1,7 +1,5 @@
 html {
-  background-color: var(--c-body-background);
   box-sizing: border-box;
-  color: var(--c-text-body);
   font-family: var(--f-body);
   font-size: 18px;
   line-height: 1.5;
@@ -11,6 +9,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: var(--c-body-background);
+  color: var(--c-text-body);
 }
 
 h1,

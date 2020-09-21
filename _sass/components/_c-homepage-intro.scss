@@ -54,7 +54,7 @@
   align-self: center;
   background-color: rgba(var(--c-theme-primary--rgb), .9);
   border-radius: .25em;
-  color: var(--c-theme-light--hex);
+  color: var(--c-theme-secondary--hex);
   font-size: 1.25em;
   grid-column: right;
   grid-row: lower;
@@ -78,11 +78,11 @@
 }
 
 .c-homepage-intro__greeting h2 {
-  color: var(--c-theme-light--hex);
+  color: var(--c-theme-secondary--hex);
   font-family: 'Archivo Black', sans-serif;
   font-weight: normal;
 }
 
 .c-homepage-intro__greeting a {
-  color: var(--c-theme-light--hex);
+  color: var(--c-theme-secondary--hex);
 }
