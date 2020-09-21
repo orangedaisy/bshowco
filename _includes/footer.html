@@ -3,6 +3,7 @@
   <div class="c-footer__wrapper">
 
     <div class="c-footer__column">
+      {% include theme-controls.html %}
       <p>&copy; 2017&ndash;<span id="footerCurrentYear">{{ 'now' | date: '%Y' }}</span> Bobby Showalter</p>
       <p>{{ site.description | escape }}</p>
     </div>
