@@ -1,12 +1,13 @@
 .c-footer__wrapper {
   border-top: 1px solid var(--c-text-body);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   padding-top: 1rem;
 }
 
 .c-footer__column:first-child {
-  margin-right: auto;
+  flex-grow: 1;
+  margin-right: 1rem;
 }
