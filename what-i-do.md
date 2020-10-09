@@ -41,7 +41,7 @@ hand, without worrying about the overhead of an entire application environment.
 When it comes time to commit these artifacts to real code in a real application,
 I use what I explored in the CodePen phase (or the mockup sketches, in the case
 of leveraging existing components) to write any necessary HTML, CSS, or JS to
-deliver a solution. I engage with developers all along the way to make sure my
+deliver a solution. I engage with developers early and often to make sure my
 work is documented, understood, and aware of any potential pitfalls or
 limitations on the technical side of things.
 
@@ -54,12 +54,19 @@ any necessary input about our internal goals for a particular set of work.
 
 ### What have you done lately?
 
-We're wrapping up the initial phases of a new product offering for our
-customers. This project was an exciting one to work on because it represents a
-significant overhaul to our legacy applications. I took the lead on research,
-design, and front-end development of this project, working closely with our
-c-suite, services department, and software engineers. I'm excited to watch it
-come to fruition with our customers and their users.
+We started rolling out a new pair of product offerings for our customers in
+early 2020. These new products replace older technology with an improved
+interface design and user experience, and are more readily customizable for
+organizations who wish to white-label our software. It was immensely rewarding
+working with customers to identify their pain points with our previous
+offerings, and design solutions that addressed their needs. We were even able to
+uncover new opportunities for quality-of-life improvements that couldn't have
+been realized otherwise.
+
+After shipping those products, I turned my focus to documenting the emergent
+patterns and designs from that experience. I'm currently organizing this
+documentation into a styleguide and pattern library that will inform future
+redesign and harmonization efforts throughout the rest of our software suite.
 
 ### Where can I view examples of your work at FPX?
 
