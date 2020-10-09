@@ -16,22 +16,18 @@ to rectify that.
 
 ## Desk area
 
-{% include figure.html src='/assets/images/uses/desk_1.jpg' alt='Picture of my
+{% include figure.html src='/assets/images/uses/desk_top.jpg' alt='Picture of my
 desk' caption='The desk in all its glory' %}
 
-{% include figure.html src='/assets/images/uses/desk_2.jpg' alt='Closer picture
-of my desk' caption='' %}
+{% include figure.html src='/assets/images/uses/desk_left.jpg' alt='Picture of
+the desk from the left side, looking right' caption='' %}
 
-{% include figure.html src='/assets/images/uses/desk_3.jpg' alt='Top-down
-view of my desk' caption='Top-down view' %}
+{% include figure.html src='/assets/images/uses/desk_right.jpg' alt='Picture of
+the desk from the right side, looking left' caption='' %}
 
-{% include figure.html src='/assets/images/uses/desk_detail_left.jpg'
-alt='Close up of the left side of my desk' caption='Detail view &ndash; left
-side' %}
-
-{% include figure.html src='/assets/images/uses/desk_detail_right.jpg'
-alt='Close up of the right side of my desk' caption='Detail view &ndash; right
-side' %}
+{% include figure.html src='/assets/images/uses/reading_corner.jpg'
+alt='Picture of the reading corner, complete with Windsor chairs, a full
+bookshelf, and Tennessee Volunteers decor' caption='The cozy reading corner' %}
 
 As a general rule, I do everything I can to keep my desk as spotless as
 possible. Clean workspace, clean mindset. There are some things that demand a
@@ -60,9 +56,8 @@ provides plenty of space to spread out.
 I'm currently using a 2015 13&Prime; MacBook Pro with 8GB of memory and a 512GB
 SSD.  Four years feels like a long time to use the same MacBook, but it still
 does everything I need it to just as fast as the day I got it. For cases where I
-need more horsepower, like some development work at Intelliquip, I typically
-remote into some sort of server that can be more specially tuned for the task at
-hand.
+need more horsepower, like some development work at FPX, I typically remote into
+some sort of server that can be more specially tuned for the task at hand.
 
 I keep my Mac in clamshell mode when I'm at home, and recently grabbed [a
 stand](https://www.amazon.com/gp/product/B0792C2XW7/) to reduce its footprint.
@@ -71,8 +66,8 @@ spills.
 
 ### 12.9&Prime; iPad Pro (2018) with Apple Pencil 2
 
-I picked up an iPad Pro in the summer of 2019 to assist with my workflow at
-Intelliquip. So far, it's been a very welcome addition. I use [Goodnotes
+I picked up an iPad Pro in the summer of 2019 to assist with my workflow at FPX.
+So far, it's been a very welcome addition. I use [Goodnotes
 5](https://www.goodnotes.com/) to maintain my planner, personal notes, work
 notes, wireframes and sketches&mdash;just about anything I was previously using
 a traditional notebook for. Keeping everything in the iPad, and specifically
@@ -87,6 +82,16 @@ reduce my dependency on prototyping tools like Figma or Adobe XD.
 
 iPadOS was released just as I was updating this section, so I'm excited to see
 how the new features can help to further enhance my productivity.
+
+### iPhone SE (2020)
+
+I use an [iPhone SE (2020)](https://www.apple.com/iphone-se/) as of June, 2020.
+After a long run with the [Moto
+E4+](https://www.amazon.com/Moto-Plus-4th-Generation-Lockscreen/dp/B072ZS6JD2/)
+from Motorola, this more affordable iPhone was a great opportunity to widen my
+collection of Apple devices and get deeper into that Ecosystem&trade;. I've been
+very pleased so far, especially with how easy it is to share and coordinate
+things with my wife and her matching iPhone.
 
 ### Keyboard
 
@@ -118,18 +123,16 @@ from sleep, and using its bluetooth option when other bluetooth devices are
 connected to the Mac just doesn't work well at all&mdash;but it's still a huge
 improvement over what I had.
 
-### Displays and stand
+### Displays
 
-The pair of Dell S2340M monitors on my desk are two of the oldest tech items I
-still use. They only have DVI, so I use a couple of [Mini DisplayPort to DVI
-cables](https://www.amazon.com/gp/product/B01KAM3ICO/) to connect them to my
-Mac. They also aren't VESA compatible, so I use [some
-adapters](https://www.amazon.com/gp/product/B076234KMD/) to mount them to the
-[monitor stand](https://www.amazon.com/gp/product/B009S750LA/).
+I've recently pared down to just one monitor after using two for a good while.
+The Dell S2340M that fills that role is one of the oldest tech items I still
+use. It only has DVI, so I use a [Mini DisplayPort to DVI
+cable](https://www.amazon.com/gp/product/B01KAM3ICO/) to connect it to my Mac.
 
 I also have an [Insignia Roku
 TV](https://www.bestbuy.com/site/insignia-39-class-38-5-diag--led-1080p-smart-hdtv-roku-tv/4863802.p?skuId=4863802)
-mounted next to my desk as a tertiary display. I can connect to it via HDMI if
+mounted near my desk as a tertiary display. I can connect to it via HDMI if
 necessary, but I typically just use its smart features and a [2015
 Chromecast](https://store.google.com/product/chromecast_2015) to put on
 background media.
@@ -149,20 +152,39 @@ Audio](https://store.google.com/product/chromecast_audio) connected to a pair of
 Bose bookshelf speakers located on a shelf above my desk. This allows anyone in
 the office to control the music without tying up my workstation.
 
-### Phone
+### Cable organizer
 
-I'm currently rocking the [Moto
-E4+](https://www.amazon.com/Moto-Plus-4th-Generation-Lockscreen/dp/B072ZS6JD2/)
-from Motorola (plus [this nifty folio
-case](https://www.amazon.com/gp/product/B0789V3VW3/)). I've used my fair share
-of the "latest and greatest" phones, but they all fall short in one key area:
-the battery. It doesn't matter how great the advertised battery life is, they
-always seem to falter when subjected to normal, continuous use.
+The [MOS Magnetic Cable
+Organizer](https://www.amazon.com/gp/product/B00ADWLJNW/) is a neat little
+problem solver that I grabbed early in 2020. It suctions to the desk and uses
+its four magnets to corral any cables you bring near it. Makes it a breeze to
+pop cables out of the MacBook without worrying about them falling under the
+desk.
 
-In 2017, after falling victim to the infamous Nexus 6P battery issue and
-increasingly terrible experiences with Google Project Fi, I decided I had
-enough. The E4+ is about as uninspiring a phone as could possibly be, but it has
-a 5000mAH battery and can easily last three days on a single charge.
+### Handmade touches
+
+I have recently acquired a number of great quality, handmade items to make my
+desk feel a little more homey.
+
+I started with the unique little desk organizer from [Stone-Penland
+Pottery](https://www.facebook.com/stonepenlandpottery/), and have since added
+one of their mugs and a little multipurpose holder thing that I'm currently
+using to prop up my phone. My wife lovingly made a sleeve for the desk organizer
+(to prevent pens and scissors from slipping on the desk) and desk mat out of
+some wool fabric from a craft store. At the time of writing, I also have a
+crocheted pumpkin she made for seasonal decor.
+
+The reading corner features two very special Windsor chairs that my grandfather
+made. I love embracing my inner 90-year old to step away from the desk, don my
+cardigan, put on some soft jazz, and relax in the chair with a good book
+(currently enjoying [The Cooking Gene](https://thecookinggene.com/) by Michael
+Twitty). The two chairs also provide a nice spot for my two boys whenever they
+insist on watching me work (before being immediately bored and running off
+again, of course).
+
+All of these personal touches provide a pleasing contrast to all the tech I
+surround myself with, as well as remind me to take my time and be mindful of the
+things I create.
 
 ### Miscellaneous
 
@@ -176,8 +198,6 @@ phone calls
 - [Toshiba 1TB Portable HDD](https://www.amazon.com/gp/product/B00N2S6ZUQ/)
   for a TimeMachine backup
 - [Cross ballpoint pen](https://www.cross.com/en/products/3502)
-- Desk organizer from [Stone-Penland
-  Pottery](https://www.facebook.com/stonepenlandpottery/)
 - [Safco Foot Cushion](https://www.amazon.com/gp/product/B001MS6XW8/)
 - Leather desk valet for holding my phone and tv remote
 
@@ -223,7 +243,6 @@ colorscheme and my own custom statusline.
 Complex as Vim may be, it's become so ingrained in my brain and muscle memory
 that using anything else is an utter chore.
 
-
 ### Git
 
 I use [Git](https://git-scm.com/) as my VCS of choice. I have limited experience
@@ -232,55 +251,32 @@ Using Git from the command line may seem hardcore, but I would much rather take
 the time to understand the mechanics of what Git is doing than rely on some GUI
 abstraction that makes weighty operations just a little too easy.
 
-### Balsamiq, Adobe XD, Figma&hellip;
+### Design software
 
-If the front-end world is suffering from "framework fatigue," the design world
-is doing its best to keep pace by self-inflicting "design software fatigue."
-There are untold number of options in this space, but these are the players I
-keep up with.
+At one time or another, I've used [Balsamiq](https://balsamiq.com/), [Adobe
+XD](https://www.adobe.com/products/xd.html), and
+[Figma](https://www.figma.com/). They all have their pros and cons, and I do
+admire the level to which some people can operate them. I just have the hardest
+time adjusting my HTML/CSS/JS-oriented thinking to their differing paradigms.
 
-[Balsamiq](https://balsamiq.com/) was my first entry to design/prototype
-software. Though I've moved on to higher-fidelity tools, I appreciate their
-mission and wish I could've made more use of it.
+My ideal process involves sketching in varying levels of fidelity before jumping
+straight into code. To that end, I've taken to using an
+[iPad](#129-ipad-pro-2018-with-apple-pencil-2) with [Goodnotes](#Goodnotes-5)
+for my primary design software experience.
 
-I started using [Adobe XD](https://www.adobe.com/products/xd.html) when it was
-in beta. Its sharing features were an absolute god-send: being able to share a
-design, and any of its updates, with a single URL greatly increased our ability
-to collaborate on and validate design ideas. I switched to Figma when they
-introduced the subscription plan, but may someday find my way back now that it's
-free again.
+### Mozilla Firefox
 
-[Figma](https://www.figma.com/) is the tool I currently use. Its sharing
-features are *not* as slick as Adobe XD's, but I do think the web app nature of
-the program gives it advantages in other areas.
-
-I don't use any of these design tools to a very high level, primarily because
-it's easier for me to go straight from pencil and paper to code, but there are
-certainly times where being able to iterate on a static mockup can increase
-participation in collaborating on ideas. It's a skill I have to keep working on,
-as much as I'd like to ditch the thing entirely and stick to writing the HTML
-and CSS from the beginning. Sometimes you just need that shareable picture.
-
-**Fall 2019 Update:** After wrestling with these tools for many months, I picked
-up an iPad to bolster my ideal workflow of pencil & paper &rarr; code. I may
-have to come back around to these tools at some point, but I've grown
-disillusioned with the idea that drawing non-functional rectangles is
-somehow more productive than just coding the darn things. To date, the browser
-is still king when it comes to the sort of work I have to do.
-
-### Google Chrome
-
-I'm more invested in the Google ecosystem than any other, so I use
-[Chrome](https://www.google.com/chrome/) primarily out of convenience than
-anything else. I do find it a little more comfortable to use than Firefox, and
-much prefer its interface to other browsers. I do wish I knew how to get more
-out of the advanced dev tool features for testing and debugging.
+I moved over to Firefox at the prodding of a coworker a few months ago. I don't
+know that it's leagues better than Chrome, but I do appreciate using something
+other than Google's version of the web. I've also become less invested in the
+Google ecosystem as I dig farther into Apple's, so shedding Chrome hasn't been a
+big loss.
 
 I have the rest of the browser gang for testing, including a couple of Windows
-VMs for checking things out in Internet Explorer and Edge. Though Chrome is my
+VMs for checking things out in Internet Explorer and Edge. Though Firefox is my
 daily driver, I've taken to using Safari when I'm running on the Mac's battery
 and simply consuming media. Since it's so tightly coupled and optimized to
-macOS, I get waaaaay better battery life than using Chrome.
+macOS, I get waaaaay better battery life than using Firefox.
 
 ### Slack
 
@@ -307,6 +303,14 @@ area and share that as an image. When it's time for updates, I can easily create
 new pages so that we can always reference back to previous items. I have already
 used it to much success for a couple of new features at work, and am excited
 about making it an ever-growing part of my workflow.
+
+### Spotify
+
+Google killed Google Play Music, so I moved over to Spotify. Most of my music
+seems to be here and the [Spotify Connect](https://www.spotify.com/us/connect/)
+feature is pretty slick, so I suppose I've come out ahead. I'm not a big snob on
+music services and the quality of audio they deliver, so long as I can listen to
+the things I'm interested in.
 
 ### Miscellaneous
 

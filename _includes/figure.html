@@ -2,5 +2,7 @@
   <img class="c-figure__image" src="{{ include.src }}" alt="{{ include.alt }}">
   <figcaption class="c-figure__caption">
     {{ include.caption }}
+    {% if include.caption != '' %}&ndash;{% endif %}
+    <a href="{{ include.src }}">View full size</a>
   </figcaption>
 </figure>
