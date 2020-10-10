@@ -45,9 +45,10 @@ a:active {
 }
 
 blockquote {
-  border-left: .125em solid #aaa;
-  color: #6a6a6a;
+  border-left: .125em solid currentColor;
+  color: var(--c-text-body);
   margin: 1.5em 0 1.5em 2.25em;
+  opacity: .85;
   padding: .5em 0 .5em 1em;
 }
 
