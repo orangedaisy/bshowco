@@ -182,5 +182,5 @@ If you're interested in checking out the app for yourself, it's still up over at
 [https://owen-pokedex.netlify.app](https://owen-pokedex.netlify.app) (don't
 forget the [QR
 codes](https://docs.google.com/document/d/13JSqyVPQmlAES345SOwMGQ161Dcls2gCTL_K53ihnak/edit?usp=sharing)).
-There's also the [Github repo](https://github.com/orangedaisy/pokedex) if you're
-interested in that (some day I'll get around to fixing up the open issues).
+There's also the [Github repo](https://github.com/orangedaisy/pokedex) if you'd
+like to see the final code and the commits it took to get there.
