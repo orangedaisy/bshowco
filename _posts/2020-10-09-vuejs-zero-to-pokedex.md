@@ -160,13 +160,17 @@ of Owen just before he began his Pokemon hunt' caption='' %}
 
 ### Catching Piplup
 
-<video controls preload="none"
-src="/assets/videos/owen_catching_piplup.webm"></video>
+<video controls preload="metadata" width="300">
+  <source src="/assets/videos/owen_catching_piplup.webm" type="video/webm">
+  <source src="/assets/videos/owen_catching_piplup.mp4" type="video/mp4">
+</video>
 
 ### Catching Eevee
 
-<video controls preload="none"
-src="/assets/videos/owen_catching_eevee.webm"></video>
+<video controls preload="metadata" width="300">
+  <source src="/assets/videos/owen_catching_eevee.webm" type="video/webm">
+  <source src="/assets/videos/owen_catching_eevee.mp4" type="video/mp4">
+</video>
 
 ## Final thoughts
 
