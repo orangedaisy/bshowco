@@ -68,6 +68,36 @@ patterns and designs from that experience. I'm currently organizing this
 documentation into a styleguide and pattern library that will inform future
 redesign and harmonization efforts throughout the rest of our software suite.
 
+### What have people said about your work?
+
+As I mentioned before, a large part of my job is interacting with customers,
+whether through representatives, or directly. Those customer insights are
+crucial to the success of our applications. Here's what a customer had to say
+after we gave a demo of a new custom feature for a unique workflow they wanted
+to implement:
+
+> I didn’t want to say this during the call in front of my boss [VP
+Marketing] because [after he said good things about our solution,] I did not
+want to sound like I was sucking up to my boss. [chuckle]<br><br>When you showed
+the mockup, I had to mute my phone. I was so impressed how you went from our
+silly little mockup ideas, and totally blew me away. I am so impressed by just
+how simple you were able to boil it down in the mockup.
+
+When our marketing department unveiled a new graphic it wanted to use in company
+demos, it spawned a heated internal discussion. Instead of putting focus on the
+value our company could provide to potential customers, some design elements of
+the graphic generated negative attention that distracted from its intended
+purpose. I provided targeted feedback that addressed the graphic's shortcomings
+in a cost effective manner and brought the conversation back to a more
+productive tone. The graphic's designer shared these comments after the dust
+settled:
+
+> I've been looking at comments on the graphic and compiling them. Nothing
+yet, but we are working on it and considering everything.<br><br>The main reason
+I'm emailing I noticed for almost every problem you bring, you propose a
+solution. Sometimes you spell it out, sometimes it's implicit.<br><br>Just
+wanted to say thank you for structuring it that way. This is very helpful.
+
 ### Where can I view examples of your work at FPX?
 
 Our primary business at FPX is enterprise B2B software, so I'm unable to share
