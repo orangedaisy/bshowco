@@ -166,7 +166,7 @@ desk.
 I have recently acquired a number of great quality, handmade items to make my
 desk feel a little more homey.
 
-I started with the unique little desk organizer from [Stone-Penland
+I started with the desk organizer from [Stone-Penland
 Pottery](https://www.facebook.com/stonepenlandpottery/), and have since added
 one of their mugs and a little multipurpose holder thing that I'm currently
 using to prop up my phone. My wife lovingly made a sleeve for the desk organizer
