@@ -186,6 +186,10 @@ All of these personal touches provide a pleasing contrast to all the tech I
 surround myself with, as well as remind me to take my time and be mindful of the
 things I create.
 
+{% include figure.html src='/assets/images/uses/owen_arlo_reading_corner.jpg'
+alt='Owen and Arlo, decked out in their Tennessee Volunteers clothing, enjoying
+the reading corner' caption='Reading corner in action' %}
+
 ### Miscellaneous
 
 Here are the rest of the items on and around my desk that don't need as much
