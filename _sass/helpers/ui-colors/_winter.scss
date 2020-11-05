@@ -1,0 +1,44 @@
+body[data-ui-theme="winter"] {
+  /* ## Colors */
+  --c-1--hex: #ECECEC;
+  --c-1--rgb: 236, 236, 236;
+  --c-2--hex: #6E7984;
+  --c-2--rgb: 110, 121, 132;
+  --c-3--hex: #C0D2E0;
+  --c-3--rgb: 192, 210, 224;
+  --c-4--hex: #E57B3C;
+  --c-4--rgb: 229, 123, 60;
+  --c-5--hex: #28313A;
+  --c-5--rgb: 40, 49, 58;
+
+  /* ## Theme */
+  --c-theme-primary--hex: var(--c-2--hex);
+  --c-theme-primary--rgb: var(--c-2--rgb);
+  --c-theme-secondary--hex: var(--c-1--hex);
+  --c-theme-secondary--rgb: var(--c-1--rgb);
+  --c-theme-accent-1--hex: var(--c-3--hex);
+  --c-theme-accent-1--rgb: var(--c-3--rgb);
+  --c-theme-accent-2--hex: var(--c-4--hex);
+  --c-theme-accent-2--rgb: var(--c-4--rgb);
+  --c-theme-accent-3--hex: var(--c-5--hex);
+  --c-theme-accent-3--rgb: var(--c-5--rgb);
+
+  /* ## Applied */
+  --c-body-background: var(--c-theme-secondary--hex);
+  --c-text-body: var(--c-theme-accent-3--hex);
+  --c-text-headings: var(--c-theme-primary--hex);
+  --c-link-default: var(--c-theme-primary--hex);
+  --c-link-hover: var(--c-link-default);
+  --c-link-active: var(--c-text-body);
+  --c-link-visited: var(--c-link-default);
+}
+
+/* ## Applied, dark mode */
+@media (prefers-color-scheme: dark) {
+  body[data-ui-theme="winter"] {
+    --c-body-background: var(--c-theme-accent-3--hex);
+    --c-text-body: var(--c-theme-secondary--hex);
+    --c-text-headings: rgba(var(--c-theme-secondary--rgb), .75);
+    --c-link-default: var(--c-theme-secondary--hex);
+  }
+}
