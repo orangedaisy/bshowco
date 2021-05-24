@@ -7,52 +7,10 @@ permalink: /portfolio/
 * Contents
 {:toc}
 
-## FPX
+## Now
+{% include portfolio-now.html %}
 
-I'm a [User Experience Engineer](/what-i-do/ "What I Do") at
-[FPX](https://www.fpx.com/). Our primary business is enterprise B2B software, so
-I'm unable to share details about the exact deliverables I produce (you wouldn't
-want me sharing your or your customers' proprietary IP, would you?).
-
-I do have a few blog posts that cover some interesting challenges I've faced:
-
-- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
-- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
-- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
-- [Making the Most of a Bad
-  CSSituation](/2020/03/11/making-the-most-of-a-bad-cssituation/)
-
-If you want to know more, I'm happy to [chat over
-email](mailto:bobby.showalter@gmail.com) any time.
-
-## Freelance clients
-
-I've had the pleasure of working with a few small businesses and family friends
-to build their websites. Below is a selection of the work I've shipped for these
-clients.
-
-### The Manor at Stowers Hill
-
-{% include figure.html src='/assets/images/tmash_1x.jpg' alt='' caption='' %}
-
-The Manor at Stowers Hill is a beautiful event venue in Harriman, TN, run by
-Lori and Chad Brown.
-
-Their event space sees quite a lot of action, so ensuring
-they have the ability to update their site was a big point of emphasis during
-our initial discussions. We eventually settled on a Jekyll-powered static site
-hosted on Netlify. Though still in its infancy, the Netlify CMS allows us to
-leverage the speed of static sites, while still providing an easy-to-use
-interface for managing the site content.
-
-For the design of the website, we worked with Lori and Chad to deliver a
-refined, tasteful experience that echoes the timeless beauty of their estate.
-Their clients seem to agree&mdash;their new website has been fielding a
-consistent stream of event appointments ever since we went live at the beginning
-of February, 2020.
-
-{% include portfolio-link.html url='https://www.themanoratstowershill.com/'
-title='The Manor at Stowers Hill' %}
+## Selected Works
 
 ### Cordelia Smythe Murder Mysteries
 
@@ -117,29 +75,6 @@ the information.
 
 {% include portfolio-link.html url='https://www.orangedaisy.co/shiloh-lot/'
 title='Lot for sale brochure site' %}
-
-## Projects
-
-Whenever I find free time in between all of the above, I like to tinker with a
-few side projects.
-
-### Showalter Family Site
-
-This is a little site we're building out as a family. At the time of writing
-this description, we're keeping a
-[COVID-19](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic)
-journal of our experiences in quarantine. Future features of the site will
-include a recipes index and blog content that isn't centered around a global
-pandemic.
-
-The tech stack is [11ty](https://www.11ty.dev/) with
-[NetlifyCMS](https://www.netlifycms.org/) for user-friendly content editing.
-11ty took some getting used to coming from a [Jekyll](https://jekyllrb.com/)
-background, but has been pretty nice so far. And check out that sweet `.family`
-domain!
-
-{% include portfolio-link.html url='https://www.showalter.family/'
-title='Showalter Family website' %}
 
 ### POKéDEX App
 
