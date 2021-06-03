@@ -18,7 +18,7 @@ instagram_username: bobbyshowalter
 host: 0.0.0.0
 permalink: pretty
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
