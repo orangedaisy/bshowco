@@ -1,0 +1,29 @@
+.site-header {
+  background-color: var(--c-1);
+  border-bottom: .125em solid var(--c-2);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-family: var(--f-sans);
+  padding: var(--default-spacing);
+}
+
+.site-header h1 {
+  font-size: 1.5em;
+  line-height: 1.125;
+  padding-right: 1em;
+}
+
+.site-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--default-spacing) / 2) calc(var(--default-spacing) * -1) 0;
+}
+
+.site-header li {
+  margin: calc(var(--default-spacing) / 2) var(--default-spacing);
+}
+
+.site-header a {
+  font-weight: 500;
+}

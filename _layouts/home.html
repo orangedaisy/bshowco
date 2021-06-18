@@ -2,41 +2,30 @@
 layout: default
 ---
 
-<div class="c-homepage-intro">
-  <div class="c-homepage-intro__greeting">
-    {{ content }}
-  </div>
-  <div class="c-homepage-intro__picture">
-    <img src="/assets/images/intro-pic.jpg" alt="">
-  </div>
-</div>
+<article>
+  <div class="has-flow is-sticky is-sticky--top">{{ content }}</div>
+</article>
 
-<div class="c-homepage-links">
-  {% for post in site.posts limit:1 %}
-    <a class="c-homepage-links__blog" href="{{ post.url | relative_url }}">
-      <div>
-        <h3>Latest Blog Post</h3>
-        <p>{{ post.title | escape }}</p>
-        {% comment %}
-          This feels kinda gross, but I can't think of another way to accomplish it.
-        {% endcomment %}
-
-        {% capture image %}
-          {{ post.image }}
-        {% endcapture %}
-
-        {% unless post.image %}
-          {% assign image = "https://source.unsplash.com/collection/9248817/800x400" %}
-        {% endunless %}
-        <img src="{{ image }}" alt="">
-      </div>
-    </a>
-  {% endfor %}
-  <a class="c-homepage-links__portfolio" href="/portfolio/#the-manor-at-stowers-hill">
-    <div>
-      <h3>Featured Portfolio Project</h3>
-      <p>The Manor at Stowers Hill</p>
-      <img src="/assets/images/tmash_1x.jpg" alt="">
-    </div>
-  </a>
+<div class="has-flow">
+  <article class="card">
+    <img src="/assets/images/bshow.jpg" alt="">
+  </article>
+  <article class="card has-flow">
+    <p>Latest Blog Post</p>
+    {% for post in site.posts limit:1 %}
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      {{ post.excerpt }}
+    {% endfor %}
+  </article>
+  <article class="card has-flow">
+    <p>Featured Portfolio Project</p>
+    <h2><a href="/portfolio/#the-manor-at-stowers-hill">The Manor at Stowers Hill</a></h2>
+    <p>The Manor at Stowers Hill is a beautiful event venue in Harriman, TN, run
+    by Lori and Chad Brown. For the design of the website, I worked with Lori
+    and Chad to deliver a refined, tasteful experience that echoes the timeless
+    beauty of their estate. Their clients agree&mdash;their new website has been
+    fielding a consistent stream of event appointments ever since we went live
+    at the beginning of February, 2020.</p>
+    <img src="/assets/images/tmash_1x.jpg" alt="">
+  </article>
 </div>

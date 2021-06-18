@@ -1,32 +1,20 @@
-<footer class="o-main-container c-footer">
+<footer class="site-footer">
 
-  <div class="c-footer__wrapper">
+  <div class="has-flow">
+    <!-- {% include theme-controls.html %} -->
+    <p>&copy; 2017&ndash;<span id="footerCurrentYear">{{ 'now' | date: '%Y' }}</span> Bobby Showalter</p>
+    <p><strong>{{ site.description | escape }}</strong></p>
+  </div>
 
-    <div class="c-footer__column">
-      {% include theme-controls.html %}
-      <p>&copy; 2017&ndash;<span id="footerCurrentYear">{{ 'now' | date: '%Y' }}</span> Bobby Showalter</p>
-      <p>{{ site.description | escape }}</p>
-    </div>
-
-    <div class="c-footer__column c-icon-bar">
-      {% if site.codepen_username %}
-        {% include icon-link.html icon='codepen' domain='.io' username=site.codepen_username %}
-      {% endif %}
-
-      {% if site.github_username %}
-        {% include icon-link.html icon='github' username=site.github_username %}
-      {% endif %}
-
-      {% if site.instagram_username %}
-        {% include icon-link.html icon='instagram' username=site.instagram_username %}
-      {% endif %}
-
-      <a class="c-icon__link" href="{{ "/feed.xml" | relative_url }}">
-        <svg class="c-icon c-icon--rss">
-          <use xlink:href="/symbol-defs.svg#c-icon--rss"></use>
-        </svg>
-      </a>
-    </div>
+  <div class="site-footer__icons">
+    {% include icon-link.html icon='codepen' domain='.io' username=site.codepen_username %}
+    {% include icon-link.html icon='github' username=site.github_username %}
+    {% include icon-link.html icon='instagram' username=site.instagram_username %}
+    <a class="c-icon__link" href="{{ "/feed.xml" | relative_url }}">
+      <svg class="c-icon c-icon--rss">
+        <use xlink:href="/symbol-defs.svg#c-icon--rss"></use>
+      </svg>
+    </a>
   </div>
 
   <script>

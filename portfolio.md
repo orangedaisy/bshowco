@@ -8,9 +8,14 @@ permalink: /portfolio/
 {:toc}
 
 ## Now
+
+Here's what I'm actively working on these days.
+
 {% include portfolio-now.html %}
 
 ## Selected Works
+
+These are some of my favorite pieces from clients and projects past.
 
 ### Cordelia Smythe Murder Mysteries
 

@@ -1,0 +1,20 @@
+.card {
+  background-color: var(--c-1);
+  border-radius: .5em;
+  padding: var(--default-spacing);
+}
+
+.card > img {
+  border-radius: .35em;
+}
+
+.card > p:first-child,
+.card > p:first-child {
+  font-family: var(--f-sans);
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: .063em;
+  margin-bottom: calc(var(--default-spacing) * -1.5);
+  opacity: .85;
+  text-transform: uppercase;
+}

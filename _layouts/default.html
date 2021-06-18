@@ -3,17 +3,24 @@
 
   {% include head.html %}
 
-  <body data-ui-theme="default">
+  {% assign page_class = "" %}
+  {% if page.url == "/" %}
+    {% assign page_class = "site-home" %}
+  {% elsif page.url == "/portfolio/"%}
+    {% assign page_class = "site-portfolio" %}
+  {% endif %}
+
+  <body {% if page_class != "" %}class="{{ page_class }}" {% endif %}data-ui-theme="default">
 
     {% include header.html %}
 
-    <main class="o-main-container" aria-label="Content">
+    <main aria-label="Content">
       {{ content }}
     </main>
 
     {% include footer.html %}
 
-    <script src="/assets/theme-picker.js"></script>
+    <!-- <script src="/assets/theme-picker.js"></script> -->
 
   </body>
 

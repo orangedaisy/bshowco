@@ -4,13 +4,12 @@ title: "LTB Photography and Admin UX"
 ---
 
 In my daily work at [FPX](https://www.fpx.com), I'm usually concerned with the
-"end-user UX"&mdash;that is, what's it like for the guy at the end of the chain
-who actually uses the software as part of his job? We do have some
+"end-user UX"&mdash;that is, what's it like for the person at the end of the
+chain who actually uses the software as part of their job? We do have some
 administrative tools for general configuration and tweaks, but since they're
-largely for internal use, they rarely get much UX love. When [orange
-daisy](https://www.orangedaisy.co) was tasked with creating the website for [LTB
-Photography](http://www.ltbphotography.com), it gave me a chance to really focus
-on making the site as easy and delightful to administrate as it is to use.
+largely for internal use, they rarely get much UX love. When I was tasked with
+creating the website for LTB Photography, it gave me a chance to really focus on
+making the site as easy and delightful to administrate as it is to use.
 
 {% include toc.md %}
 
@@ -18,11 +17,9 @@ on making the site as easy and delightful to administrate as it is to use.
 
 Before we could focus on making the admin area easy to use, we had to figure out
 what content was going to be on the website. The two most complex parts of
-Lori's site, from a content-editing point of view, are the
-[Investments](http://www.ltbphotography.com/investments/) and
-[Testimonials](http://www.ltbphotography.com/testimonials/) pages. The content
-itself may not be that crazy, but it does need to be adaptable to a few
-different types of views.
+Lori's site, from a content-editing point of view, are the Investments and
+Testimonials pages. The content itself may not be that crazy, but it does need
+to be adaptable to a few different types of views.
 
 For the Investments, we decided on a "home" page that listed each investment,
 along with a relevant picture, a blurb describing the photo session, and a link
@@ -88,3 +85,7 @@ her site.
 We often talk about designing and refining the end-user experience and the
 "front" of websites and applications. Working on Lori's site was a nice reminder
 that UX design encompasses users on *both* sides of our work.
+
+* * *
+
+*Lori now manages the LTB Photography site on her own. A previous version of this blog post included links to relevant pages, but I have since removed them as they no longer accurately reflect the current state of Lori's site. We've moved on to collaborating on the website for [The Manor at Stowers Hill](https://www.themanoratstowershill.com/)* &#128578;

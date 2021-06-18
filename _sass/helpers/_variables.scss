@@ -1,11 +1,23 @@
 :root {
+  /* ## Colors */
+  --c-1: #fbf3f2;
+  --c-2: #032539;
+  --c-3: #1c768f;
+  --c-4: #fa991c;
+
   /* ## Fonts */
   --f-system: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  --f-body: 'Archivo', var(--f-system);
-  --f-header: 'Archivo Black', var(--f-system);
+  --f-sans: 'General Sans', sans-serif;
+  --f-serif: 'Sentient', serif;
+  --f-body: var(--f-serif);
+  --f-header: var(--f-sans);
+
+  /* ## Misc */
+  --default-spacing: 1em;
+  --default-width: 100em;
 }
 
 /* ## Default theme */
-@import 'ui-colors/bshow';
-@import 'ui-colors/autumn';
-@import 'ui-colors/winter';
+// @import 'ui-colors/bshow';
+// @import 'ui-colors/autumn';
+// @import 'ui-colors/winter';

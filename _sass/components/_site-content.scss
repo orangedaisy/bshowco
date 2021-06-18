@@ -1,0 +1,47 @@
+.site-content > div {
+  max-width: 80ch;
+  padding-bottom: 2em;
+}
+
+.site-content > header,
+.site-content > div > p:first-child {
+  font-size: clamp(1.5em, 1.5vw, 2.25em);
+}
+
+.site-content > header > h1 {
+  font-size: 2em;
+  letter-spacing: -1px;
+  margin-top: 2em;
+  margin-bottom: .25em;
+}
+
+.site-content > aside > p {
+  font-style: italic;
+  opacity: .75;
+}
+
+.site-content > div > p:first-child {
+  margin-bottom: 1.5em;
+}
+
+.site-content > div :is(h2, h3, h4) {
+  font-weight: 600;
+  opacity: .75;
+}
+
+.site-content code.highlighter-rouge {
+  border: 1px solid currentColor;
+  border-radius: 0.5em;
+  padding: .1em .4em;
+}
+
+/**
+  * nasty seletor to prevent odd double padding issue on multiline code samples
+  * https://github.com/orangedaisy/bshowco/issues/8
+  */
+.site-content [class*="highlighter-"] pre.highlight {
+  border: 1px solid currentColor;
+  border-radius: 0.5em;
+  overflow-x: auto;
+  padding: 1em;
+}

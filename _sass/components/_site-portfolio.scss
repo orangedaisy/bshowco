@@ -1,0 +1,26 @@
+.site-portfolio .site-content > div {
+  display: grid;
+  grid-template-columns: minmax(0, 80ch) 1fr;
+  max-width: none;
+}
+
+.site-portfolio .site-content > div > * {
+  grid-column: 1;
+}
+
+.site-portfolio .site-content > div > .c-portfolio-feature {
+  background-color: var(--c-2);
+  border-radius: 1em;
+  grid-column: 1 / -1;
+  margin: var(--default-spacing) calc(var(--default-spacing) * -1) 0;
+  padding: var(--default-spacing);
+}
+
+.c-portfolio-feature {
+  columns: 2 20rem;
+  gap: var(--default-spacing);
+}
+
+.c-portfolio-feature > * {
+  page-break-inside: avoid;
+}

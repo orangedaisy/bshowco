@@ -25,12 +25,12 @@ recently.
 
 While working on a [particular
 concept](https://xd.adobe.com/view/9f408fc6-a0f9-47b0-ad1e-3d6be4ac253a/) for
-the redesign of my [freelancing site](https://www.orangedaisy.co), I wound up in
-the classic situation of having two components that, apart from a specific
-property, were otherwise identical. "A case for modifier classes," I thought to
-myself.  But writing a base class with modifier classes that override certain
-properties just feels&hellip;weird. I don't think it's wrong, per se, but it
-does feel a little silly having to write some CSS that you then immediately
+the redesign of my freelancing site, I wound up in the classic situation of
+having two components that, apart from a specific property, were otherwise
+identical. "A case for modifier classes," I thought to myself.  But writing a
+base class with modifier classes that override certain properties just
+feels&hellip;weird. I don't think it's wrong, per se, but it does feel a little
+silly having to write some CSS that you then immediately
 *re*write.
 
 Let's take a look at that old way of writing a typical button component with

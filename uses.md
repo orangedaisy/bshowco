@@ -12,8 +12,6 @@ to rectify that.
 * Contents
 {:toc}
 
-* * *
-
 ## Desk area
 
 {% include figure.html src='/assets/images/uses/desk_top.jpg' alt='Picture of my
@@ -204,8 +202,6 @@ phone calls
 - [Cross ballpoint pen](https://www.cross.com/en/products/3502)
 - [Safco Foot Cushion](https://www.amazon.com/gp/product/B001MS6XW8/)
 - Leather desk valet for holding my phone and tv remote
-
-* * *
 
 ## Software
 

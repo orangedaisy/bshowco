@@ -1,24 +1,22 @@
-<header class="o-main-container" role="banner">
+<header class="site-header" role="banner">
 
-  <nav class="c-site-nav">
+  <h1>{{ site.title | escape }}</h1>
 
-    <span class="c-site-title">{{ site.title | escape }}</span>
-
-    <ul class="c-site-nav__list">
-      <li class="c-site-nav__item">
-        <a class="c-site-nav__link" href="{{ "/" | relative_url }}">Home</a>
+  <nav>
+    <ul role="list">
+      <li>
+        <a href="{{ "/" | relative_url }}">Home</a>
       </li>
       {% for my_page in site.pages %}
         {% unless my_page.navbar == false %}
           {% if my_page.title %}
-          <li class="c-site-nav__item">
-            <a class="c-site-nav__link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <li>
+            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           </li>
           {% endif %}
         {% endunless %}
       {% endfor %}
     </ul>
-
   </nav>
 
 </header>

@@ -1,23 +1,10 @@
 ---
 layout: default
 ---
-<article class="c-post s-post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="site-content" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
-    {% comment %}
-      This feels kinda gross, but I can't think of another way to accomplish it.
-    {% endcomment %}
-
-    {% capture image %}
-      {{ page.image }}
-    {% endcapture %}
-
-    {% unless page.image %}
-      {% assign image = "https://source.unsplash.com/collection/9248817/1440x900" %}
-    {% endunless %}
-
-    <img class="post-featured-image" src="{{ image }}" alt="">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <aside>
@@ -34,7 +21,7 @@ layout: default
     {% endif %}
   </aside>
 
-  <div itemprop="articleBody">
+  <div class="has-flow" itemprop="articleBody">
     {{ content }}
   </div>
 

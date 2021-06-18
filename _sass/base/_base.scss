@@ -1,52 +1,39 @@
 html {
-  box-sizing: border-box;
+  color: var(--c-2);
   font-family: var(--f-body);
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  font-size: clamp(16px, 1.5vw, 20px);
 }
 
 body {
-  background-color: var(--c-body-background);
-  color: var(--c-text-body);
+  background-color: var(--c-1);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--c-text-headings);
+main {
+  margin: 0 auto;
+  max-width: var(--default-width);
+  padding: var(--default-spacing);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--f-header);
-  font-weight: normal;
 }
 
 a {
-  color: var(--c-link-default);
-  transition: opacity 200ms ease-out;
+  color: var(--c-3);
+  text-decoration-color: transparent;
+  transition:
+    opacity 150ms ease-out,
+    text-decoration-color 150ms ease-out;
 }
 
-a:visited {
-  color: var(--c-link-visited);
-}
-
-a:hover {
-  opacity: .8;
-}
-
-a:active {
-  color: var(--c-link-active);
+a:hover,
+a:focus {
+  opacity: .85;
+  text-decoration-color: currentColor;
 }
 
 blockquote {
   border-left: .125em solid currentColor;
-  color: var(--c-text-body);
   margin: 1.5em 0 1.5em 2.25em;
   opacity: .85;
   padding: .5em 0 .5em 1em;
@@ -57,12 +44,18 @@ blockquote p {
 }
 
 hr {
-  background-color: var(--c-text-body);
+  background-color: var(--c-3);
   border: 0;
-  height: 1px;
-  margin: 2.25em auto;
-  opacity: .25;
-  width: 80%;
+  height: .063em;
+  margin: 2em 0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+figcaption a {
+  font-style: normal;
 }
 
 // center instagram embeds
@@ -70,7 +63,23 @@ hr {
   margin: 1em auto 0 !important;
 }
 
-ul,
-ul ul {
-  padding-left: 1.5rem;
+// generic class to maintain rhythm of flow content
+.has-flow > * + * {
+  margin-top: 1em;
+}
+
+.has-flow > * + :is(h2, h3, h4) {
+  margin-top: calc(var(--default-spacing) * 2);
+}
+
+.has-flow > :is(h2, h3, h4) + * {
+  margin-top: 0.25em;
+}
+
+.is-sticky {
+  position: sticky;
+}
+
+.is-sticky.is-sticky--top {
+  top: 0;
 }
