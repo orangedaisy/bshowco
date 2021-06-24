@@ -38,7 +38,22 @@
 
 .site-home main > article:nth-child(1) > div a svg {
   display: inline-block;
-  margin-right: 0.25em;
+  margin-right: 0.125em;
   vertical-align: middle;
   width: 1em;
+}
+
+.site-home .homepage-content-links {
+  --spacing: .5em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--spacing) * -1);
+  margin-bottom: calc(var(--spacing) * -1);
+  margin-left: calc(var(--spacing) * -1);
+}
+
+.site-home .homepage-content-links > * {
+  margin-right: var(--spacing);
+  margin-bottom: var(--spacing);
+  margin-left: var(--spacing);
 }
