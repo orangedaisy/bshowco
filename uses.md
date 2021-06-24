@@ -14,6 +14,10 @@ to rectify that.
 
 ## Desk area
 
+These pictures are out of date! We recently bought a house, so we're still
+figuring out the best layout and flow for our office space. For now, enjoy the
+glimpse into the past.
+
 {% include figure.html src='/assets/images/uses/desk_top.jpg' alt='Picture of my
 desk' caption='The desk in all its glory' %}
 
@@ -49,18 +53,11 @@ legs](https://www.hairpinlegs.com/collections/table-legs/products/tube-leg-no-on
 While it isn't the sprawling expanse that the previous desk was, it certainly
 provides plenty of space to spread out.
 
-### 13&Prime; MacBook Pro (Early 2015)
+### Dell Latitude 5411
 
-I'm currently using a 2015 13&Prime; MacBook Pro with 8GB of memory and a 512GB
-SSD.  Four years feels like a long time to use the same MacBook, but it still
-does everything I need it to just as fast as the day I got it. For cases where I
-need more horsepower, like some development work at FPX, I typically remote into
-some sort of server that can be more specially tuned for the task at hand.
-
-I keep my Mac in clamshell mode when I'm at home, and recently grabbed [a
-stand](https://www.amazon.com/gp/product/B0792C2XW7/) to reduce its footprint.
-The stand also elevates the laptop off the desk to guard against any accidental
-spills.
+FPX sent over this new dev machine in early 2021. It's definitely more corporate
+and stuffy-feeling than the MacBook I used for many years, but it gets the job
+done well enough.
 
 ### 12.9&Prime; iPad Pro (2018) with Apple Pencil 2
 
@@ -75,11 +72,7 @@ mostly illegible handwriting is indexed and searchable.
 
 The iPad fills a nice gap in my workflow, making it dead simple to sketch ideas,
 share them with colleagues, iterate through improvements, and jump straight to
-coding their implementation. Over time, I see sketching on the iPad as a way to
-reduce my dependency on prototyping tools like Figma or Adobe XD.
-
-iPadOS was released just as I was updating this section, so I'm excited to see
-how the new features can help to further enhance my productivity.
+coding their implementation.
 
 ### iPhone SE (2020)
 
@@ -94,20 +87,17 @@ things with my wife and her matching iPhone.
 ### Keyboard
 
 This is the item that always grabs attention when I take it out in public. I use
-a [Kinesis Freestyle2 Blue Wireless Ergonomic Keyboard for
-Mac](https://www.amazon.com/Freestyle2-Wireless-Ergonomic-Keyboard-Separation/dp/B00V6WWYN2/),
-with the extra [VIP3 Accessory
+a [Kinesis Freestyle2 Ergonomic Keyboard for
+PC](https://www.amazon.com/gp/product/B0089ZYMGQ/), with the extra [VIP3
+Accessory
 Kit](https://www.amazon.com/Accessory-Kinesis-Freestyle2-Keyboard-KIN-FS-VIP3/dp/B008BVNQW4/),
 and I can't imagine using anything else. My ergonomic keyboard journey started
 with the crowd-favorite [Microsoft Natural Ergonomic Keyboard
 4000](https://www.amazon.com/gp/product/B000A6PPOK/), but after encountering
 some muscle strain from constantly reaching across the numpad to use the mouse,
-I went searching for something else.
-
-The Kinesis allows my arms to rest in a much more natural position when typing,
-as well as freeing up space inside the keyboard for my mouse and notebooks. It
-connects over bluetooth and has astonishingly long battery life. Probably the
-best thing I have on my desk.
+I went searching for something else. The Kinesis allows my arms to rest in a
+much more natural position when typing, as well as freeing up space inside the
+keyboard for my mouse and notebooks.
 
 ### Mouse
 
@@ -123,41 +113,16 @@ improvement over what I had.
 
 ### Displays
 
-I've recently pared down to just one monitor after using two for a good while.
-The Dell S2340M that fills that role is one of the oldest tech items I still
-use. It only has DVI, so I use a [Mini DisplayPort to DVI
-cable](https://www.amazon.com/gp/product/B01KAM3ICO/) to connect it to my Mac.
-
-I also have an [Insignia Roku
-TV](https://www.bestbuy.com/site/insignia-39-class-38-5-diag--led-1080p-smart-hdtv-roku-tv/4863802.p?skuId=4863802)
-mounted near my desk as a tertiary display. I can connect to it via HDMI if
-necessary, but I typically just use its smart features and a [2015
-Chromecast](https://store.google.com/product/chromecast_2015) to put on
-background media.
-
-We nabbed a pair of [Google Nest
-Hubs](https://store.google.com/us/product/google_nest_hub) from Costco during
-Black Friday 2018. I keep one hub on my desk to help me manage my personal
-calendar, set reminders, and control our office Chromecast Audio. Occasionally I
-use it to make a phone call as well.
+I'm on the 4k train now. I picked up a
+[LG32UN500-W](https://www.amazon.com/gp/product/B08FPLLX6Y/) earlier this year,
+and it's been a real treat. It doesn't have a ton of features, but I don't need
+much more than a single HDMI for my setup, so it has worked out just fine.
 
 ### Speakers and sound
 
 For personal music and video playing, I have the [Logitech
-Z623](https://www.amazon.com/gp/product/B003VAHYTG/) system hooked up to my Mac.
-For more general background music, I use a [Chromecast
-Audio](https://store.google.com/product/chromecast_audio) connected to a pair of
-Bose bookshelf speakers located on a shelf above my desk. This allows anyone in
-the office to control the music without tying up my workstation.
-
-### Cable organizer
-
-The [MOS Magnetic Cable
-Organizer](https://www.amazon.com/gp/product/B00ADWLJNW/) is a neat little
-problem solver that I grabbed early in 2020. It suctions to the desk and uses
-its four magnets to corral any cables you bring near it. Makes it a breeze to
-pop cables out of the MacBook without worrying about them falling under the
-desk.
+Z623](https://www.amazon.com/gp/product/B003VAHYTG/) system hooked up to my
+laptop.
 
 ### Handmade touches
 
@@ -208,40 +173,19 @@ phone calls
 I'm sure I've missed some hugely important piece of software in this list, but
 here's everything I could think of that I use on a nearly daily basis.
 
-### macOS
+### Windows 10
 
-I'm currently running [macOS 10.14 Mojave](https://www.apple.com/macos/mojave/)
-on my MacBook Pro. I've used various versions of Windows and Ubuntu before this.
-I'll refrain from saying anything too tribal, and stick to the opinion that for
-the kind of work I do, this machine and OS has been the most pleasant experience
-by far. The end &#x1F603;
+My Dell laptop runs Windows 10. I still much prefer macOS. The WSL feature and
+its integration with VSCode is pretty neat, but it overall isn't as comfy an
+experience as what I had on my Mac.
 
-### iTerm2
+### Windows Terminal and VSCode
 
-I try to hang out in the terminal as much as possible. It's the primary place
-where I traverse the filesystem, edit text, use Git, log in to remote servers,
-etc. To help keep all of this in order, I use the excellent
-[iTerm2](https://www.iterm2.com/). I'm sure the built-in terminal app would be
-fine for most of what I do, but iTerm is always recommended for new Mac users.
-After four years, nothing else has managed to lure me away.
-
-### Vim
-
-Yep, I use [Vim](https://www.vim.org/). There are a lot of fancy GUI editors
-these days, but the punishing intricacy of Vim has me firmly in its grasp.
-Nothing else I've used gives me the ability to "edit at the speed of thought,"
-so to speak.
-
-I try to keep my configuration of Vim fairly vanilla, opting for just a few
-plugins and other added niceties. Beyond Tim Pope's
-[vim-cucumber](https://github.com/tpope/vim-cucumber/),
-[vim-fugitive](https://github.com/tpope/vim-fugitive/), and
-[vim-rails](https://github.com/tpope/vim-rails/), the most exciting things I've
-added are the [vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)
-colorscheme and my own custom statusline.
-
-Complex as Vim may be, it's become so ingrained in my brain and muscle memory
-that using anything else is an utter chore.
+I use the new Windows Terminal and VSCode to interact with the codebases for my
+work and personal projects. For text editing in the terminal, I've staretd
+dabbling with [neovim](https://neovim.io/). With VSCode, I use the vim extension
+to help speed up my workflow. I find the vim experience there to be hit-or-miss,
+but on the whole it's better than not having it at all.
 
 ### Git
 
@@ -259,6 +203,12 @@ XD](https://www.adobe.com/products/xd.html), and
 admire the level to which some people can operate them. I just have the hardest
 time adjusting my HTML/CSS/JS-oriented thinking to their differing paradigms.
 
+These days, I do have to use Figma somewhat regularly. I at least appreciate the
+great strides they've made with components and the flexbox-like Auto Layout. The
+prototype experience is still abysmal. It's still a challenge to re-configure my
+brain for the way Figma thinks I should work compared to the way CSS actually
+works.
+
 My ideal process involves sketching in varying levels of fidelity before jumping
 straight into code. To that end, I've taken to using an
 [iPad](#129-ipad-pro-2018-with-apple-pencil-2) with [Goodnotes](#Goodnotes-5)
@@ -272,18 +222,12 @@ other than Google's version of the web. I've also become less invested in the
 Google ecosystem as I dig farther into Apple's, so shedding Chrome hasn't been a
 big loss.
 
-I have the rest of the browser gang for testing, including a couple of Windows
-VMs for checking things out in Internet Explorer and Edge. Though Firefox is my
-daily driver, I've taken to using Safari when I'm running on the Mac's battery
-and simply consuming media. Since it's so tightly coupled and optimized to
-macOS, I get waaaaay better battery life than using Firefox.
-
 ### Slack
 
 Just about every industry-related professional or social conglomeration I'm a
 part of uses [Slack](https://slack.com/) these days. I'm not a huge fan of its
 lack of notification management, but it does its job about as well as any of the
-other options. The recently added dark mode is a nice touch for when I need it.
+other options.
 
 ### Goodnotes 5
 
@@ -317,7 +261,4 @@ the things I'm interested in.
 - [Jekyll](https://jekyllrb.com/) &ndash; static site generator for personal
   projects
 - [11ty](https://www.11ty.io/) &ndash; static site generator for a work project
-- [Alfred](https://www.alfredapp.com/)
 - [f.lux](https://justgetflux.com/)
-- [ImageOptim](https://imageoptim.com/mac)
-- [cocount Battery](https://www.coconut-flavour.com/coconutbattery/)
