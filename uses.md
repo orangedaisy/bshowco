@@ -182,7 +182,7 @@ experience as what I had on my Mac.
 ### Windows Terminal and VSCode
 
 I use the new Windows Terminal and VSCode to interact with the codebases for my
-work and personal projects. For text editing in the terminal, I've staretd
+work and personal projects. For text editing in the terminal, I've started
 dabbling with [neovim](https://neovim.io/). With VSCode, I use the vim extension
 to help speed up my workflow. I find the vim experience there to be hit-or-miss,
 but on the whole it's better than not having it at all.
