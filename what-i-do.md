@@ -105,13 +105,14 @@ wanted to say thank you for structuring it that way. This is very helpful.
 Our primary business at FPX is enterprise B2B software, so I'm unable to share
 details about the exact deliverables I produce.
 
-I do have a few blog posts that cover some interesting challenges I've faced:
+I do have a few blog posts that cover some of what I've done at FPX:
 
-- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
-- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
-- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
+- [How I CSS](/2020/10/25/how-i-css/)
 - [Making the Most of a Bad
   CSSituation](/2020/03/11/making-the-most-of-a-bad-cssituation/)
+- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
+- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
+- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
 
 If there's anything you'd like to know about my
 work as a User Experience Engineer for FPX, [reach out over
