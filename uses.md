@@ -106,11 +106,6 @@ Mouse](https://www.amazon.com/gp/product/B01936N73I/) as my input device of
 choice. Using just my finger tips to move the mouse is a massive relief to the
 normal strain of using more arm and wrist muscles to move a traditional device.
 
-It isn't perfect&mdash;there are occasional connection quirks when waking the Mac
-from sleep, and using its bluetooth option when other bluetooth devices are
-connected to the Mac just doesn't work well at all&mdash;but it's still a huge
-improvement over what I had.
-
 ### Displays
 
 I'm on the 4k train now. I picked up a
