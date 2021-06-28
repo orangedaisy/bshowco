@@ -29,6 +29,10 @@
   opacity: .75;
 }
 
+.site-content a {
+  text-decoration: underline;
+}
+
 .site-content code.highlighter-rouge {
   border: 1px solid currentColor;
   border-radius: 0.5em;
