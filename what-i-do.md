@@ -7,6 +7,8 @@ navbar: false
 
 I'm a full-time *User Experience Engineer* for [FPX](https://www.fpx.com/).
 
+{% include toc.md %}
+
 ### What is a User Experience Engineer?
 
 Great question! I sit at the crossroads of UI, UX, and Front-end Development. I
