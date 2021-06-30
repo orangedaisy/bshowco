@@ -5,7 +5,9 @@ permalink: /what-i-do/
 navbar: false
 ---
 
-I'm a full-time *User Experience Engineer* for [FPX](https://www.fpx.com/).
+I'm a full-time *User Experience Engineer* for [FPX](https://www.fpx.com/). I
+work across the entire Org chart to transform complex SCPQ workflows for OEMs in
+the fluid handling industry into user-friendly experiences.
 
 {% include toc.md %}
 
@@ -14,7 +16,7 @@ I'm a full-time *User Experience Engineer* for [FPX](https://www.fpx.com/).
 Great question! I sit at the crossroads of UI, UX, and Front-end Development. I
 also dabble in business strategy and project management.
 
-At [FPX](https://www.fpx.com/), this means I'm responsible for:
+This means I'm responsible for:
 
 - User research and testing (most often through interviews)
 - Collecting, shaping, and prioritizing requirements
@@ -27,10 +29,6 @@ At [FPX](https://www.fpx.com/), this means I'm responsible for:
 - Collaborating with developers so they're empowered to implement UI features
   without me
 
-I work cross-functionally with customers and their internal representatives,
-executive management, middle management, and developers to create and deliver
-all of the above in a timeline and budget that satisfies everyone's needs.
-
 ### What does a typical day or week look like?
 
 Most days, I'm doing some form of prototyping or asset development. For lower
@@ -41,11 +39,13 @@ that we need higher fidelity, I'll jump into
 sterile environment gives me the space I need to focus on the actual problem at
 hand, without worrying about the overhead of an entire application environment.
 I'm also working on an internal tool to support HTML/CSS/JS mockup development
-without CodePen. When it comes time to commit these artifacts to real code in a
-real application, I use what I explored in the mockup phase to write any
-necessary HTML, CSS, or JS to deliver a solution. I engage with developers early
-and often to make sure my work is documented, understood, and aware of any
-potential pitfalls or limitations on the technical side of things.
+without CodePen.
+
+When it comes time to commit these artifacts to real code in a real application,
+I use what I explored in the mockup phase to write any necessary HTML, CSS, or
+JS to deliver a solution. I engage with developers early and often to make sure
+my work is documented, understood, and aware of any potential pitfalls or
+limitations on the technical side of things.
 
 Outside of putting code on the screen, I also work closely with our customer
 representatives and executive management to ensure my work is aligned with
@@ -57,18 +57,20 @@ any necessary input about our internal goals for a particular set of work.
 ### What have you done lately?
 
 I engage with our sales and marketing teams quite a bit these days to support
-the strategy efforts around a new product offering for our Distributor users. I
-created prototypes in Figma to map user journeys so they can interview potential
-user Orgs and gather feedback.
+the strategy efforts around a new product offering for our Distributor users.
+The SCPQ workflows for these users can be very complex, so I created prototypes
+in Figma to map user journeys and demonstrate key points of interaction. We use
+these prototypes to interview potential user Orgs and gather feedback on how to
+best shape this new product for our customers.
 
 Design process has also been a big theme this year. In addition to working more
 with Figma, I have started to build a new internal tool for developing
 HTML/CSS/JS mockups and prototypes. This work was typically handled in CodePen,
-but the (necessary) roadblocks of another platform have made it difficult to
-collaborate with developers. Building our own in-house tool means my mockups can
-be version-controlled with git, readily shared with other developers, and
-deployed to more contexts to make sharing with stakeholders and customers a
-frictionless process. I'm using the incredible static site generator
+but the friction of importing that work from another platform have made it
+difficult to collaborate with developers. Building our own in-house tool means
+my mockups can be version-controlled with git, readily shared with other
+developers, and deployed to more contexts to make sharing with stakeholders and
+customers a frictionless process. I'm using the incredible static site generator
 [11ty](https://www.11ty.dev/) as the foundation for this project.
 
 ### What have people said about your work?
@@ -102,8 +104,8 @@ wanted to say thank you for structuring it that way. This is very helpful.
 
 ### Where can I view examples of your work at FPX?
 
-Our primary business at FPX is enterprise B2B software, so I'm unable to share
-details about the exact deliverables I produce.
+Our primary business at FPX is enterprise B2B software, so I can't share too
+many details about the exact deliverables I produce.
 
 I do have a few blog posts that cover some of what I've done at FPX:
 
