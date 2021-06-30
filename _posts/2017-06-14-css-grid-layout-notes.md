@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS Grid Layout Notes"
+category: fpx
 ---
 
 This post will serve as a place to collect various interesting bits I

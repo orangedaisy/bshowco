@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Making the Most of a Bad CSSituation"
+category: fpx
 ---
 
 We maintain a decent handful of web applications at FPX to serve our fluid

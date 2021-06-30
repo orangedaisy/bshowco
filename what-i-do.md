@@ -107,12 +107,7 @@ details about the exact deliverables I produce.
 
 I do have a few blog posts that cover some of what I've done at FPX:
 
-- [How I CSS](/2020/10/25/how-i-css/)
-- [Making the Most of a Bad
-  CSSituation](/2020/03/11/making-the-most-of-a-bad-cssituation/)
-- [Multiple Layouts Made Easy with CSS Grid](/2018/06/03/multiple-layouts-made-easy-with-css-grid/)
-- [Intelliquip Featured on Hotjar](/2018/06/06/intelliquip-featured-on-hotjar/)
-- [CSS Grid Layout Notes](/2017/06/14/css-grid-layout-notes/)
+{% include fpx-posts.html %}
 
 If there's anything you'd like to know about my
 work as a User Experience Engineer for FPX, [reach out over

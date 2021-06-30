@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Multiple Layouts Made Easy with CSS Grid"
+category: fpx
 ---
 
 The software we develop at [FPX](https://www.fpx.com) serves a wide

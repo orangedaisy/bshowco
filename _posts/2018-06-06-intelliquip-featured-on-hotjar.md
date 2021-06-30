@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Intelliquip Featured on Hotjar"
+category: fpx
 ---
 
 About a year into my job as User Experience Engineer at [Intelliquip,
