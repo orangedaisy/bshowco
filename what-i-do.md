@@ -6,8 +6,8 @@ navbar: false
 ---
 
 I'm a full-time *User Experience Engineer* for [FPX](https://www.fpx.com/). I
-work across the entire Org chart to transform complex SCPQ workflows for OEMs in
-the fluid handling industry into user-friendly experiences.
+transform complex SCPQ workflows into user-friendly experiences by collaborating
+with developers, product owners, executives, and our OEM and engineer customers.
 
 {% include toc.md %}
 
