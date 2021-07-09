@@ -1,0 +1,39 @@
+:root {
+  /* ## Theme colors */
+  --c-1--hex: #fbf3f2;
+  --c-1--rgb: 251, 243, 242;
+  --c-2--hex: #032539;
+  --c-2--rgb: 3, 37, 57;
+  --c-3--hex: #1c768f;
+  --c-3--rgb: 28, 118, 143;
+  --c-4--hex: #fa991c;
+  --c-4--rgb: 250, 153, 28;
+
+  /* ## Theme, applied */
+  --c-text-body: var(--c-2--hex);
+  --c-link-default: var(--c-3--hex);
+
+  --c-background-body: var(--c-1--hex);
+  --c-background-card: var(--c-background-body);
+  --c-background-feature: var(--c-2--hex);
+  --c-background-code-inline: rgba(var(--c-2--rgb), .125);
+  --c-background-code-block: var(--c-2--hex);
+
+  --c-border: var(--c-2--hex);
+  --c-divider: var(--c-3--hex);
+
+  --c-home-feature-text: var(--c-1--hex);
+  --c-home-feature-link: var(--c-4--hex);
+}
+
+/* ## Theme, applied -- dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-text-body: rgba(var(--c-1--rgb), .9);
+    --c-link-default: var(--c-4--hex);
+    --c-background-body: var(--c-2--hex);
+    --c-background-card: rgba(var(--c-1--rgb), .125);
+    --c-background-code-inline: var(--c-background-card);
+    --c-border: var(--c-background-card);
+  }
+}

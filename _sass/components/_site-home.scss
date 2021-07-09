@@ -1,5 +1,5 @@
 .site-home {
-  background-color: var(--c-2);
+  background-color: var(--c-background-feature);
   display: flex;
   flex-direction: column;
 }
@@ -22,7 +22,7 @@
 }
 
 .site-home main > article:nth-child(1) > div {
-  color: var(--c-1);
+  color: var(--c-home-feature-text);
   font-size: clamp(1.5em, 1.5vw, 2.25em);
   padding: 0 1em 1em;
 }
@@ -33,7 +33,7 @@
 }
 
 .site-home main > article:nth-child(1) > div a {
-  color: var(--c-4);
+  color: var(--c-home-feature-link);
 }
 
 .site-home main > article:nth-child(1) > div a svg {

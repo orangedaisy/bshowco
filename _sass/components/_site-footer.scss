@@ -1,7 +1,7 @@
 .site-footer {
   align-items: center;
-  background-color: var(--c-1);
-  border-top: .125em solid var(--c-2);
+  background-color: var(--c-background-body);
+  border-top: .125em solid var(--c-border);
   flex-wrap: wrap;
   font-family: var(--f-sans);
 }
@@ -23,7 +23,7 @@
 
 .site-footer__icons a {
   display: block;
-  fill: var(--c-3);
+  fill: var(--c-link-default);
   height: 2em;
   width: 2em;
 }

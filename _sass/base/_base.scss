@@ -1,11 +1,11 @@
 html {
-  color: var(--c-2);
+  color: var(--c-text-body);
   font-family: var(--f-body);
   font-size: clamp(16px, 1.5vw, 20px);
 }
 
 body {
-  background-color: var(--c-1);
+  background-color: var(--c-background-body);
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 }
 
 a {
-  color: var(--c-3);
+  color: var(--c-link-default);
   text-decoration-color: transparent;
   transition:
     opacity 150ms ease-out,
@@ -44,7 +44,7 @@ blockquote p {
 }
 
 hr {
-  background-color: var(--c-3);
+  background-color: var(--c-divider);
   border: 0;
   height: .063em;
   margin: 2em 0;

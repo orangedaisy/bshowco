@@ -18,9 +18,9 @@ green     #859900  operators, other keywords
 Modified by Bobby Showalter for https://www.bshow.co/
 */
 
-code.highlighter-rouge { background-color: #03253925; color: var(--c-2); }
+code.highlighter-rouge { background-color: var(--c-background-code-inline); color: var(--c-text-body); }
 .highlighter-rouge > .highlight { background-color: transparent; }
-.highlight { background-color: var(--c-2); color: #93a1a1 }
+.highlight { background-color: var(--c-background-code-block); color: #93a1a1 }
 .highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #93a1a1 } /* Error */
 .highlight .g { color: #93a1a1 } /* Generic */
