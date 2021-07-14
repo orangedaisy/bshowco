@@ -30,6 +30,28 @@ their preferences. It's been an absolute joy observing how different users have
 their UI configured. The compact setting is especially popular with those users
 who are transitioning over from some of our legacy applications.
 
+## Where to start
+
+Adding display density support to our existing *modern* UI took careful
+planning. There are a number of different approaches we could have
+taken&mdash;ranging from the complexity of redesigning every component for every
+density preference, to the simplicity of adding a basic modifier to all existing
+sizing values. In the end, we settled on the simpler side of the spectrum. This
+allowed us to introduce this new concept to our users in a way that had minimal
+impact on the codebase, but would still provide immediate value for those who
+could most benefit from its use. As more advanced use cases pop-up in response
+to this real-world feature, we can use the existing framework to handle those
+changes.
+
+The display density is configured as one of three choices: *default, compact,*
+or *comfortable.* Users don't have the option to change things on a per-page or
+per-component basis; it's all-or-nothing.
+
+To make things as easy as possible in the codebase, we chose to design and
+develop from the "default" perspective. We build our components the way we
+intend for them to look at the standard display density, then use CSS to
+calculate the "compact" and "comfortable" spacing.
+
 ## Basic set up
 
 The display density scale is influenced by three modifiers, defined first as
@@ -94,11 +116,6 @@ custom property in a calc function, like so:
 That `padding` value would then change based on the modifier value of
 `--ui-density`.
 
-As it stands today, we design all components from the `default`-first
-perspective. We may eventually need to be more heavy-handed in how a component
-responds to the `compact` or `comfortable` preferences, but we're sticking with
-the simple approach for now.
-
 ## Developer aids
 
 Having the ability to fine-tune the density of the UI is all well and good on
@@ -128,7 +145,12 @@ preference.
 }
 ```
 
-Have a list of different sizes to apply to the same property? No worries, we can handle that, too:
+This `size()` function also provides some dogfood for our `size-list()` function
+and `space()` mixin.
+
+For a list of sizes, the `size-list()` function iterates through each value in
+the Sass list, runs it through the `size()` function, and returns the full
+result.
 
 ```scss
 // source
@@ -143,8 +165,6 @@ $my-size-list: 'base' '2';
   padding: calc(.5em * var(--ui-density)) calc(1em * var(--ui-density));
 }
 ```
-
-This `size()` function also provides some dogfood for our `space()` SCSS Mixin.
 
 ### SCSS Mixin
 
