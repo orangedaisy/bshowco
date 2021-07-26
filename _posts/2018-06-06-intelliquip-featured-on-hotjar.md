@@ -5,10 +5,11 @@ category: fpx
 ---
 
 About a year into my job as User Experience Engineer at [Intelliquip,
-Inc.](https://intelliquip.com), we were confronted with a difficult user flow
-challenge. We had an existing user set that needed to onboard with a new suite
-of applications, but their previous account details needed to be updated with
-some extra details required by the new software.
+Inc.](https://intelliquip.com) (now part of
+[Revalize](/portfolio#revalize)), we were confronted with a
+difficult user flow challenge. We had an existing user set that needed to
+onboard with a new suite of applications, but their previous account details
+needed to be updated with some extra details required by the new software.
 
 As part of the first-time login experience, these special "half-n-half" users
 were presented with an account details page before completing the login. After

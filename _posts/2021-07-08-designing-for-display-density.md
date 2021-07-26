@@ -5,9 +5,10 @@ category: fpx
 ---
 
 Striking the right balance between an information-rich UI and a more open design
-is always a challenge. At FPX, our software serves the full range of "power" to
-"casual" users. Building a UI that can respond to a display density user
-preference is one way we're working to accommodate people of all backgrounds.
+is always a challenge. At Revalize, our software serves the full range of
+"power" to "casual" users. Building a UI that can respond to a display density
+user preference is one way we're working to accommodate people of all
+backgrounds.
 
 {% include toc.md %}
 

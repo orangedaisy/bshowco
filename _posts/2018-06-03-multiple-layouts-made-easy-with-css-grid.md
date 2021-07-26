@@ -4,8 +4,8 @@ title: "Multiple Layouts Made Easy with CSS Grid"
 category: fpx
 ---
 
-The software we develop at [FPX](https://www.fpx.com) serves a wide
-range of customers from a wide range of industries. Designing for so many
+The software we develop at [Revalize](https://www.revalizesoftware.com) serves a
+wide range of customers from a wide range of industries. Designing for so many
 different types of users can be daunting&mdash;what works for a group of users
 from one company won't necessarily work for another. The most challenging
 problem to solve in our designs is the application's various layout
@@ -145,8 +145,8 @@ used to tell CSS Grid how to visually order the elements without affecting their
 source order. This is all fine and dandy, but how do we handle the case where
 multiple users or organizations want their own layout flavor?
 
-At FPX, we tackled this problem with a `data-layout` attribute on the parent
-grid element, and a simple user account setting to change it. Here's an
+At Revalize, we tackled this problem with a `data-layout` attribute on the
+parent grid element, and a simple user account setting to change it. Here's an
 interactive example (best viewed [directly on
 CodePen](https://codepen.io/bobbyshowalter/pen/e645405042d329ebbf904ed286c661e8?editors=0100)):
 

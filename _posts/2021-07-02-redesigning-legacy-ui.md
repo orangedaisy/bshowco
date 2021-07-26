@@ -4,7 +4,7 @@ title: Redesigning Legacy UI
 category: fpx
 ---
 
-In 2019, FPX launched an initiative to consolidate multiple *legacy* and
+In 2019, Revalize launched an initiative to consolidate multiple *legacy* and
 *modern* products focused on Projects, Quotes, and Orders into a single
 application. Part of this effort involved redesigning the differing *Details*
 views with a new, standard UI.
@@ -26,10 +26,10 @@ caption='Quote Manager, early 2019' %}
 
 ### Project Portal
 
-Project Portal is a *modern* application, launched not long after I joined FPX
-in 2015. This application features a more up-to-date interface with a simpler
-user experience. Like the name implies, Project Portal is all about *Projects.*
-*Quotes* or *Orders* must be managed elsewhere.
+Project Portal is a *modern* application, launched not long after I joined
+Revalize in 2015. This application features a more up-to-date interface with a
+simpler user experience. Like the name implies, Project Portal is all about
+*Projects. Quotes* or *Orders* must be managed elsewhere.
 
 {% include figure.html
 src='/assets/images/redesigning_legacy_ui/project_portal_details.png' alt=''

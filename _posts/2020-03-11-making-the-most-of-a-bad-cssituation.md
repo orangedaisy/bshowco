@@ -4,7 +4,7 @@ title: "Making the Most of a Bad CSSituation"
 category: fpx
 ---
 
-We maintain a decent handful of web applications at FPX to serve our fluid
+We maintain a decent handful of web applications at Revalize to serve our fluid
 handling customers. Some of these applications are shiny and new, and contain
 pretty well-authored CSS that is easily configured and extended. Other
 applications are older, and contain some not-so-great CSS. To be fair, these
