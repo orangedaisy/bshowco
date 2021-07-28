@@ -79,7 +79,7 @@ customers a frictionless process. I'm using the incredible static site generator
 A large part of my job is interacting with customers, whether through
 representatives, or directly. Those customer insights are crucial to the success
 of our applications. Here's what a customer had to say after we gave a demo of a
-new custom feature for a unique workflow they wanted to implement:
+new custom feature I designed for their unique workflow:
 
 > I didn’t want to say this during the call in front of my boss [VP
 Marketing] because [after he said good things about our solution,] I did not
