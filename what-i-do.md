@@ -105,14 +105,8 @@ wanted to say thank you for structuring it that way. This is very helpful.
 
 ### Where can I view examples of your work at Revalize?
 
-Our primary business at Revalize is enterprise B2B software, so I can't share too
-many details about the exact deliverables I produce.
+{% include fpx-posts.md %}
 
-I do have a few blog posts that cover some of what I've done at Revalize:
-
-{% include fpx-posts.html %}
-
-If there's anything you'd like to know about my
-work as a User Experience Engineer for Revalize, [reach out over
-email](mailto:bobby.showalter@gmail.com) and I'll do my best to help answer your
-questions.
+If there's anything else you'd like to know about my work as a User Experience
+Engineer for Revalize, [reach out over email](mailto:bobby.showalter@gmail.com)
+and I'll do my best to answer your questions.
