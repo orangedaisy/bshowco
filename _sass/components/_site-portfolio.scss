@@ -23,4 +23,13 @@
 
 .c-portfolio-feature > * {
   page-break-inside: avoid;
+  margin-bottom: var(--default-spacing);
+}
+
+.c-portfolio-feature > *:last-child {
+  margin-bottom: 0;
+}
+
+.c-portfolio-feature > *:first-child {
+  column-span: all;
 }
