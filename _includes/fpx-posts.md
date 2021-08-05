@@ -3,6 +3,7 @@
 These articles demonstrate how I navigate the UI/UX/Product Design life cycle to
 solve big problems at Revalize:
 
+- [Infinite Landing Page Layouts with CSS Grid]({% post_url 2021-08-05-infinite-landing-page-layouts-with-css-grid %})
 - [Redesigning Legacy UI]({% post_url 2021-07-02-redesigning-legacy-ui %})
 - [Designing for Display Density]({% post_url 2021-07-08-designing-for-display-density %})
 
