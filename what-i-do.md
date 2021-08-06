@@ -5,7 +5,7 @@ permalink: /what-i-do/
 navbar: false
 ---
 
-I'm a full-time *User Experience Engineer* for
+I currently work full-time as the *User Experience Engineer* for
 [Revalize](https://www.revalizesoftware.com/). I transform complex SCPQ
 workflows into user-friendly experiences by collaborating with developers,
 product owners, executives, and our OEM and engineer customers.
