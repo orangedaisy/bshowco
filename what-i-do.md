@@ -5,5 +5,6 @@ permalink: /what-i-do/
 navbar: false
 ---
 
-I currently work full-time as a Senior UX/UI Designer for
-[ICF](https://www.icf.com/). More to come as I explore this new role!
+I currently work full-time as a Senior UX Designer / Developer on the
+Testing and Optimization team for [Dun & Bradstreet](https://www.dnb.com/).
+More to come as I explore this new role!
