@@ -7,7 +7,7 @@ category: fpx
 This post will serve as a place to collect various interesting bits I
 discover about CSS Grid Layout as I use it in projects.
 
-{% include toc.md %}
+{% include "toc" %}
 
 ## IE / Edge doesn't support `grid-{column|row}-gap`
 
@@ -95,8 +95,8 @@ margins without some extra accommodations. Here's a [CodePen
 demo](https://codepen.io/bobbyshowalter/pen/WOVoyo?editors=1100) that
 illustrates the problem:
 
-{% include embed-codepen.html slug-hash='WOVoyo' default-tabs='css,result'
-pen-title='CSS Grid blog post layout' preview='true' %}
+{% include "embed-codepen" slug-hash:'WOVoyo' default-tabs:'css,result'
+pen-title:'CSS Grid blog post layout' preview:'true' %}
 
 By default, the margins between our content blocks collapse, preventing elements
 from getting too spread out. When we toggle on CSS Grid to enable our fancy

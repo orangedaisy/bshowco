@@ -18,16 +18,16 @@ These pictures are out of date! We recently bought a house, so we're still
 figuring out the best layout and flow for our office space. For now, enjoy the
 glimpse into the past.
 
-{% include figure.html src='/assets/images/uses/desk_top.jpg' alt='Picture of my
+{% include 'figure' src='/assets/images/uses/desk_top.jpg' alt='Picture of my
 desk' caption='The desk in all its glory' %}
 
-{% include figure.html src='/assets/images/uses/desk_left.jpg' alt='Picture of
+{% include 'figure' src='/assets/images/uses/desk_left.jpg' alt='Picture of
 the desk from the left side, looking right' caption='' %}
 
-{% include figure.html src='/assets/images/uses/desk_right.jpg' alt='Picture of
+{% include 'figure' src='/assets/images/uses/desk_right.jpg' alt='Picture of
 the desk from the right side, looking left' caption='' %}
 
-{% include figure.html src='/assets/images/uses/reading_corner.jpg'
+{% include 'figure' src='/assets/images/uses/reading_corner.jpg'
 alt='Picture of the reading corner, complete with Windsor chairs, a full
 bookshelf, and Tennessee Volunteers decor' caption='The cozy reading corner' %}
 
@@ -144,7 +144,7 @@ All of these personal touches provide a pleasing contrast to all the tech I
 surround myself with, as well as remind me to take my time and be mindful of the
 things I create.
 
-{% include figure.html src='/assets/images/uses/owen_arlo_reading_corner.jpg'
+{% include 'figure' src='/assets/images/uses/owen_arlo_reading_corner.jpg'
 alt='Owen and Arlo, decked out in their Tennessee Volunteers clothing, enjoying
 the reading corner' caption='Reading corner in action' %}
 

@@ -9,7 +9,7 @@ In 2019, Revalize launched an initiative to consolidate multiple *legacy* and
 application. Part of this effort involved redesigning the differing *Details*
 views with a new, standard UI.
 
-{% include toc.md %}
+{% include "toc" %}
 
 ## In the beginning
 
@@ -20,9 +20,9 @@ earliest days of the company. This application features a table-heavy layout and
 ancient HTML/CSS conventions. Although a user of our applications may also need
 to work with *Projects* and *Orders,* QM only deals with *Quotes.*
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/legacy_qm_details.png' alt=''
-caption='Quote Manager, early 2019' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/legacy_qm_details.png' alt:''
+caption:'Quote Manager, early 2019' %}
 
 ### Project Portal
 
@@ -31,9 +31,9 @@ Revalize in 2015. This application features a more up-to-date interface with a
 simpler user experience. Like the name implies, Project Portal is all about
 *Projects. Quotes* or *Orders* must be managed elsewhere.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/project_portal_details.png' alt=''
-caption='Project Portal, early 2019' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/project_portal_details.png' alt:''
+caption:'Project Portal, early 2019' %}
 
 ## Research and planning
 
@@ -45,9 +45,9 @@ did have a guiding hand in the previous design of the Project Portal *Details*
 view, so I focused most of my energy on the Quote Manager page since it was more
 unfamiliar to me.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/details_first_research.png' alt=''
-caption='Initial questions and observations from reviewing the Quote Manager and
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/details_first_research.png' alt:''
+caption:'Initial questions and observations from reviewing the Quote Manager and
 comparing its UI/X to Project Portal' %}
 
 Early in the research process, I sought more information about the differences
@@ -58,16 +58,16 @@ with our Senior VP of Product Development and Operations, a former industry
 professional, to gather this background information and discuss useful ways to
 draw these concepts together.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/pqo_differences.png' alt=''
-caption='Noting the differences between Projects, Quotes, and Orders' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/pqo_differences.png' alt:''
+caption:'Noting the differences between Projects, Quotes, and Orders' %}
 
 I then wrote down a few more thoughts and met again with our Senior VP to
 discuss an action plan for creating mockups.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/details_more_research.png' alt=''
-caption='More Projects, Quotes, and Orders notes, along with an action plan for
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/details_more_research.png' alt:''
+caption:'More Projects, Quotes, and Orders notes, along with an action plan for
 getting into mockups' %}
 
 One challenge we identified as we started working on mockups was how to
@@ -85,9 +85,9 @@ approachable nomenclature. I then created a plan for restructuring the existing
 content to fit into a new set of tabs that could be used across *Projects,
 Quotes,* and *Orders.*
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/details_new_tabs.png' alt=''
-caption='Determining how to harmonize multiple different content architectures'
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/details_new_tabs.png' alt:''
+caption:'Determining how to harmonize multiple different content architectures'
 %}
 
 I now had a solid understanding of the relationship between our major content
@@ -107,17 +107,17 @@ struggle. I proposed three options&mdash;one that represented our current
 approach, and two that introduced a background panel for the tab controls so
 they would always be legible.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/current_tab_style.png' alt=''
-caption='Details view mockup with the original vertical tab style' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/current_tab_style.png' alt:''
+caption:'Details view mockup with the original vertical tab style' %}
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/new_tab_style.png' alt='' caption='New
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/new_tab_style.png' alt:'' caption:'New
 tab style with background panel' %}
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/new_tab_style_alt.png' alt=''
-caption='New tab style with an additional new card header element' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/new_tab_style_alt.png' alt:''
+caption:'New tab style with an additional new card header element' %}
 
 The final option performed the best when interviewing our customer
 representatives. The background panel behind the tab controls was a welcome
@@ -129,8 +129,8 @@ I also mocked up some ideas for an activity log and the introduction of a
 own crude activity logs, so I saw this as an opportunity to improve on our
 previous attempts now that it would play a much larger role.
 
-{% include figure.html src='/assets/images/redesigning_legacy_ui/activity.png'
-alt='' caption='Improved Activity Log' %}
+{% include "figure" src:'/assets/images/redesigning_legacy_ui/activity.png'
+alt:'' caption:'Improved Activity Log' %}
 
 During my initial research, I discovered that we didn’t have a way to show a
 user how a particular *Project* might relate to its child *Quotes* or *Orders.*
@@ -141,9 +141,9 @@ any way to the user. Bringing all of this functionality into one codebase seemed
 like the perfect opportunity to introduce this quality of life improvement for
 our users.
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/related_work.png' alt=''
-caption='Related Work concept' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/related_work.png' alt:''
+caption:'Related Work concept' %}
 
 If in a *Quote,* for example, the Related Work tab would show the parent
 *Project* and any related *Orders.* Similar relationships would be shown as you
@@ -175,17 +175,17 @@ everything into an implementation environment. I worked with my development team
 to integrate the front-end code into our new application, named *Project / Quote
 Manager.*
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/pqm_details_overview.png' alt=''
-caption='New Overview tab of the Project / Quote Manager application' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/pqm_details_overview.png' alt:''
+caption:'New Overview tab of the Project / Quote Manager application' %}
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/pqm_details_equipment.png' alt=''
-caption='New Equipment tab of the Project / Quote Manager application' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/pqm_details_equipment.png' alt:''
+caption:'New Equipment tab of the Project / Quote Manager application' %}
 
-{% include figure.html
-src='/assets/images/redesigning_legacy_ui/pqm_details_documents.png' alt=''
-caption='New Documents tab of the Project / Quote Manager application' %}
+{% include "figure"
+src:'/assets/images/redesigning_legacy_ui/pqm_details_documents.png' alt:''
+caption:'New Documents tab of the Project / Quote Manager application' %}
 
 The new UI is aided by a "display density" setting, so users who demand a high
 degree of information density can still shrink whitespace down to their desired

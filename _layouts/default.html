@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  {% include 'head' %}
 
   {% assign page_class = "" %}
   {% if page.url == "/" %}
@@ -12,13 +12,13 @@
 
   <body {% if page_class != "" %}class="{{ page_class }}" {% endif %}data-ui-theme="default">
 
-    {% include header.html %}
+    {% include 'header' %}
 
     <main aria-label="Content">
       {{ content }}
     </main>
 
-    {% include footer.html %}
+    {% include 'footer' %}
 
     <!-- <script src="/assets/theme-picker.js"></script> -->
 

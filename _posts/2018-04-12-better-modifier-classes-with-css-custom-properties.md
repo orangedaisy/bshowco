@@ -19,7 +19,7 @@ CSS-Tricks](https://css-tricks.com/difference-between-types-of-css-variables/),
 so in this post I will just focus on a more targeted use case I encountered
 recently.
 
-{% include toc.md %}
+{% include "toc" %}
 
 ## The modifier class "problem"
 
@@ -43,14 +43,14 @@ In the past, you might've configured a "base" button style, then added modifier
 classes that override a specific set of properties, like their
 `background-color` or `font-size`:
 
-{% include embed-codepen.html slug-hash='YYpNrq' default-tabs='css,result'
-pen-title='bshow-better-modifier-classes--old' preview='true' %}
+{% include "embed-codepen" slug-hash:'YYpNrq' default-tabs:'css,result'
+pen-title:'bshow-better-modifier-classes--old' preview:'true' %}
 
 Sass gives us the ability to DRY this up a little bit with lists, maps, and
 loops:
 
-{% include embed-codepen.html slug-hash='jYVyxp' default-tabs='css,result'
-pen-title='bshow-better-modifier-classes--scss-old' preview='true' %}
+{% include "embed-codepen" slug-hash:'jYVyxp' default-tabs:'css,result'
+pen-title:'bshow-better-modifier-classes--scss-old' preview:'true' %}
 
 In either case, we still have to explicitly type out all the properties we want
 to change. It feels clunky writing and rewriting `background-size`, etc. over
@@ -65,8 +65,8 @@ be modifiable, and make those changes without rewriting so many properties.
 We can reassign the custom properties through inline styles (thus eliminating
 the modifier classes all together):
 
-{% include embed-codepen.html slug-hash='KZNaxG' default-tabs='html,result'
-pen-title='bshow-better-modifier-classes--new-1' preview='true' %}
+{% include "embed-codepen" slug-hash:'KZNaxG' default-tabs:'html,result'
+pen-title:'bshow-better-modifier-classes--new-1' preview:'true' %}
 
 *__Note__: I realize the custom property names aren't any shorter than the
 properties they're meant to replace. In practice, I imagine you'd use any sort
@@ -77,5 +77,5 @@ to redefine only the custom properties. Because you're using both the base *and*
 modifier classes together, the scope of your custom properties matches and the
 override works.
 
-{% include embed-codepen.html slug-hash='MrbJPx' default-tabs='css,result'
-pen-title='bshow-better-modifier-classes--new-2' preview='true' %}
+{% include "embed-codepen" slug-hash:'MrbJPx' default-tabs:'css,result'
+pen-title:'bshow-better-modifier-classes--new-2' preview:'true' %}

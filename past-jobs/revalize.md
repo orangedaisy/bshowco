@@ -1,8 +1,7 @@
 ---
 published: false
 layout: page
-title: What I Do
-permalink: /what-i-do/
+title: User Experience Engineer at Revalize
 navbar: false
 ---
 
@@ -11,7 +10,7 @@ I currently work full-time as the *User Experience Engineer* for
 workflows into user-friendly experiences by collaborating with developers,
 product owners, executives, and our OEM and engineer customers.
 
-{% include toc.md %}
+{% include 'toc' %}
 
 ### What is a User Experience Engineer?
 
@@ -106,7 +105,7 @@ wanted to say thank you for structuring it that way. This is very helpful.
 
 ### Where can I view examples of your work at Revalize?
 
-{% include fpx-posts.md %}
+{% include 'fpx-posts' %}
 
 If there's anything else you'd like to know about my work as a User Experience
 Engineer for Revalize, [reach out over email](mailto:bobby.showalter@gmail.com)
