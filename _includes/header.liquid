@@ -5,17 +5,17 @@
   <nav>
     <ul role="list">
       <li>
-        <a href="{{ "/" | url }}">Home</a>
+        <a href="{{ '/' | url }}"{% if page.url == '/' %} aria-current='page'{% endif %}>Home</a>
       </li>
-      {% for my_page in site.pages %}
-        {% unless my_page.navbar == false %}
-          {% if my_page.title %}
-          <li>
-            <a href="{{ my_page.url | url }}">{{ my_page.title | escape }}</a>
-          </li>
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
+      <li>
+        <a href="{{ '/blog/' | url }}"{% if page.fileSlug == 'blog' %} aria-current='page'{% endif %}>Blog</a>
+      </li>
+      <li>
+        <a href="{{ '/portfolio/' | url }}"{% if page.fileSlug == 'portfolio' %} aria-current='page'{% endif %}>Work</a>
+      </li>
+      <li>
+        <a href="{{ '/uses/' | url }}"{% if page.fileSlug == 'uses' %} aria-current='page'{% endif %}>Slash</a>
+      </li>
     </ul>
   </nav>
 
