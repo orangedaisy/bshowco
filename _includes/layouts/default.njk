@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	{% include '../head.njk' %}
+
+	<body class="flow">
+
+		{% include '../nav.njk' %}
+
+		<main class="container">
+
+			{% block content %}{% endblock %}
+
+		</main>
+
+		{% include '../footer.njk' %}
+
+	</body>
+
+</html>

@@ -1,0 +1,469 @@
+@layer foundation {
+  /* variables */
+  :root {
+    /* colors */
+    --c-albescent-white: #f6e7d2;
+    --c-albescent-whiter: #fdf8f3;
+    --c-chathams-blue: #123372;
+    --c-accent: #127251;
+    --c-accent2: #721233;
+    --c-shadow: rgb(200,133,40,.25);
+
+    /* fonts */
+    --f-serif: 'Cooper', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --f-sans: 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+    --f-code: 'Drafting Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+    /* @link https://utopia.fyi/type/calculator?c=330,18,1.25,1488,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    /* size steps */
+    --step--2: clamp(0.72rem, 0.6516rem + 0.3316vi, 0.96rem);
+    --step--1: clamp(0.9rem, 0.8145rem + 0.4145vi, 1.2rem);
+    --step-0: clamp(1.125rem, 1.0181rem + 0.5181vi, 1.5rem);
+    --step-1: clamp(1.4063rem, 1.2727rem + 0.6477vi, 1.875rem);
+    --step-2: clamp(1.7578rem, 1.5908rem + 0.8096vi, 2.3438rem);
+    --step-3: clamp(2.1973rem, 1.9885rem + 1.012vi, 2.9297rem);
+    --step-4: clamp(2.7466rem, 2.4857rem + 1.265vi, 3.6621rem);
+    --step-5: clamp(3.4332rem, 3.1071rem + 1.5812vi, 4.5776rem);
+
+    /* spaces */
+    --space-3xs: clamp(0.3125rem, 0.2947rem + 0.0864vi, 0.375rem);
+    --space-2xs: clamp(0.5625rem, 0.5091rem + 0.2591vi, 0.75rem);
+    --space-xs: clamp(0.875rem, 0.8038rem + 0.3454vi, 1.125rem);
+    --space-s: clamp(1.125rem, 1.0181rem + 0.5181vi, 1.5rem);
+    --space-m: clamp(1.6875rem, 1.5272rem + 0.7772vi, 2.25rem);
+    --space-l: clamp(2.25rem, 2.0363rem + 1.0363vi, 3rem);
+    --space-xl: clamp(3.375rem, 3.0544rem + 1.5544vi, 4.5rem);
+    --space-2xl: clamp(4.5rem, 4.0725rem + 2.0725vi, 6rem);
+    --space-3xl: clamp(6.75rem, 6.1088rem + 3.1088vi, 9rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.3125rem, 0.1878rem + 0.6045vi, 0.75rem);
+    --space-2xs-xs: clamp(0.5625rem, 0.4022rem + 0.7772vi, 1.125rem);
+    --space-xs-s: clamp(0.875rem, 0.6969rem + 0.8636vi, 1.5rem);
+    --space-s-m: clamp(1.125rem, 0.8044rem + 1.5544vi, 2.25rem);
+    --space-m-l: clamp(1.6875rem, 1.3135rem + 1.8135vi, 3rem);
+    --space-l-xl: clamp(2.25rem, 1.6088rem + 3.1088vi, 4.5rem);
+    --space-xl-2xl: clamp(3.375rem, 2.6269rem + 3.6269vi, 6rem);
+    --space-2xl-3xl: clamp(4.5rem, 3.2176rem + 6.2176vi, 9rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(1.125rem, 0.5907rem + 2.5907vi, 3rem);
+
+    /* Grid stuff */
+    --grid-max-width: 93.00rem;
+    --grid-gutter: var(--space-s-l, clamp(1.125rem, 0.5907rem + 2.5907vw, 3rem));
+    --grid-columns: 12;
+
+    /* timings */
+    --t-default: 150ms;
+  }
+
+  @media (prefers-reduced-motion) {
+    :root {
+      --t-default: 0;
+      scroll-behavior: auto;
+    }
+  }
+  
+  @font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 200 800;
+    src: url('../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    font-display: swap;
+    font-style: italic;
+    font-weight: 200 800;
+    src: url('../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Cooper';
+    font-weight: 400;
+    src: url('../fonts/Cooper-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Cooper';
+    font-style: italic;
+    src: url('../fonts/Cooper-Italic.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Cooper';
+    font-weight: 700;
+    src: url('../fonts/Cooper-Bold.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Cooper Swash';
+    font-feature-settings: 'swsh';
+    font-weight: 700;
+    src: url('../fonts/Cooper-Bold.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Drafting Mono';
+    font-weight: 400;
+    src: url('../fonts/Drafting-variable.ttf') format('ttf');
+  }
+
+  /* RESET */
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* Prevent font size inflation */
+  html {
+    -moz-osx-font-smoothing: grayscale;
+    -moz-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    scroll-behavior: smooth;
+    text-size-adjust: none;
+  }
+
+  /* Remove default margin in favour of better control in authored CSS */
+  body, h1, h2, h3, h4, p,
+  figure, blockquote, dl, dd {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    padding-inline-start: 0;
+  }
+  
+  ul ::marker {
+    width: 1em;
+  }
+
+  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+    margin-block: 0;
+  }
+
+  /* Set core body defaults */
+  body {
+    background-color: var(--c-albescent-white);
+    color: var(--c-chathams-blue);
+    font-family: var(--f-sans);
+    font-size: var(--step-0);
+    line-height: 1.5;
+    min-height: 100svh;
+    padding: var(--grid-gutter);
+  }
+
+  /* Set shorter line heights on headings and interactive elements */
+  h1, h2, h3, h4,
+  button, input, label {
+    line-height: 1.1;
+  }
+
+  /* balance heading text, set heading opacity for readability */
+  h1, h2,
+  h3, h4 {
+    font-family: var(--f-serif);
+    opacity: .85;
+    text-wrap: pretty;
+  }
+  
+  h1 {
+    font-family: 'Cooper Swash', var(--f-serif);
+    font-size: var(--step-3);
+    line-height: 1.063;
+    text-wrap: balance;
+  }
+
+  h2 {
+    font-size: var(--step-2);
+  }
+
+  h3 {
+    font-size: var(--step-1);
+  }
+
+  h4 {
+    font-size: var(--step-0);
+  }
+
+  /* A elements that don't have a class get default styles */
+  a {
+    color: var(--c-accent);
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: .063em;
+    text-underline-offset: .125em;
+  }
+  
+  a:hover {
+    text-decoration: currentColor wavy underline .063em;
+  }
+  
+  a:visited {
+    color: var(--c-accent2);
+  }
+
+  /* Make images easier to work with */
+  img,
+  picture {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+  input, button,
+  textarea, select {
+    font: inherit;
+  }
+
+  /* Make sure textareas without a rows attribute are not tiny */
+  textarea:not([rows]) {
+    min-height: 10em;
+  }
+
+  /* Anything that has been anchored to should have extra scroll margin */
+  :target {
+    scroll-margin-block: 1em;
+  }
+
+  /* OTHER BASE STYLES */
+  kbd,
+  code,
+  pre {
+    border-radius: .5em;
+    box-shadow: inset 0 .25em .5em var(--c-shadow);
+    font-family: var(--f-code);
+    padding: .25em;
+  }
+
+  ::selection {
+    background-color: var(--c-shadow);
+  }
+}
+
+/* STYLES */
+
+@layer styles {
+  .flow {
+    --flow-unit: 1em;
+  }
+  
+  .flow > * {
+    margin-block: 0;
+  }
+  
+  .flow > * + * {
+    margin-block-start: var(--flow-unit);
+  }
+  
+  .flow.flow--small > * + *,
+  .flow > :where(h1, h2, h3, h4) + * {
+    margin-block-start: calc(var(--flow-unit) / 2);
+  }
+  
+  .flow.flow--large > * + * {
+    margin-block-start: calc(var(--flow-unit) * 2);
+  }
+  
+  .simple-button {
+    background-image: none;
+    border: .063em solid var(--c-albescent-white);
+    border-bottom-width: .125em;
+    border-radius: .25em;
+    box-shadow: 0 .125em .25em var(--c-shadow);
+    color: var(--c-accent);
+    display: inline-block;
+    line-height: 1;
+    padding: var(--space-2xs);
+    transition:
+      background-image 150ms ease-out,
+      box-shadow 150ms ease-out,
+      transform 150ms ease-out;
+  }
+  
+  .simple-button:hover {
+    background-image:
+      radial-gradient(
+        circle at center,
+        transparent,
+        transparent 65%,
+        var(--c-albescent-white)
+      );
+    box-shadow: .063em .25em .375em var(--c-shadow);
+    transform: translateY(-.125em);
+  }
+  
+  .simple-button:focus-within {
+    outline: .125em solid var(--c-accent);
+    outline-offset: .125em;
+  }
+  
+  .simple-button:active {
+    box-shadow: 0 .063em .125em var(--c-shadow);
+    transform: translateY(.125em);
+  }
+  
+  .container {
+    margin-inline: auto;
+    max-inline-size: 75rem;
+  }
+  
+  #page_header {
+  }
+  
+  #page_nav {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--grid-gutter);
+  }
+  
+  #wordmark {
+    font-family: 'Cooper Swash', var(--f-serif);
+    font-weight: 700;
+    margin-inline-end: auto;
+  }
+  
+  #page_nav > [role='list'] {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--grid-gutter);
+  }
+  
+  #page_nav .is-current {
+    color: currentColor;
+    cursor: default;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  #page_nav .is-current::before {
+    content: '*';
+    display: inline-block;
+    font-family: var(--f-serif);
+    margin-inline-end: var(--space-3xs);
+    vertical-align: middle;
+  }
+  
+  /**
+   * TODO: add display settings popover
+   * ----
+   * https://hidde.blog/positioning-anchored-popovers/
+   * https://developer.chrome.com/blog/anchor-positioning-api
+   **/
+  #page_nav [aria-hidden] {
+    align-self: flex-end;
+  }
+  
+  #page_nav [popovertarget] {
+    background-color: transparent;
+    border: 0;
+    line-height: 1;
+    padding: 0;
+  }
+  
+  #page_nav [popover]:popover-open {
+  }
+  
+  /**
+   * Resume the rest of the CSS
+   **/
+  #page {
+  }
+  
+  article {
+    background-color: var(--c-albescent-whiter);
+    border-radius: .5em;
+    box-shadow: 0 0 1em var(--c-shadow);
+    padding: var(--grid-gutter);
+  }
+  
+  article a svg {
+    block-size: 1em;
+    display: inline-block;
+    inline-size: 1em;
+    margin-inline-end: var(--space-3xs);
+    vertical-align: bottom;
+  }
+  
+  article img {
+    border-radius: .25em;
+  }
+  
+  article header .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--grid-gutter);
+    justify-content: space-between;
+    font-family: var(--f-serif);
+  }
+  
+  article header h1 {
+    margin: var(--space-l-xl) auto 0;
+    max-inline-size: 40rem;
+    text-align: center;
+    text-wrap: balance;
+  }
+  
+  article header .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3xs);
+    justify-content: center;
+    font-size: var(--step--1);
+    margin-block-start: var(--space-xs);
+  }
+  
+  article header + * {
+    margin-block-start: var(--space-l-xl);
+  }
+  
+  .homepage {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: var(--grid-gutter);
+  }
+  
+  .homepage aside {
+    order: 1;
+  }
+  
+  .homepage-content-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2xs);
+  }
+
+  article.post h2:target {
+    border-radius: var(--space-3xs);
+    outline: .063em solid currentColor;
+    outline-offset: var(--space-3xs);
+  }
+
+  article.post h2:target::before {
+    content: '\2767';
+    display: inline-block;
+    padding-inline-end: var(--space-3xs);
+  }
+
+  #page_footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--grid-gutter);
+    justify-content: space-between;
+  }
+
+  @view-transition {
+    navigation: auto;
+  }
+}

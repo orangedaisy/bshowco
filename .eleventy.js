@@ -4,6 +4,8 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 module.exports = function (eleventyConfig) {
 	// Enable syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
+	// Pass Assets
+	eleventyConfig.addPassthroughCopy('assets');
 	// Make Liquid capable of rendering "partials"
 	eleventyConfig.setLiquidOptions({
 		dynamicPartials: true,
