@@ -6,7 +6,8 @@
 
 		<header>
 			<div class="meta">
-				<p>&numero; post number</p>
+				{% set index = collections.post | getCollectionItemIndex %}
+				<p>&numero; {{ index + 1 }}</p>
 				<p>{{ page.date | postDate }}</p>
 			</div>
 			<h1>{{ title }}</h1>
