@@ -13,11 +13,13 @@
 			{% if tags %}
 			<ul class="tags" role="list" aria-label="Post Tags">
 				{% for tag in tags %}
-					<li>
-						<a class="simple-button" href="#">
-							<span aria-hidden="true">#</span>{{ tag }}
-						</a>
-					</li>
+					{% if tag != 'post' %}
+						<li>
+							<a class="simple-button" href="#">
+								<span aria-hidden="true">#</span>{{ tag }}
+							</a>
+						</li>
+					{% endif %}
 				{% endfor %}
 			</ul>
 		{% endif %}

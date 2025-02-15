@@ -1,0 +1,24 @@
+---
+eleventyImport:
+  collections: ["post"]
+---
+
+{% extends 'layouts/default.njk' %}
+
+{% block content %}
+	<article class="flow flow--large">
+		<header>
+			<h1>Blog</h1>
+		</header>
+
+		<ul class="flow">			
+		{% for post in collections.post | reverse %}
+			<li>
+				<a href="{{ post.url }}">{{ post.data.title }}</a>
+				&ndash;
+				<small>{{ post.date | postDate }}</small>
+			</li>
+		{% endfor %}
+		</ul>
+	</article>
+{% endblock %}
