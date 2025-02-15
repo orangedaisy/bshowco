@@ -16,7 +16,8 @@
 				href="#">Dun & Bradstreet</a> and father of the <a
 				href="#">Showalter family</a>.</p>
 				<h2>Latest Blog Post</h2>
-				<h3><a href="#">Infinite Landing Page Layouts with CSS Grid</a></h3>
+				{% set allPosts = collections.post | reverse %}
+				<h3><a href="{{ allPosts[0].url }}">{{ allPosts[0].data.title }}</a></h3>
 				<p>I&rsquo;ve written a lot of CSS over the past six years.
 				Here&rsquo;s the opinionated result of all that experience. Maybe some
 				day, after I&rsquo;ve written even more CSS and changed my mind again,
