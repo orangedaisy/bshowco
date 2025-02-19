@@ -23,8 +23,6 @@ source of markup has been made, dare I say, trivial.
 > - Jen Simmons' [Learn CSS
 >   Grid](http://jensimmons.com/post/feb-27-2017/learn-css-grid) post
 
-{% include "toc" %}
-
 ## The old days
 
 Let's focus on the dashboard for a fictitious application, **Super App
@@ -150,9 +148,7 @@ parent grid element, and a simple user account setting to change it. Here's an
 interactive example (best viewed [directly on
 CodePen](https://codepen.io/bobbyshowalter/pen/e645405042d329ebbf904ed286c661e8?editors=0100)):
 
-{% include "embed-codepen" slug-hash:'e645405042d329ebbf904ed286c661e8'
-default-tabs:'css,result' pen-title:'bshow multiple layouts with css grid'
-preview:'true' %}
+{{ codepen('e645405042d329ebbf904ed286c661e8','css,result','bshow multiple layouts with css grid','true') }}
 
 First, let's examine the markup.
 

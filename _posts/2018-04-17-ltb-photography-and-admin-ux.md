@@ -11,8 +11,6 @@ largely for internal use, they rarely get much UX love. When I was tasked with
 creating the website for LTB Photography, it gave me a chance to really focus on
 making the site as easy and delightful to administrate as it is to use.
 
-{% include "toc" %}
-
 ## Content planning
 
 Before we could focus on making the admin area easy to use, we had to figure out
@@ -26,15 +24,11 @@ along with a relevant picture, a blurb describing the photo session, and a link
 to the particular investment's pricing page. The testimonials required an
 investment name, the customer's name, and their comments.
 
-{% include "figure" src:'/assets/images/ltbp-investments-overview.png'
-alt:'All Investments page' caption:'Wedding investment panel on the all
-investments page' %}
+{{ figure('/assets/images/ltbp-investments-overview.png','All Investments page','Wedding investment panel on the all investments page') }}
 
-{% include "figure" src:'/assets/images/ltbp-single-investment.png'
-alt:'Wedding Investment page' caption:'Detail view of wedding investment' %}
+{{ figure('/assets/images/ltbp-single-investment.png','Wedding Investment page','Detail view of wedding investment') }}
 
-{% include "figure" src:'/assets/images/ltbp-testimonials.png' alt:'All
-Testimonials page' caption:'All the Testimonials' %}
+{{ figure('/assets/images/ltbp-testimonials.png','All Testimonials page','All the Testimonials') }}
 
 ## Custom post types
 
@@ -43,11 +37,9 @@ custom post type. I used a combination of built-in WordPress functionality and
 the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin to
 add simple creation pages for Lori.
 
-{% include "figure" src:'/assets/images/ltbp-new-investment.png' alt:'New
-Investment page' caption:'Simple page for adding a new Investment' %}
+{{ figure('/assets/images/ltbp-new-investment.png','New Investment page','Simple page for adding a new Investment') }}
 
-{% include "figure" src:'/assets/images/ltbp-new-testimonial.png' alt:'New
-Testimonial page' caption:'Simple page for adding a new Testimonial' %}
+{{ figure('/assets/images/ltbp-new-testimonial.png','New Testimonial page','Simple page for adding a new Testimonial') }}
 
 Taking the time to create these simple creation pages for Lori means that it's
 trivial for her to add new content to her website. She doesn't have to worry
@@ -63,17 +55,14 @@ WordPress, but it's usually too much power. More importantly, there are settings
 and configuration areas that can be distracting to the client when they're just
 wanting to add or edit some content.
 
-{% include "figure" src:'/assets/images/ltbp-admin.png' alt:'WordPress admin
-view' caption:'The standard admin view in WordPress&mdash;lots of links in the
-sidebar that just aren\'t relevant or helpful to Lori' %}
+{{ figure('/assets/images/ltbp-admin.png','WordPress admin view','The standard admin view in WordPress&mdash;lots of links in the sidebar that just aren\'t relevant or helpful to Lori') }}
 
 In most cases, it's better to give the client an "editor" account. They still
 have permissions to control the content of their site, but without the
 distractions of the other management links that they really shouldn't be messing
 with.
 
-{% include "figure" src:'/assets/images/ltbp-editor.png' alt:'WordPress
-editor view' caption:'Lori\'s view when she logs in to manage her site' %}
+{{ figure('/assets/images/ltbp-editor.png','WordPress editor view','Lori\'s view when she logs in to manage her site') }}
 
 Much better! Now Lori only sees links that are useful to her&mdash;links to
 manage her investments, testimonials, and other content. Creating this targeted

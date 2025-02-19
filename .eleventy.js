@@ -26,8 +26,16 @@ module.exports = function (eleventyConfig) {
 		// 'em with the padding
 		return number.toLocaleString().padStart(3, '0');
 	});
+	// Import macros
+	eleventyConfig.addPreprocessor('macro-inject', '.njk,.md', (data, content) => {
+		return `
+			{% from 'codepen.njk' import codepen with context %}\n
+			{% from 'figure.njk' import figure with context %}\n` + content;
+	});
 
 	return {
+		// Use Nunjucks as Markdown engine instead of Liquid (default)
+		markdownTemplateEngine: "njk",
 		dir: {
 			layouts: "_layouts"
 		}

@@ -10,8 +10,6 @@ branding. When we began the development of Portal Center to serve as the new
 "front page" of our application suite, I built a powerful, flexible system that
 could accommodate any layout a customer could imagine.
 
-{% include "toc" %}
-
 ## One page to rule them all
 
 Project Portal was one of the first "modern" applications we launched in 2015.
@@ -22,10 +20,8 @@ important colors, background images, and more, we did not anticipate the
 interest in modifying the layout and appearance of the Project Portal landing
 page. Every customer's page looked roughly the same.
 
-{% include "figure" src:'/assets/images/landing_pages/old.png' alt:''
-caption:'Original Project Portal landing page' %}
-{% include "figure" src:'/assets/images/landing_pages/taco.png' alt:''
-caption:'Taco Project Portal landing page' %}
+{{ figure('/assets/images/landing_pages/old.png','','Original Project Portal landing page') }}
+{{ figure('/assets/images/landing_pages/taco.png','','Taco Project Portal landing page') }}
 
 ## Hands across the sea
 
@@ -87,11 +83,15 @@ There are five "plug-n-play" layouts available to help our customers get the
 ball rolling. Every layout is built on the exact same set of HTML; the layout is
 driven entirely by CSS.
 
-{% include "figure" src:'/assets/images/landing_pages/1.png' alt:'' caption:'Portal Center landing page 1' %}
-{% include "figure" src:'/assets/images/landing_pages/2.png' alt:'' caption:'Portal Center landing page 2' %}
-{% include "figure" src:'/assets/images/landing_pages/3.png' alt:'' caption:'Portal Center landing page 3' %}
-{% include "figure" src:'/assets/images/landing_pages/4.png' alt:'' caption:'Portal Center landing page 4' %}
-{% include "figure" src:'/assets/images/landing_pages/5.png' alt:'' caption:'Portal Center landing page 5' %}
+{{ figure('/assets/images/landing_pages/1.png','','Portal Center landing page 1') }}
+
+{{ figure('/assets/images/landing_pages/2.png','','Portal Center landing page 2') }}
+
+{{ figure('/assets/images/landing_pages/3.png','','Portal Center landing page 3') }}
+
+{{ figure('/assets/images/landing_pages/4.png','','Portal Center landing page 4') }}
+
+{{ figure('/assets/images/landing_pages/5.png','','Portal Center landing page 5') }}
 
 I have a set of variables and other SCSS helpers to streamline the easier
 customization tasks. For something more complex, I build the page from scratch
@@ -102,10 +102,10 @@ so I don't have to spend as much time overwriting existing styles.
 Here are some examples from real landing pages in use today. Can you spot which
 landing page option serves as the foundation for each customer?
 
-{% include "figure" src:'/assets/images/landing_pages/acme.png' alt:'' caption:'"Archimedes" landing page' %}
-{% include "figure" src:'/assets/images/landing_pages/nov.png' alt:'' caption:'NOV landing page' %}
-{% include "figure" src:'/assets/images/landing_pages/brentwood.png' alt:'' caption:'Brentwood landing page' %}
-{% include "figure" src:'/assets/images/landing_pages/oilgear.png' alt:'' caption:'Oilgear landing page' %}
+{{ figure('/assets/images/landing_pages/acme.png','','"Archimedes" landing page') }}
+{{ figure('/assets/images/landing_pages/nov.png','','NOV landing page') }}
+{{ figure('/assets/images/landing_pages/brentwood.png','','Brentwood landing page') }}
+{{ figure('/assets/images/landing_pages/oilgear.png','','Oilgear landing page') }}
 
 The new landing page functionality in Portal Center has been a breath of fresh
 air for our customers. Having total control over the appearance of the landing
