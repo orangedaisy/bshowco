@@ -1,13 +1,29 @@
 @layer foundation {
   /* variables */
   :root {
+		/* enable light and dark mode */
+		color-scheme: light dark;
+
     /* colors */
     --c-albescent-white: #f6e7d2;
     --c-albescent-whiter: #fdf8f3;
     --c-chathams-blue: #123372;
-    --c-accent: #127251;
-    --c-accent2: #721233;
+		--c-chathams-blue-darker: #0a1c3f;
+		--c-dark-cyan: #127251;
+		--c-light-cyan: #62e6b9;
+		--c-dark-pink: #721233;
+		--c-light-pink: #f4b7cc;
     --c-shadow: rgb(200,133,40,.25);
+		--c-shadow-light: rgb(200,133,40,.25);
+		--c-shadow-dark: rgb(47,107,222,.25);
+
+		/* color scheme */
+		--c-background: light-dark(var(--c-albescent-white), var(--c-chathams-blue-darker));
+		--c-surface: light-dark(var(--c-albescent-whiter), var(--c-chathams-blue));
+		--c-foreground: light-dark(var(--c-chathams-blue), var(--c-albescent-white));
+		--c-accent: light-dark(var(--c-dark-cyan), var(--c-light-cyan));
+		--c-accent2: light-dark(var(--c-dark-pink), var(--c-light-pink));
+		--c-shadow: light-dark(var(--c-shadow-light), var(--c-shadow-dark));
 
     /* fonts */
     --f-serif: 'Cooper', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -154,8 +170,8 @@
 
   /* Set core body defaults */
   body {
-    background-color: var(--c-albescent-white);
-    color: var(--c-chathams-blue);
+    background-color: var(--c-background);
+    color: var(--c-foreground);
     font-family: var(--f-sans);
     font-size: var(--step-0);
     line-height: 1.5;
@@ -281,11 +297,10 @@
   
   .simple-button {
     background-image: none;
-    border: .063em solid var(--c-albescent-white);
+    border: .063em solid var(--c-background);
     border-bottom-width: .125em;
     border-radius: .25em;
     box-shadow: 0 .125em .25em var(--c-shadow);
-    color: var(--c-accent);
     display: inline-block;
     line-height: 1;
     padding: var(--space-2xs);
@@ -301,7 +316,7 @@
         circle at center,
         transparent,
         transparent 65%,
-        var(--c-albescent-white)
+        var(--c-background)
       );
     box-shadow: .063em .25em .375em var(--c-shadow);
     transform: translateY(-.125em);
@@ -387,7 +402,7 @@
   }
   
   article {
-    background-color: var(--c-albescent-whiter);
+    background-color: var(--c-surface);
     border-radius: .5em;
     box-shadow: 0 0 1em var(--c-shadow);
     padding: var(--grid-gutter);
