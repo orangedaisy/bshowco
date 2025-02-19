@@ -1,5 +1,4 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
@@ -16,8 +15,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('postDate', (dateObj) => {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
-	// Enable WebC
-	eleventyConfig.addPlugin(pluginWebc);
 	// Pad beginning of blog post number with leading zeros
 	eleventyConfig.addFilter('postNumber', (number) => {
 		// increment post number by 1 since collections start at 0
