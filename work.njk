@@ -1,0 +1,34 @@
+{% extends 'layouts/default.njk' %}
+
+{% block content %}
+
+<article>
+	<header>
+		<h1>Work</h1>
+	</header>
+
+	<div class="flow">
+		{% renderTemplate "md" %}
+## What do we need on this page?
+
+### Work History
+- job
+	- dates
+	- key responsibilities
+	- major accomplishments
+	- feedback
+	- tagged blog posts
+
+### Side Projects
+- name
+- description
+- link, if applicable
+
+## How to organize?
+- Might be nice to organize each snippet into its own file and then render the
+list of them here with our newfound `renderTemplate` and `renderFile` friends
+		{% endrenderTemplate %}
+	</div>
+</article>
+
+{% endblock %}

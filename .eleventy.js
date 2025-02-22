@@ -1,9 +1,12 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { DateTime } = require("luxon");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
 	// Enable syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
+	// Enable renderTemplate
+	const { EleventyRenderPlugin } = await import("@11ty/eleventy");
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	// Pass Assets
 	eleventyConfig.addPassthroughCopy('assets');
 	// Make Liquid capable of rendering "partials"
