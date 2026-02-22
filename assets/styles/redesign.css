@@ -13,6 +13,9 @@
 		--c-light-cyan: #62e6b9;
 		--c-dark-pink: #721233;
 		--c-light-pink: #f4b7cc;
+		--c-shadow: rgb(200,133,40,.25);
+		--c-shadow-light: rgb(200,133,40,.25);
+		--c-shadow-dark: rgb(47,107,222,.25);
 
 		/* color scheme */
 		--c-background: light-dark(var(--c-albescent-white), var(--c-chathams-blue-darker));
@@ -252,8 +255,9 @@
   :is(p, ul) kbd,
   :is(p, ul) code,
   pre {
-		background-color: var(--c-background);
+		/* background-color: var(--c-background); */
     border-radius: .5em;
+		box-shadow: inset 0 .25em .5em var(--c-shadow);
     font-family: var(--f-code);
 		font-feature-settings: 'calt' 0, 'cv01', 'cv02';
     padding: .063em .25em;
@@ -264,7 +268,8 @@
 	}
 
   ::selection {
-    background-color: initial;
+    background-color: var(--c-foreground);
+		color: var(--c-surface);
   }
 }
 
@@ -290,6 +295,43 @@
   
   .flow.flow--large > * + * {
     margin-block-start: calc(var(--flow-unit) * 2);
+  }
+
+  .simple-button {
+    background-image: none;
+    border: .063em solid var(--c-background);
+    border-bottom-width: .125em;
+    border-radius: .25em;
+    box-shadow: 0 .125em .25em var(--c-shadow);
+    display: inline-block;
+    line-height: 1;
+    padding: var(--space-2xs);
+    transition:
+      background-image 150ms ease-out,
+      box-shadow 150ms ease-out,
+      transform 150ms ease-out;
+  }
+  
+  .simple-button:hover {
+    background-image:
+      radial-gradient(
+        circle at center,
+        transparent,
+        transparent 65%,
+        var(--c-background)
+      );
+    box-shadow: .063em .25em .375em var(--c-shadow);
+    transform: translateY(-.125em);
+  }
+  
+  .simple-button:focus-within {
+    outline: .125em solid var(--c-accent);
+    outline-offset: .125em;
+  }
+  
+  .simple-button:active {
+    box-shadow: 0 .063em .125em var(--c-shadow);
+    transform: translateY(.125em);
   }
   
   .container {
