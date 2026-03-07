@@ -271,6 +271,11 @@
     background-color: var(--c-foreground);
 		color: var(--c-surface);
   }
+
+	figcaption {
+		font-size: var(--step--1);
+		font-style: italic;
+	}
 }
 
 /* STYLES */
