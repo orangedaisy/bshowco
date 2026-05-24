@@ -15,7 +15,7 @@
 		--c-light-pink: #f4b7cc;
 		--c-shadow: rgb(200,133,40,.25);
 		--c-shadow-light: rgb(200,133,40,.25);
-		--c-shadow-dark: rgb(47,107,222,.25);
+		--c-shadow-dark: rgb(0,0,0,0);
 
 		/* color scheme */
 		--c-background: light-dark(var(--c-albescent-white), var(--c-chathams-blue-darker));
@@ -23,6 +23,7 @@
 		--c-foreground: light-dark(var(--c-chathams-blue), var(--c-albescent-white));
 		--c-accent: light-dark(var(--c-dark-cyan), var(--c-light-cyan));
 		--c-accent2: light-dark(var(--c-dark-pink), var(--c-light-pink));
+		--c-shadow: light-dark(var(--c-shadow-light), var(--c-shadow-dark));
 
     /* fonts */
     --f-serif: 'Cooper', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -255,7 +256,7 @@
   :is(p, ul) kbd,
   :is(p, ul) code,
   pre {
-		/* background-color: var(--c-background); */
+		background-color: light-dark(transparent, var(--c-background));
     border-radius: .5em;
 		box-shadow: inset 0 .25em .5em var(--c-shadow);
     font-family: var(--f-code);
