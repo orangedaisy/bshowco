@@ -454,6 +454,16 @@
   article header + * {
     margin-block-start: var(--space-l-xl);
   }
+
+	article blockquote {
+		background-color: light-dark(transparent, var(--c-background));
+		border-inline-start: .25em solid var(--c-foreground);
+		border-radius: .25em;
+		box-shadow: inset 0 .25em .5em var(--c-shadow);
+		margin-inline: auto;
+		max-inline-size: 60rem;
+		padding: var(--space-xs-s);
+	}
   
   .homepage {
     display: grid;

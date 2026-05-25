@@ -1,16 +1,13 @@
 ---
-layout: page
 title: Uses
-permalink: /uses/
 ---
+
+<div class="flow">
 
 I've been cataloguing the [various iterations of my home
 office](https://photos.app.goo.gl/ACREAarZbYRAi4632) for years now, but I
 haven't really kept a record of what kit I'm currently using. Here's my attempt
 to rectify that.
-
-* Contents
-{:toc}
 
 ## Desk area
 
@@ -18,18 +15,13 @@ These pictures are out of date! We recently bought a house, so we're still
 figuring out the best layout and flow for our office space. For now, enjoy the
 glimpse into the past.
 
-{% include 'figure' src='/assets/images/uses/desk_top.jpg' alt='Picture of my
-desk' caption='The desk in all its glory' %}
+{{ figure('/assets/images/uses/desk_top.jpg','Picture of my desk','The desk in all its glory') }}
 
-{% include 'figure' src='/assets/images/uses/desk_left.jpg' alt='Picture of
-the desk from the left side, looking right' caption='' %}
+{{ figure('/assets/images/uses/desk_left.jpg','Picture of the desk from the left side, looking right','') }}
 
-{% include 'figure' src='/assets/images/uses/desk_right.jpg' alt='Picture of
-the desk from the right side, looking left' caption='' %}
+{{ figure('/assets/images/uses/desk_right.jpg','Picture of the desk from the right side, looking left','') }}
 
-{% include 'figure' src='/assets/images/uses/reading_corner.jpg'
-alt='Picture of the reading corner, complete with Windsor chairs, a full
-bookshelf, and Tennessee Volunteers decor' caption='The cozy reading corner' %}
+{{ figure('/assets/images/uses/reading_corner.jpg','Picture of the reading corner, complete with Windsor chairs, a full bookshelf, and Tennessee Volunteers decor','The cozy reading corner') }}
 
 As a general rule, I do everything I can to keep my desk as spotless as
 possible. Clean workspace, clean mindset. There are some things that demand a
@@ -144,9 +136,7 @@ All of these personal touches provide a pleasing contrast to all the tech I
 surround myself with, as well as remind me to take my time and be mindful of the
 things I create.
 
-{% include 'figure' src='/assets/images/uses/owen_arlo_reading_corner.jpg'
-alt='Owen and Arlo, decked out in their Tennessee Volunteers clothing, enjoying
-the reading corner' caption='Reading corner in action' %}
+{{ figure('/assets/images/uses/owen_arlo_reading_corner.jpg','Owen and Arlo, decked out in their Tennessee Volunteers clothing, enjoying the reading corner','Reading corner in action') }}
 
 ### Miscellaneous
 
@@ -257,3 +247,5 @@ the things I'm interested in.
   projects
 - [11ty](https://www.11ty.io/) &ndash; static site generator for a work project
 - [f.lux](https://justgetflux.com/)
+
+</div>

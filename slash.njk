@@ -1,0 +1,26 @@
+---
+layout: page.njk
+title: Slash
+eleventyImport:
+  collections: ["slash"]
+---
+
+<div class="flow">
+	<p>Below is a list of all my /slash/ pages.</p>
+
+	<blockquote class="flow flow--small" cite="https://slashpages.net">
+		<p>Slash pages are common pages you can add to your website, usually with a
+		standard, root-level slug like /now, /about, or /uses. They tend to describe
+		the individual behind the site and are distinguishing characteristics of the
+		IndieWeb.</p>
+		<p>&ndash; Robb Knight, <cite><a href="https://slashpages.net">slashpages.net</a></cite></p>
+	</blockquote>
+
+	<ul class="flow">			
+	{% for post in collections.slash %}
+		<li>
+			<a href="{{ post.url }}">{{ post.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
