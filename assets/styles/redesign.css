@@ -368,14 +368,14 @@
     gap: var(--grid-gutter);
   }
   
-  #page_nav .is-current {
+  #page_nav [aria-current="page"] {
     color: currentColor;
     cursor: default;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration-color: transparent;
   }
   
-  #page_nav .is-current::before {
+  #page_nav [aria-current="page"]::before {
     content: '*';
     display: inline-block;
     font-family: var(--f-serif);

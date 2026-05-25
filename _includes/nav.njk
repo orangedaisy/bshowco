@@ -2,10 +2,10 @@
 	<nav id="page_nav">
 		<span id="wordmark">Bobby Showalter</span>
 		<ul role="list">
-			<li><a href="/">Home</a></li>
-			<li><a href="/blog/">Blog</a></li>
-			<li><a href="/work/">Work</a></li>
-			<li><a href="/slash/">Slash</a></li>
+			<li><a {% if page.url === "/" %}aria-current="page"{% endif %} href="/">Home</a></li>
+			<li><a {% if "blog" in page.url %}aria-current="page"{% endif %} href="/blog/">Blog</a></li>
+			<li><a {% if page.url === "/work/" %}aria-current="page"{% endif %} href="/work/">Work</a></li>
+			<li><a {% if "slash" in page.url %}aria-current="page"{% endif %} href="/slash/">Slash</a></li>
 		</ul>
 	</nav>
 </header>
