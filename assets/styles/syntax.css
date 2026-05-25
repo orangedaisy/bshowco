@@ -21,7 +21,7 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	background: var(--c-background);
+	background: light-dark(transparent, var(--c-background));
 	color: light-dark(#3c3836, #f8f8f2);
 }
 
