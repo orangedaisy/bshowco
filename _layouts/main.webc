@@ -1,5 +1,0 @@
-<!doctype html>
-<html>
-	<head><title>Bobby Showalter</title></head>
-	<body @raw="content"></body>
-</html>
