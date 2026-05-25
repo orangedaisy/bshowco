@@ -369,9 +369,7 @@
   
   #page_nav [aria-current="page"] {
     color: currentColor;
-    cursor: default;
     font-weight: 700;
-    text-decoration-color: transparent;
   }
   
   #page_nav [aria-current="page"]::before {
