@@ -1,35 +1,32 @@
-{% extends 'layouts/default.njk' %}
+---
+layout: default.njk
+---
+<article class="post">
 
-{% block content %}
-
-	<article class="post">
-
-		<header>
-			<div class="meta">
-				{% set index = collections.post | getCollectionItemIndex %}
-				<p>&numero; {{ index | postNumber }}</p>
-				<p>{{ page.date | postDate }}</p>
-			</div>
-			<h1>{{ title }}</h1>
-			{% if tags %}
-			<ul class="tags" role="list" aria-label="Post Tags">
-				{% for tag in tags %}
-					{% if tag != 'post' %}
-						<li>
-							<a class="simple-button" href="#">
-								<span aria-hidden="true">#</span>{{ tag }}
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		{% endif %}
-		</header>
-
-		<div class="flow" itemprop="articleBody">
-			{{ content | safe }}
+	<header>
+		<div class="meta">
+			{% set index = collections.post | getCollectionItemIndex %}
+			<p>&numero; {{ index | postNumber }}</p>
+			<p>{{ page.date | postDate }}</p>
 		</div>
+		<h1>{{ title }}</h1>
+		{% if tags %}
+		<ul class="tags" role="list" aria-label="Post Tags">
+			{% for tag in tags %}
+				{% if tag != 'post' %}
+					<li>
+						<a class="simple-button" href="#">
+							<span aria-hidden="true">#</span>{{ tag }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+	</header>
 
-	</article>
+	<div class="flow" itemprop="articleBody">
+		{{ content | safe }}
+	</div>
 
-{% endblock %}
+</article>
