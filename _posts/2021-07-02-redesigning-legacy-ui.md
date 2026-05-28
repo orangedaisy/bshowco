@@ -9,6 +9,10 @@ In 2019, Revalize launched an initiative to consolidate multiple *legacy* and
 application. Part of this effort involved redesigning the differing *Details*
 views with a new, standard UI.
 
+<!-- omit from toc -->
+## In this post
+[[toc]]
+
 ## In the beginning
 
 ### Quote Manager

@@ -19,6 +19,10 @@ CSS-Tricks](https://css-tricks.com/difference-between-types-of-css-variables/),
 so in this post I will just focus on a more targeted use case I encountered
 recently.
 
+<!-- omit from toc -->
+## In this post
+[[toc]]
+
 ## The modifier class "problem"
 
 While working on a [particular

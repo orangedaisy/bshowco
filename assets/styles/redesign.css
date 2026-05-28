@@ -155,8 +155,13 @@
   ol {
     padding-inline-start: 0;
   }
+
+	ul ul,
+	ol ol {
+		padding-inline-start: 1lh;
+	}
   
-  ul ::marker {
+  :where(ol, ul) ::marker {
     width: 1em;
   }
 
@@ -294,7 +299,7 @@
   }
   
   .flow.flow--small > * + *,
-  .flow > :where(h1, h2, h3, h4) + * {
+  .flow > :where(h1, h2, h3, h4) + *:not(h1, h2, h3, h4) {
     margin-block-start: calc(var(--flow-unit) / 2);
   }
   
@@ -462,6 +467,10 @@
 		max-inline-size: 60rem;
 		padding: var(--space-xs-s);
 	}
+
+	article .table-of-contents > ol {
+		margin-block: 0;
+	}
   
   .homepage {
     display: grid;
@@ -479,13 +488,13 @@
     gap: var(--space-2xs);
   }
 
-  article.post h2:target {
+  article.post :where(h2, h3, h4):target {
     border-radius: var(--space-3xs);
-    outline: .063em solid currentColor;
+    outline: .125rem solid currentColor;
     outline-offset: var(--space-3xs);
   }
 
-  article.post h2:target::before {
+  article.post :where(h2, h3, h4):target::before {
     content: '\2767';
     display: inline-block;
     padding-inline-end: var(--space-3xs);

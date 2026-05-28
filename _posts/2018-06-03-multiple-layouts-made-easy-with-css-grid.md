@@ -12,6 +12,10 @@ problem to solve in our designs is the application's various layout
 requirements. Thanks to CSS Grid Layout, creating multiple layouts from a single
 source of markup has been made, dare I say, trivial.
 
+<!-- omit from toc -->
+## In this post
+[[toc]]
+
 > **N.B.**: This post references [CSS Grid
 > Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), but
 > is not intended to be an introductory tutorial to the technology. If you're

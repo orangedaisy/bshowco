@@ -1,6 +1,8 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+const markdownItToc = require("markdown-it-table-of-contents");
 
 module.exports = async function (eleventyConfig) {
 
@@ -40,7 +42,16 @@ module.exports = async function (eleventyConfig) {
 		html: true,
 		typographer: true
 	}
+
+	let mditTocOptions = {
+		includeLevel: [2,3,4],
+		listType: 'ol',
+		transformContainerOpen: () => {return '<nav class="table-of-contents">'},
+		transformContainerClose: () => {return '</nav>'}
+	}
 	eleventyConfig.setLibrary("md", markdownIt(mditOptions));
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItToc, mditTocOptions));
 
 	return {
 		// Use Nunjucks as Markdown engine instead of Liquid (default)

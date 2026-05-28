@@ -10,6 +10,10 @@ is always a challenge. At Revalize, our software serves the full range of
 user preference is one way we're working to accommodate people of all
 backgrounds.
 
+<!-- omit from toc -->
+## In this post
+[[toc]]
+
 ## The end result
 
 Before we get into the technical details of how we designed for display density,

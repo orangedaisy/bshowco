@@ -11,6 +11,10 @@ largely for internal use, they rarely get much UX love. When I was tasked with
 creating the website for LTB Photography, it gave me a chance to really focus on
 making the site as easy and delightful to administrate as it is to use.
 
+<!-- omit from toc -->
+## In this post
+[[toc]]
+
 ## Content planning
 
 Before we could focus on making the admin area easy to use, we had to figure out

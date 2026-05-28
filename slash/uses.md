@@ -9,6 +9,10 @@ office](https://photos.app.goo.gl/ACREAarZbYRAi4632) for years now, but I
 haven't really kept a record of what kit I'm currently using. Here's my attempt
 to rectify that.
 
+<!-- omit from toc -->
+## On this page
+[[toc]]
+
 ## Desk area
 
 These pictures are out of date! We recently bought a house, so we're still
