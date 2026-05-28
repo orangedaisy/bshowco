@@ -488,13 +488,13 @@
     gap: var(--space-2xs);
   }
 
-  article.post :where(h2, h3, h4):target {
+  article :where(h2, h3, h4):target {
     border-radius: var(--space-3xs);
     outline: .125rem solid currentColor;
     outline-offset: var(--space-3xs);
   }
 
-  article.post :where(h2, h3, h4):target::before {
+  article :where(h2, h3, h4):target::before {
     content: '\2767';
     display: inline-block;
     padding-inline-end: var(--space-3xs);
