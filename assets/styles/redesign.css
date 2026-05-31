@@ -27,7 +27,7 @@
     /* fonts */
     --f-serif: 'Cooper', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --f-sans: 'Atkinson Hyperlegible Next', system-ui, sans-serif;
-    --f-code: 'Maple Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    --f-code: 'Drafting Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=330,18,1.25,1488,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     /* size steps */
@@ -122,9 +122,17 @@
   }
 
 	@font-face {
-		font-family: 'Maple Mono';
+		font-family: 'Drafting Mono';
+		font-style: normal;
 		font-weight: 400;
-		src: url('../fonts/MapleMono[wght].ttf') format('truetype');
+		src: url('../fonts/Drafting[wght].ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Drafting Mono';
+		font-style: italic;
+		font-weight: 400;
+		src: url('../fonts/Drafting-Italic[wght].ttf') format('truetype');
 	}
 
   /* RESET */
