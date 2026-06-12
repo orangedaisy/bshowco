@@ -3,24 +3,15 @@ layout: page.njk
 title: Work
 ---
 <div class="flow">
-	{% renderTemplate "md" %}
-## What do we need on this page?
 
-### Work History
-- job
-- dates
-- key responsibilities
-- major accomplishments
-- feedback
-- tagged blog posts
+	<h2>Career</h2>
 
-### Side Projects
-- name
-- description
-- link, if applicable
+	{% renderFile "./_includes/work/dnb.md" %}
+	{% renderFile "./_includes/work/icf.md" %}
+	{% renderFile "./_includes/work/revalize.md" %}
 
-## How to organize?
-- Might be nice to organize each snippet into its own file and then render the
-list of them here with our newfound `renderTemplate` and `renderFile` friends
-	{% endrenderTemplate %}
+	<h2>Personal</h2>
+
+	{% renderFile "./_includes/work/pokedex.md" %}
+
 </div>
