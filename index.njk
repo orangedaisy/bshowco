@@ -8,16 +8,18 @@ title: 👋 Hi, I'm Bobby.
 	</aside>
 	<div class="latest-post flow">
 		<h2>About Me</h2>
-		<p>I’m a <a href="#">Senior UX Designer / Developer</a> at <a
-		href="#">Dun & Bradstreet</a> and father of the <a
-		href="#">Showalter family</a>.</p>
-		<h2>Latest Blog Post</h2>
-		{% set allPosts = collections.post | reverse %}
-		<h3><a href="{{ allPosts[0].url }}">{{ allPosts[0].data.title }}</a></h3>
-		<p>I&rsquo;ve written a lot of CSS over the past six years.
-		Here&rsquo;s the opinionated result of all that experience. Maybe some
-		day, after I&rsquo;ve written even more CSS and changed my mind again,
-		we&rsquo;ll revisit this post and have a hearty laugh at how naive I
-		was.</p>
+		<p>I’m a <a href="/work/">Senior UX Designer / Developer</a> at <a
+		href="https://www.dnb.com/">Dun & Bradstreet</a> and father of the <a
+		href="https://www.showalter.family">Showalter family</a>.</p>
+
+		<h2>Latest Blog Posts</h2>
+		{% set postslist = collections.post | head(-3) %}
+		<ol reversed>
+		{% for post in postslist | reverse %}
+			<li>
+				<a href="{{ post.url }}">{{ post.data.title }}</a>
+			</li>
+		{% endfor %}
+		</ol>
 	</div>
 </div>
