@@ -1,6 +1,5 @@
 ---
 title: "Alias Git for Your Benefit, Not the Computer's"
-tags: hello world
 ---
 
 I'm a huge fan of Git, and use it on both professional and personal projects.
