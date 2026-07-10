@@ -11,5 +11,5 @@ scattered these QR codes and pictures of their related Pokémon around our home
 for him to find. He picked up on the idea right away and had a blast!
 
 It was a fun challenge to build something like this on a tight deadline and
-bolster my skill set. [Here's a blog post](/2020/10/09/vuejs-zero-to-pokedex/)
+bolster my skill set. [Here's a blog post](/blog/vuejs-zero-to-pokedex/)
 with a high-level overview of the process I took to get to the final product.
