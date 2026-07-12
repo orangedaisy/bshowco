@@ -11,7 +11,7 @@ permalink: /portfolio/
 
 Here's what I'm actively working on these days.
 
-{% include portfolio-now.html %}
+{% include 'portfolio-now' %}
 
 ## Selected Works
 
@@ -33,12 +33,12 @@ It was a fun challenge to build something like this on a tight deadline and
 bolster my skill set. [Here's a blog post](/2020/10/09/vuejs-zero-to-pokedex/)
 with a high-level overview of the process I took to get to the final product.
 
-{% include portfolio-link.html url='https://owen-pokedex.netlify.app/'
+{% include 'portfolio-link' url='https://owen-pokedex.netlify.app/'
 title='POKéDEX app' %}
 
 ### Cordelia Smythe Murder Mysteries
 
-{% include figure.html
+{% include 'figure'
 src='https://www.orangedaisy.co/assets/images/work/csmm_1x.png' alt=''
 caption='' %}
 
@@ -66,12 +66,12 @@ into the world of Cordelia Smythe before they received their murder mystery. I
 think we captured Cordelia's spirit well, and the client was thrilled with the
 result.
 
-{% include portfolio-link.html url='http://cordeliasmythemysteries.com/'
+{% include 'portfolio-link' url='http://cordeliasmythemysteries.com/'
 title='Cordelia Smythe Murder Mysteries' %}
 
 ### Haleigh and Sean wedding website
 
-{% include figure.html
+{% include 'figure'
 src='https://www.orangedaisy.co/assets/images/work/haleighandsean_1x.png' alt=''
 caption='' %}
 
@@ -82,12 +82,12 @@ emphasis on the content and storytelling. This simplicity played an important
 role in ensuring the site was accessible by users (family and friends) of all
 ages, as well as a wide range of devices.
 
-{% include portfolio-link.html url='https://www.orangedaisy.co/haleighandsean/'
+{% include 'portfolio-link' url='https://www.orangedaisy.co/haleighandsean/'
 title='Haleigh and Sean wedding website' %}
 
 ### Brochure site for land for sale
 
-{% include figure.html
+{% include 'figure'
 src='https://www.orangedaisy.co/assets/images/work/shiloh_1x.png' alt=''
 caption='' %}
 
@@ -97,5 +97,5 @@ requirements and ran with an idea to create something that looked like an ad
 you might see in a newspaper, relying on a clearly defined layout to section
 the information.
 
-{% include portfolio-link.html url='https://www.orangedaisy.co/shiloh-lot/'
+{% include 'portfolio-link' url='https://www.orangedaisy.co/shiloh-lot/'
 title='Lot for sale brochure site' %}

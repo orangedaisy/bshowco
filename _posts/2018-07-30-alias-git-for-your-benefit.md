@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Alias Git for Your Benefit, Not the Computer's"
 ---
 

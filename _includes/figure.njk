@@ -1,0 +1,10 @@
+{% macro figure(src, alt, caption) %}
+<figure>
+  <img src="{{ src }}" alt="{{ alt }}">
+  <figcaption>
+    {{ caption }}
+    {% if caption != '' %}&ndash;{% endif %}
+    <a href="{{ src }}">View full size</a>
+  </figcaption>
+</figure>
+{% endmacro %}

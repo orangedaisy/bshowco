@@ -10,21 +10,20 @@ is always a challenge. At Revalize, our software serves the full range of
 user preference is one way we're working to accommodate people of all
 backgrounds.
 
-{% include toc.md %}
+<!-- omit from toc -->
+## In this post
+[[toc]]
 
 ## The end result
 
 Before we get into the technical details of how we designed for display density,
 I'll share some screen shots of the end result.
 
-{% include figure.html src='/assets/images/display_density/default.png' alt=''
-caption='Quote List at Default display density' %}
+{{ figure('/assets/images/display_density/default.png','','Quote List at Default display density') }}
 
-{% include figure.html src='/assets/images/display_density/compact.png' alt=''
-caption='Quote List at Compact display density' %}
+{{ figure('/assets/images/display_density/compact.png','','Quote List at Compact display density') }}
 
-{% include figure.html src='/assets/images/display_density/comfortable.png' alt=''
-caption='Quote List at Comfortable display density' %}
+{{ figure('/assets/images/display_density/comfortable.png','','Quote List at Comfortable display density') }}
 
 Users are able to alter the entire appearance of the UI with a simple toggle in
 their preferences. It's been an absolute joy observing how different users have

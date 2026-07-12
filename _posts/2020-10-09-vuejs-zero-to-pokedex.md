@@ -10,7 +10,9 @@ to lean on my experience in software design and development to deliver a
 successful deployment. This post gives a high-level overview of the steps I took
 to go from Vue.js zero to fully functioning Pokédex app in less than a month.
 
-{% include toc.md %}
+<!-- omit from toc -->
+## In this post
+[[toc]]
 
 ## Birthday plans
 
@@ -55,9 +57,7 @@ Pokémon, they would appear in the Pokédex in a grid view. He could tap on
 Pokémon he already caught to see a "details" view with that Pokémon's
 description, stats, type, etc.
 
-{% include figure.html src='/assets/images/pokedex_first_sketches.jpg'
-alt='First draft notes and sketches of the fledgling Pokedex app'
-caption='Pardon my atrocious handwriting 😬' %}
+{{ figure('/assets/images/pokedex_first_sketches.jpg','First draft notes and sketches of the fledgling Pokedex app','Pardon my atroucious handwriting') }}
 
 ## Charting a course
 
@@ -96,9 +96,7 @@ wrangling plain HTML files.
 This step is where things really came to life, and where I spent most of my
 development time.
 
-{% include figure.html src='/assets/images/pokedex_v2.jpg' alt='Wireframes and
-user journey for version 2 of the Pokedex that allows catching Pokemon with the
-aid of a catch list' caption='' %}
+{{ figure('/assets/images/pokedex_v2.jpg','Wireframes and user journey for version 2 of the Pokedex that allows catching Pokemon with the aid of a catch list','') }}
 
 At this point I was positively ripping through the Vue.js course, selectively
 searching for the pieces I would need to keep this project moving along. Max did
@@ -128,9 +126,7 @@ by [vue-qrcode-reader](https://github.com/gruhn/vue-qrcode-reader). This missing
 piece was all I needed to fully realize the workflow I envisioned before I
 started:
 
-{% include figure.html src='/assets/images/pokedex_final_flow.jpg'
-alt='Wireframes of final Pokedex workflow using the QR code scanner' caption=''
-%}
+{{ figure('/assets/images/pokedex_final_flow.jpg','Wireframes of final Pokedex workflow using the QR code scanner','') }}
 
 With the leftover time I had allotted thinking the QR reader was going to be a
 pain, I also added
@@ -155,8 +151,7 @@ found a Pokémon and got to scan it into his Pokédex.
 
 ### All dressed up and ready to go
 
-{% include figure.html src='/assets/images/owen_pokemon_hunter.jpg' alt='Picture
-of Owen just before he began his Pokemon hunt' caption='' %}
+{{ figure('/assets/images/owen_pokemon_hunter.jpg','Picture of Owen just before he began his Pokemon hunt','') }}
 
 ### Catching Piplup
 

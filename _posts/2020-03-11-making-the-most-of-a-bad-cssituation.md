@@ -17,8 +17,6 @@ In the following examples we'll look at some fun little challenges I've faced,
 and the interesting CSS they've produced, while working on our legacy
 applications.
 
-{% include toc.md %}
-
 ## Replace image with CSS borders
 
 One of our applications heavily features accordions to help manage the dense
@@ -27,8 +25,7 @@ little arrow icons to help the user discern which state the accordion is
 currently in&mdash;open, or closed. Since this app is quite old, these icons are
 actually bitmap images.
 
-{% include figure.html src='/assets/images/accordion_closed.png' alt='accordion
-closed icon' caption='Straight outta 2000' %}
+{{ figure('/assets/images/accordion_closed.png','accordion closed icon','Straight outta 2000') }}
 
 That's not horribly offensive on its own. CSS couldn't have drawn that back in
 2000, so what other options were there? The problem arose when we needed to
@@ -92,9 +89,7 @@ img[src*='_closed'] {
 Check it out in the following
 [CodePen](https://codepen.io/bobbyshowalter/pen/0019518454bd433cac28fc16eb9444a6):
 
-{% include embed-codepen.html slug-hash='0019518454bd433cac28fc16eb9444a6'
-default-tabs='css,result' pen-title='Replace image with CSS border'
-preview='true' %}
+{{ codepen('0019518454bd433cac28fc16eb9444a6','css,result','Replace image with CSS border','true') }}
 
 In the real world, you'll usually get a quick flash of the image-based icon as
 the styles load in, since we can't actually do anything to hide the image. And
