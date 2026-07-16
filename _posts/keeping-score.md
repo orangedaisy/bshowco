@@ -41,7 +41,7 @@ living within the confines of a piece of paper. Sometimes plays need to be
 amended, sometimes I get the substitution wrong, and sometimes I just have to
 rewrite something a dozen times because my handwriting isn't the best. With
 Goodnotes, I can pinch-to-zoom and rewrite to my heart's content without
-litering the page with eraser marks.
+littering the page with eraser marks.
 
 A simple color palette based on the Cubs team colors and the wonderful [Grand
 Sans](https://simplebits.shop/products/grandsans/) and
