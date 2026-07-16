@@ -10,9 +10,7 @@ is always a challenge. At Revalize, our software serves the full range of
 user preference is one way we're working to accommodate people of all
 backgrounds.
 
-<!-- omit from toc -->
-## In this post
-[[toc]]
+{% include 'toc.md' %}
 
 ## The end result
 

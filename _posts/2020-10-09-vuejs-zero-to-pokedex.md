@@ -10,9 +10,7 @@ to lean on my experience in software design and development to deliver a
 successful deployment. This post gives a high-level overview of the steps I took
 to go from Vue.js zero to fully functioning Pokédex app in less than a month.
 
-<!-- omit from toc -->
-## In this post
-[[toc]]
+{% include 'toc.md' %}
 
 ## Birthday plans
 

@@ -10,9 +10,7 @@ branding. When we began the development of Portal Center to serve as the new
 "front page" of our application suite, I built a powerful, flexible system that
 could accommodate any layout a customer could imagine.
 
-<!-- omit from toc -->
-## In this post
-[[toc]]
+{% include 'toc.md' %}
 
 ## One page to rule them all
 
