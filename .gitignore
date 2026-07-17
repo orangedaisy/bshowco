@@ -3,3 +3,10 @@ _site
 .jekyll-metadata
 _drafts
 node_modules/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
