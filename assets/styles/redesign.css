@@ -289,6 +289,12 @@
 		font-size: var(--step--1);
 		font-style: italic;
 	}
+
+	hr {
+		background-color: var(--c-foreground);
+		block-size: 1px;
+		border: 0;
+	}
 }
 
 /* STYLES */
