@@ -1,6 +1,6 @@
 ### [Dun &amp; Bradstreet, Inc.](https://www.dnb.com/)
 
-**Senior UX Designer/Developer**  
+**Senior UX Designer, Digital Experience & Conversion**  
 March 2022 &ndash; October 2026
 
 - Create DNB.com website design system to align cross-functional teams
