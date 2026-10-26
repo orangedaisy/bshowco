@@ -3,9 +3,11 @@
 **Senior UX/UI Designer**  
 September 2021 &ndash; March 2022
 
-- Plan and shape user interface design sprints for multiple agile development
-  teams
-- Design wireframes and mockups in Figma for ServiceNow applications
-- Present design solutions to customer stakeholders
-- Facilitate user acceptance testing to verify design solutions and collect
-  user feedback
+- Planned and shaped user interface design sprints across three agile
+  development teams, structuring collaborative workflows for efficient,
+  predictable delivery
+- Designed wireframes and mockups in Figma for ServiceNow applications,
+  translating requirements into clear interface solutions and presenting
+  rationale to customer stakeholders to drive informed decisions
+- Facilitated user acceptance testing to validate design solutions and feed
+  results into iterative improvement
