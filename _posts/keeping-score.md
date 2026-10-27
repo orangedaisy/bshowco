@@ -1,6 +1,6 @@
 ---
 title: Keeping Score
-date: Created
+date: git Created
 ---
 
 Not in like a vindictive way; in the fun, baseball way! A sport which is,
