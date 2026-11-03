@@ -300,6 +300,18 @@
 /* STYLES */
 
 @layer styles {
+	summary {
+		border: .125rem solid transparent;
+    border-radius: var(--space-3xs);
+		cursor: pointer;
+		padding: var(--space-3xs);
+	}
+
+	summary:hover,
+	summary:focus {
+		border-color: var(--c-foreground);
+	}
+
   .flow {
     --flow-unit: 1lh;
   }
