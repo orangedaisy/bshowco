@@ -522,6 +522,18 @@
     padding-inline-end: var(--space-3xs);
   }
 
+	.bookshelf {
+		display: grid;
+		gap: var(--grid-gutter);
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	}
+
+	.bookshelf img[alt] {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+
   #page_footer {
     display: flex;
     flex-wrap: wrap;

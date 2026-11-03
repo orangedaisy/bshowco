@@ -1,0 +1,35 @@
+---
+title: Bookshelf
+---
+
+<div class="flow">
+
+	<h2>2026</h2>
+
+	<div class="bookshelf">
+
+	{%- for isbn, book in books -%}
+		<div class="flow flow--small">
+			{%- if book.cover -%}
+				<img src="https://covers.openlibrary.org/b/isbn/{{ isbn }}-M.jpg" alt="Cover image of {{ book.title }}" height="276" width="180">
+			{%- else -%}
+				<img src="/assets/images/bookshelf/{{ isbn }}.jpg" alt="Cover image of {{ book.title }}" height="276" width="180">
+			{%- endif -%}
+			<p><strong>{{ book.title }}</strong></p>
+			<p>
+				{%- for author in book.authors -%}
+					{{ author.name }}<br>
+				{%- endfor -%}
+			</p>
+		</div>
+	{%- endfor -%}
+
+	</div>
+
+	<hr>
+
+	<p>Thanks to the excellent <a
+	href="https://openlibrary.org/developers/api">Open Library APIs</a> for
+	providing book data where possible.</p>
+
+</div>
