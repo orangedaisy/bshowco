@@ -1,4 +1,4 @@
-### [Dun &amp; Bradstreet, Inc.](https://www.dnb.com/)
+##### [Dun &amp; Bradstreet, Inc.](https://www.dnb.com/)
 
 **Senior UX Designer, Digital Experience & Conversion**  
 March 2022 &ndash; October 2026

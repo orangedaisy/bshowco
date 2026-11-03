@@ -8,7 +8,20 @@ title: Work
 
 ## Career
 
-### Profile
+### Case Studies
+
+<ul>
+    {%- for post in collections.revalize -%}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
+
+### Resume
+
+<details class="flow">
+<summary>Expand to view resume</summary>
+
+#### Profile
 
 User Experience Designer with 11+ years of experience in design systems,
 front-end development, and accessibility across enterprise B2B products and
@@ -17,10 +30,7 @@ design-to-development handoff, and experimentation tooling that other teams
 rely on to ship consistently. Pairs hands-on craft with process and governance
 work that scales across teams.
 
-### Resume
-
-<details class="flow">
-<summary>Expand to view resume</summary>
+#### Work Experience
 
 {% renderFile "./_includes/work/dnb.md" %}
 
@@ -32,14 +42,6 @@ work that scales across teams.
 
 {% renderFile "./_includes/work/revalize.md" %}
 </details>
-
-### Case Studies
-
-<ul>
-    {%- for post in collections.revalize -%}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
 
 ## Personal
 

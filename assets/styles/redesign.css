@@ -154,7 +154,7 @@
   }
 
   /* Remove default margin in favour of better control in authored CSS */
-  body, h1, h2, h3, h4, p,
+  body, h1, h2, h3, h4, h5, h6, p,
   figure, blockquote, dl, dd {
     margin: 0;
   }
@@ -199,7 +199,8 @@
 
   /* balance heading text, set heading opacity for readability */
   h1, h2,
-  h3, h4 {
+  h3, h4,
+	h5, h6 {
     font-family: var(--f-serif);
     opacity: .85;
     text-wrap: pretty;
@@ -220,7 +221,7 @@
     font-size: var(--step-1);
   }
 
-  h4 {
+  h4, h5, h6 {
     font-size: var(--step-0);
   }
 
@@ -325,7 +326,7 @@
   }
   
   .flow.flow--small > * + *,
-  .flow > :where(h1, h2, h3, h4) + *:not(h1, h2, h3, h4) {
+  .flow > :where(h1, h2, h3, h4, h5, h6) + *:not(h1, h2, h3, h4, h5, h6) {
     margin-block-start: calc(var(--flow-unit) / 2);
   }
   
