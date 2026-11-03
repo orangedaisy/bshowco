@@ -497,22 +497,17 @@
 	article .table-of-contents > ol {
 		margin-block: 0;
 	}
-  
-  .homepage {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: var(--grid-gutter);
-  }
-  
-  .homepage aside {
-    order: 1;
-  }
-  
-  .homepage-content-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-2xs);
-  }
+
+	.homepage {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--grid-gutter);
+		text-wrap: pretty;
+	}
+
+	.homepage > * {
+		flex: 1 0 15rem;
+	}
 
   article :where(h2, h3, h4):target {
     border-radius: var(--space-3xs);
