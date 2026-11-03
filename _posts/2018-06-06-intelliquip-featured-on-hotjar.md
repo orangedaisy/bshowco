@@ -26,5 +26,6 @@ collaboration on Google Docs to make the tweaks and changes necessary to help
 our users.
 
 [Read the Intelliquip feature on Hotjar's
-website](https://www.hotjar.com/customers/intelliquip) for more details and
-quotes from the software's Product Owner, Jon Kern.
+website](https://web.archive.org/web/20251012045631/https://www.hotjar.com/customers/intelliquip/)
+(Internet Archive link because the original page is no longer available) for
+more details and quotes from the software's Product Owner, Jon Kern.
