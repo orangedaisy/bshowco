@@ -15,7 +15,7 @@ layout: default.njk
 			{% for tag in tags %}
 				{% if tag != 'post' %}
 					<li>
-						<a class="simple-button" href="#">
+						<a class="simple-button" href="/tags/{{ tag }}/">
 							<span aria-hidden="true">#</span>{{ tag }}
 						</a>
 					</li>

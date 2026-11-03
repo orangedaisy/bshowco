@@ -5,9 +5,11 @@ toc_heading: On this page
 
 <article>
 
+	{%- if title -%}
 	<header>
 		<h1>{{ title }}</h1>
 	</header>
+	{%- endif -%}
 
 	{{ content | safe }}
 
