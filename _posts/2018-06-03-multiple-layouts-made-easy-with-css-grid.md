@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multiple Layouts Made Easy with CSS Grid"
-category: fpx
+tags: revalize
 ---
 
 The software we develop at [Revalize](https://www.revalizesoftware.com) serves a

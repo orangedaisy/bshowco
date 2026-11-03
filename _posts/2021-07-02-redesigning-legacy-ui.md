@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redesigning Legacy UI
-category: fpx
+tags: revalize
 ---
 
 In 2019, Revalize launched an initiative to consolidate multiple *legacy* and

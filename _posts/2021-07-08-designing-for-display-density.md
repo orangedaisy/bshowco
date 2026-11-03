@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Designing for Display Density
-category: fpx
+tags: revalize
 ---
 
 Striking the right balance between an information-rich UI and a more open design

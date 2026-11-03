@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making the Most of a Bad CSSituation"
-category: fpx
+tags: revalize
 ---
 
 We maintain a decent handful of web applications at Revalize to serve our fluid

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Intelliquip Featured on Hotjar"
-category: fpx
+tags: revalize
 ---
 
 About a year into my job as User Experience Engineer at [Intelliquip,
 Inc.](https://intelliquip.com) (now part of
-[Revalize](/portfolio#revalize)), we were confronted with a
+[Revalize](/work/#revalize%2C-inc.)), we were confronted with a
 difficult user flow challenge. We had an existing user set that needed to
 onboard with a new suite of applications, but their previous account details
 needed to be updated with some extra details required by the new software.

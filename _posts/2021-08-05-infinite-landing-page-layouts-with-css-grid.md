@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Infinite Landing Page Layouts with CSS Grid
-category: fpx
+tags: revalize
 ---
 
 Part of the value-add for the fluid handling SCPQ software at Revalize is the

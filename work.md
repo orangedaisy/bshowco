@@ -33,6 +33,14 @@ work that scales across teams.
 {% renderFile "./_includes/work/revalize.md" %}
 </details>
 
+### Case Studies
+
+<ul>
+    {%- for post in collections.revalize -%}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
+
 ## Personal
 
 {% renderFile "./_includes/work/scorecard.md" %}
