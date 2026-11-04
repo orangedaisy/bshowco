@@ -42,6 +42,13 @@ module.exports = async function (eleventyConfig) {
 		return array.slice(0, n);
 	});
 
+	// Sort slash pages alphabetically
+	eleventyConfig.addCollection('alphaSlash', collectionsApi => {
+		return collectionsApi.getFilteredByTag('slash').sort((a, b) => {
+			return a.data.title.localeCompare(b.data.title);
+		});
+	});
+
 	// Import macros
 	eleventyConfig.addPreprocessor('macro-inject', '.njk,.md', (data, content) => {
 		return `
