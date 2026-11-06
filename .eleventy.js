@@ -3,6 +3,7 @@ import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItToc from "markdown-it-table-of-contents";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default async function (eleventyConfig) {
 
@@ -71,6 +72,27 @@ export default async function (eleventyConfig) {
 	eleventyConfig.setLibrary("md", markdownIt(mditOptions));
 	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
 	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItToc, mditTocOptions));
+
+	// Add RSS feed
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "rss",
+		outputPath: "/feed.xml",
+		collection: {
+			name: "post",
+			limit: 0,
+			sort: "auto",
+		},
+		metadata: {
+			language: "en",
+			title: "Bobby Showalter's Blog",
+			subtitle: "My personal blog. Updated somewhat infrequently, on occasion.",
+			base: "https://www.bshow.co/",
+			author: {
+				name: "Bobby Showalter",
+				email: "bobby.showalter@gmail.com",
+			}
+		}
+	});
 
 	return {
 		// Use Nunjucks as Markdown engine instead of Liquid (default)
