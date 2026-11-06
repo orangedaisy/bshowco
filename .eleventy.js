@@ -1,10 +1,10 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const { DateTime } = require("luxon");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItToc = require("markdown-it-table-of-contents");
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import { DateTime } from "luxon";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItToc from "markdown-it-table-of-contents";
 
-module.exports = async function (eleventyConfig) {
+export default async function (eleventyConfig) {
 
 	// Enable syntax highlighting
 	eleventyConfig.addPlugin(syntaxHighlight);
